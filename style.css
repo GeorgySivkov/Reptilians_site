@@ -522,6 +522,7 @@ h1, h2, h3, h4 {
 @media (max-width: 1000px) {
   .section-roadmap {
     padding: 16px;
+    display: none;
   }
 }
 .section-roadmap .wrapper {
