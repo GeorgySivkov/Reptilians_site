@@ -341,12 +341,29 @@ h1, h2, h3, h4 {
 .section-nft .carousel {
   z-index: 2;
   margin: 70px 0 40px;
-  width: 100%;
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 7990px;
 }
 @media (max-width: 1000px) {
   .section-nft .carousel {
+    -webkit-animation: mobilescroll 40s linear infinite;
+            animation: mobilescroll 40s linear infinite;
     gap: 16px;
     margin: 20px 0;
+  }
+}
+.section-nft .carousel-cell {
+  height: 170px;
+  width: 170px;
+}
+@media (max-width: 1000px) {
+  .section-nft .carousel-cell {
+    width: 128px;
+    height: 128px;
   }
 }
 .section-nft .carousel .img {
@@ -420,11 +437,11 @@ h1, h2, h3, h4 {
   position: -webkit-sticky;
   position: sticky;
   align-self: flex-start;
-  top: 0;
+  top: 20px;
 }
 .section-gameapps .game-name {
   display: flex;
-  align-items: center;
+  align-items: end;
   gap: 10px;
   font-size: 30px;
   line-height: 34px;
@@ -460,6 +477,7 @@ h1, h2, h3, h4 {
 }
 .section-gameapps .game-screenshot-wrapper {
   position: relative;
+  z-index: 3;
 }
 @media (max-width: 1000px) {
   .section-gameapps .game-screenshot-wrapper {
@@ -783,6 +801,36 @@ h1, h2, h3, h4 {
   }
 }
 
-.carousel-cell {
-  margin-right: 10px;
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(3800px);
+  }
+  100% {
+    transform: translateX(-3800px);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(3800px);
+  }
+  100% {
+    transform: translateX(-3800px);
+  }
+}
+@-webkit-keyframes mobilescroll {
+  0% {
+    transform: translateX(2900px);
+  }
+  100% {
+    transform: translateX(-2900px);
+  }
+}
+@keyframes mobilescroll {
+  0% {
+    transform: translateX(2900px);
+  }
+  100% {
+    transform: translateX(-2900px);
+  }
 }/*# sourceMappingURL=style.css.map */

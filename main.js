@@ -173,14 +173,13 @@ document.addEventListener('DOMContentLoaded', function () {
   }));
   roadmap.innerHTML = tableNODE;
 
-  var flickity = new Flickity('.carousel', {
-    autoPlay: 1500,
-    wrapAround: true,
-    cellAlign: 'left',
-    prevNextButtons: false,
-    selectedAttraction: 0.001,
-    pageDots: false,
-    draggable: false
-  });
-
+  // var flickity = new Flickity('.carousel', {
+  //   autoPlay: 1500,
+  //   wrapAround: true,
+  //   cellAlign: 'left',
+  //   prevNextButtons: false,
+  //   selectedAttraction: 0.001,
+  //   pageDots: false,
+  //   draggable: false
+  // });
 });
