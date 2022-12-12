@@ -179,6 +179,8 @@ document.addEventListener('DOMContentLoaded', function () {
     focus: 'center',
     gap: nftSection.clientWidth > 1000 ? '40px' : '10px',
     perPage: 10,
-    pauseOnHover: false,
+    autoScroll: {
+      pauseOnHover: false,
+    }
   }).mount(window.splide.Extensions);
 });
