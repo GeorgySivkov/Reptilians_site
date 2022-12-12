@@ -338,43 +338,26 @@ h1, h2, h3, h4 {
     line-height: 25px;
   }
 }
-.section-nft .carousel {
+.section-nft .splide {
   z-index: 2;
   margin: 70px 0 40px;
-  -webkit-animation: scroll 40s linear infinite;
-          animation: scroll 40s linear infinite;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  width: 7990px;
+}
+.section-nft .splide__slide {
+  max-width: 170px;
 }
 @media (max-width: 1000px) {
-  .section-nft .carousel {
-    -webkit-animation: mobilescroll 40s linear infinite;
-            animation: mobilescroll 40s linear infinite;
-    gap: 16px;
-    margin: 20px 0;
+  .section-nft .splide__slide {
+    max-width: 128px;
+    max-height: 128px;
   }
 }
-.section-nft .carousel-cell {
-  height: 170px;
-  width: 170px;
-}
-@media (max-width: 1000px) {
-  .section-nft .carousel-cell {
-    width: 128px;
-    height: 128px;
-  }
-}
-.section-nft .carousel .img {
+.section-nft .splide__slide .img {
   width: 170px;
   height: 170px;
-  -o-object-fit: contain;
-     object-fit: contain;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 @media (max-width: 1000px) {
-  .section-nft .carousel .img {
+  .section-nft .splide__slide .img {
     width: 128px;
     height: 128px;
   }

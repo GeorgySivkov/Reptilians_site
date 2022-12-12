@@ -134,6 +134,7 @@ const scrollHandler = () => {
 
 document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('scroll', scrollHandler);
+  const nftSection = document.getElementById('nft');
   const roadmap = document.getElementById('roadmap-table');
   const roadmapWrapper = document.getElementById('roadmap-wrapper');
   const currentDate = new Date();
@@ -173,13 +174,11 @@ document.addEventListener('DOMContentLoaded', function () {
   }));
   roadmap.innerHTML = tableNODE;
 
-  // var flickity = new Flickity('.carousel', {
-  //   autoPlay: 1500,
-  //   wrapAround: true,
-  //   cellAlign: 'left',
-  //   prevNextButtons: false,
-  //   selectedAttraction: 0.001,
-  //   pageDots: false,
-  //   draggable: false
-  // });
+  new Splide('.splide', {
+    type: 'loop',
+    focus: 'center',
+    gap: nftSection.clientWidth > 1000 ? '40px' : '10px',
+    perPage: 10,
+    pauseOnHover: false,
+  }).mount(window.splide.Extensions);
 });
