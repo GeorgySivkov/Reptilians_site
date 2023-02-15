@@ -17,10 +17,6 @@ h1, h2, h3, h4 {
   font-weight: 400;
 }
 
-#roadmap {
-  display: none;
-}
-
 #showLess {
   display: none;
 }
@@ -75,6 +71,7 @@ h1, h2, h3, h4 {
   justify-content: space-between;
   position: fixed;
   z-index: 333;
+  top: 0;
   width: 100vw;
   height: 100vh;
   background: #FDFF52;
@@ -756,12 +753,20 @@ h1, h2, h3, h4 {
   mix-blend-mode: difference;
   z-index: 2;
 }
-.privacy .head-menu-item {
+@media (max-width: 1000px) {
+  .privacy .head-menu {
+    display: none;
+  }
+}
+.privacy .head-menu .menu-item {
   cursor: pointer;
   color: #FDFF52;
   text-decoration: unset;
   line-height: 31px;
   max-width: 140px;
+}
+.privacy .menu-links {
+  overflow-y: scroll;
 }
 .privacy .logo {
   margin: 32px;

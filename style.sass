@@ -21,9 +21,6 @@ html
 h1,h2,h3,h4
   font-weight: 400
 
-#roadmap
-  display: none
-
 #showLess
   display: none
 
@@ -66,6 +63,7 @@ h1,h2,h3,h4
   justify-content: space-between
   position: fixed
   z-index: 333
+  top: 0
   width: 100vw
   height: 100vh
   background: $color-yellow-primary
@@ -561,12 +559,16 @@ h1,h2,h3,h4
     gap: 10px
     mix-blend-mode: difference
     z-index: 2
-    &-item
+    @media(max-width: $media-width)
+      display: none
+    .menu-item
       cursor: pointer
       color: $color-yellow-primary
       text-decoration: unset
       line-height: 31px
       max-width: 140px
+  .menu-links
+    overflow-y: scroll
   .logo
     margin: 32px
   .content
