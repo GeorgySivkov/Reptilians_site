@@ -3,6 +3,7 @@
 }
 
 html {
+  color: #FFFC00;
   background: #000;
   scroll-behavior: smooth;
   height: 100vh;
@@ -14,6 +15,10 @@ html {
 
 h1, h2, h3, h4 {
   font-weight: 400;
+}
+
+#roadmap {
+  display: none;
 }
 
 #showLess {
@@ -72,7 +77,7 @@ h1, h2, h3, h4 {
   z-index: 333;
   width: 100vw;
   height: 100vh;
-  background: #FFFC00;
+  background: #FDFF52;
 }
 .mobile-menu.visible {
   visibility: visible;
@@ -130,7 +135,7 @@ h1, h2, h3, h4 {
   bottom: 100px;
   left: -32px;
   display: flex;
-  background-color: #FFFC00;
+  background-color: #FDFF52;
   color: #000;
   padding: 2px 21px;
   border-radius: 20px;
@@ -268,7 +273,7 @@ h1, h2, h3, h4 {
 .section-weare .button {
   display: flex;
   gap: 10px;
-  color: #FFFC00;
+  color: #FDFF52;
   font-size: 30px;
   border: unset;
   background: unset;
@@ -284,7 +289,7 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 .section-weare .arrow {
-  color: #FFFC00;
+  color: #FDFF52;
   font-size: 100px;
   position: absolute;
   bottom: -50px;
@@ -297,7 +302,7 @@ h1, h2, h3, h4 {
   }
 }
 .section-nft {
-  background-color: #FFFC00;
+  background-color: #FDFF52;
   padding: 80px 0 170px;
   display: flex;
   flex-direction: column;
@@ -417,7 +422,6 @@ h1, h2, h3, h4 {
   display: flex;
   flex-direction: column;
   max-width: 500px;
-  position: -webkit-sticky;
   position: sticky;
   align-self: flex-start;
   top: 20px;
@@ -501,7 +505,7 @@ h1, h2, h3, h4 {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  background: #FFFC00;
+  background: #FDFF52;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
@@ -579,7 +583,6 @@ h1, h2, h3, h4 {
   color: #FFF;
   display: flex;
   justify-content: center;
-  position: -webkit-sticky;
   position: sticky;
   left: 0;
   background: #1A1A1A;
@@ -709,7 +712,7 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 .section-contacts .email {
-  color: #FFFC00;
+  color: #FDFF52;
   font-size: 102px;
   line-height: 117px;
   text-align: center;
@@ -740,8 +743,25 @@ h1, h2, h3, h4 {
 
 .privacy {
   background-color: #1A1A1A;
-  color: #FFF;
+  color: #FDFF52;
   height: 100%;
+}
+.privacy .head-menu {
+  position: fixed;
+  top: 145px;
+  left: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  mix-blend-mode: difference;
+  z-index: 2;
+}
+.privacy .head-menu-item {
+  cursor: pointer;
+  color: #FDFF52;
+  text-decoration: unset;
+  line-height: 31px;
+  max-width: 140px;
 }
 .privacy .logo {
   margin: 32px;
@@ -757,8 +777,10 @@ h1, h2, h3, h4 {
 }
 .privacy .heading {
   font-size: 88px;
+  color: #FFF;
   margin: 0;
   margin-bottom: 70px;
+  line-height: 101px;
 }
 @media (max-width: 1000px) {
   .privacy .heading {
@@ -767,30 +789,58 @@ h1, h2, h3, h4 {
   }
 }
 .privacy .title {
-  font-size: 30px;
+  font-size: 26px;
+  color: #FFF;
+  margin-bottom: 32px;
+  line-height: 30px;
 }
 @media (max-width: 1000px) {
   .privacy .title {
     font-size: 20px;
+    margin-bottom: 16px;
   }
 }
 .privacy .text {
   font-size: 18px;
   color: #939393;
+  line-height: 26px;
 }
 @media (max-width: 1000px) {
   .privacy .text {
     font-size: 14px;
   }
 }
-
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(3800px);
-  }
-  100% {
-    transform: translateX(-3800px);
-  }
+.privacy .details {
+  font-size: 18px;
+  color: #939393;
+}
+.privacy .details summary {
+  list-style: none;
+  color: #FDFF52;
+  cursor: pointer;
+}
+.privacy .details summary::after {
+  border-style: solid;
+  border-width: 0.15em 0.15em 0 0;
+  content: "";
+  display: inline-block;
+  height: 0.45em;
+  left: 0.65em;
+  position: relative;
+  top: 0.25em;
+  vertical-align: top;
+  width: 0.45em;
+  transform: rotate(135deg);
+  transition: 0.2s;
+}
+.privacy .details[open] summary::after {
+  transform: rotate(-45deg);
+}
+.privacy .list {
+  padding-left: 20px;
+}
+.privacy .list li::marker {
+  color: #FFF;
 }
 
 @keyframes scroll {
@@ -799,14 +849,6 @@ h1, h2, h3, h4 {
   }
   100% {
     transform: translateX(-3800px);
-  }
-}
-@-webkit-keyframes mobilescroll {
-  0% {
-    transform: translateX(2900px);
-  }
-  100% {
-    transform: translateX(-2900px);
   }
 }
 @keyframes mobilescroll {
