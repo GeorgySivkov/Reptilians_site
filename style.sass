@@ -4,7 +4,7 @@ $color-grey-dark: #1A1A1A
 $color-grey-light: #DADADA
 $color-grey-lighter: #3A3A3A
 $color-grey: #939393
-$color-yellow-primary: #FFFC00
+$color-yellow-primary: #FDFF52
 $color-pink: #FF00C7
 
 $media-width: 1000px
@@ -12,7 +12,7 @@ $media-width: 1000px
 *
   font-family: Arial, Helvetica, sans-serif
 html
-  color:#FFFC00
+  color: #FFFC00
   background: $color-black
   scroll-behavior: smooth
   height: 100vh
@@ -20,7 +20,6 @@ html
   position: relative
 h1,h2,h3,h4
   font-weight: 400
-
 
 #showLess
   display: none
@@ -64,6 +63,7 @@ h1,h2,h3,h4
   justify-content: space-between
   position: fixed
   z-index: 333
+  top: 0
   width: 100vw
   height: 100vh
   background: $color-yellow-primary
@@ -81,6 +81,7 @@ h1,h2,h3,h4
     gap: 20px
     text-align: center
     margin-top: 50px
+    width: 100%
   .menu-item
     color: $color-black
     font-size: 32px
@@ -550,6 +551,25 @@ h1,h2,h3,h4
   background-color: $color-grey-dark
   color: $color-yellow-primary
   height: 100%
+  .head-menu
+    position: fixed
+    top: 145px
+    left: 32px
+    display: flex
+    flex-direction: column
+    gap: 10px
+    mix-blend-mode: difference
+    z-index: 2
+    @media(max-width: $media-width)
+      display: none
+    .menu-item
+      cursor: pointer
+      color: $color-yellow-primary
+      text-decoration: unset
+      line-height: 31px
+      max-width: 140px
+  .menu-links
+    overflow-y: scroll
   .logo
     margin: 32px
   .content
@@ -559,22 +579,55 @@ h1,h2,h3,h4
       margin: 30px
   .heading
     font-size: 88px
-    color: #FFFC00
+    color: $color-white
     margin: 0
     margin-bottom: 70px
+    line-height: 101px
     @media(max-width: $media-width)
       font-size: 44px
       margin-bottom: 30px
   .title
-    font-size: 30px
-    color: #FFFC00
+    font-size: 26px
+    color: $color-white
+    margin-bottom: 32px
+    line-height: 30px
     @media(max-width: $media-width)
       font-size: 20px
+      margin-bottom: 16px
   .text
     font-size: 18px
     color: $color-grey
+    line-height: 26px
     @media(max-width: $media-width)
       font-size: 14px
+  .details
+    font-size: 18px
+    color: $color-grey
+    summary
+      list-style: none
+      color: $color-yellow-primary
+      cursor: pointer
+      &::after
+        border-style: solid
+        border-width: 0.15em 0.15em 0 0
+        content: ""
+        display: inline-block
+        height: 0.45em
+        left: 0.65em
+        position: relative
+        top: 0.25em
+        vertical-align: top
+        width: 0.45em
+        transform: rotate(135deg)
+        transition: .2s
+    &[open]
+      summary
+        &::after
+          transform: rotate(-45deg)
+  .list
+    padding-left: 20px
+    li::marker
+      color: $color-white
 
 // Animation
 @keyframes scroll

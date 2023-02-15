@@ -100,7 +100,7 @@ const scrollHandler = () => {
   const menuWeare = document.getElementById('weare');
   const menuNft = document.getElementById('nft');
   const menuGameApps = document.getElementById('gameapps');
-  const menuRoadmap = document.getElementById('roadmap');
+  // const menuRoadmap = document.getElementById('roadmap');
   const menuContacts = document.getElementById('contacts');
 
   const posMenu = window.pageYOffset + menu.offsetHeight;
@@ -108,16 +108,17 @@ const scrollHandler = () => {
   const posMenuWeare = menuWeare.offsetTop + menuWeare.offsetHeight;
   const posMenuNft = menuNft.offsetTop + menuNft.offsetHeight;
   const posMenuGameApps = menuGameApps.offsetTop + menuGameApps.offsetHeight;
-  const posMenuRoadmap = menuRoadmap.offsetTop + menuRoadmap.offsetHeight;
+  // const posMenuRoadmap = menuRoadmap.offsetTop + menuRoadmap.offsetHeight;
   const posMenuContacts = menuContacts.offsetTop + menuContacts.offsetHeight;
 
   const distancePosMenuWeare = posMenuWeare - posMenu;
   const distancePosMenuNft = posMenuNft - posMenu;
   const distancePosMenuGameApps = posMenuGameApps - posMenu;
-  const distancePosMenuRoadmap = posMenuRoadmap - posMenu;
+  // const distancePosMenuRoadmap = posMenuRoadmap - posMenu;
   const distancePosMenuContacts = posMenuContacts - posMenu;
 
-  const min = Math.min(...[distancePosMenuWeare, distancePosMenuNft, distancePosMenuGameApps, distancePosMenuRoadmap, distancePosMenuContacts].filter(num => num > 0));
+  const min = Math.min(...[distancePosMenuWeare, distancePosMenuNft, distancePosMenuGameApps, distancePosMenuContacts].filter(num => num > 0));
+  // const min = Math.min(...[distancePosMenuWeare, distancePosMenuNft, distancePosMenuGameApps, distancePosMenuRoadmap, distancePosMenuContacts].filter(num => num > 0));
 
   document.querySelectorAll('.menu-item')[0].classList.remove('active');
   document.querySelectorAll('.menu-item')[1].classList.remove('active');
@@ -128,51 +129,51 @@ const scrollHandler = () => {
   if (min === distancePosMenuWeare) document.querySelectorAll('.menu-item')[0].classList.add('active');
   if (min === distancePosMenuNft) document.querySelectorAll('.menu-item')[1].classList.add('active');
   if (min === distancePosMenuGameApps) document.querySelectorAll('.menu-item')[2].classList.add('active');
-  if (min === distancePosMenuRoadmap) document.querySelectorAll('.menu-item')[3].classList.add('active');
+  // if (min === distancePosMenuRoadmap) document.querySelectorAll('.menu-item')[3].classList.add('active');
   if (min === distancePosMenuContacts) document.querySelectorAll('.menu-item')[4].classList.add('active');
 }
 
 document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('scroll', scrollHandler);
   const nftSection = document.getElementById('nft');
-  const roadmap = document.getElementById('roadmap-table');
-  const roadmapWrapper = document.getElementById('roadmap-wrapper');
+  // const roadmap = document.getElementById('roadmap-table');
+  // const roadmapWrapper = document.getElementById('roadmap-wrapper');
   const currentDate = new Date();
 
-  roadmapWrapper.addEventListener("wheel", (evt) => {
-    evt.preventDefault();
-    roadmapWrapper.scrollLeft += evt.deltaY;
-  });
+  // roadmapWrapper.addEventListener("wheel", (evt) => {
+  //   evt.preventDefault();
+  //   roadmapWrapper.scrollLeft += evt.deltaY;
+  // });
 
-  const headerWithMonths = `
-    <div class="row row-months">
-      <div class="row-header"></div>
-      ${months.map(month => { return `<div class="header"><span class="month">${month}</span></div>` }).join('')}
-    </div>
-  `;
+  // const headerWithMonths = `
+  //   <div class="row row-months">
+  //     <div class="row-header"></div>
+  //     ${months.map(month => { return `<div class="header"><span class="month">${month}</span></div>` }).join('')}
+  //   </div>
+  // `;
 
-  let tableNODE = headerWithMonths;
+  // let tableNODE = headerWithMonths;
 
-  roadMapData.forEach((game => {
-    let cells = ``;
-    months.forEach((month, index) => {
-      const tasksFilter = game.data.filter(task => {
-        return task.startMonth === index + 1
-      })
-      const tasks = `${tasksFilter.map(task => { return `<span class="task-wrapper"><span style="background-color: ${task.backgroundColor}; color: ${task.textColor}" class="data count-${task.long}">${task.task}</span></span>` }).join('')}`
-      cells = cells + `<div class="cell">${tasks}</div > `;
-    });
+  // roadMapData.forEach((game => {
+  //   let cells = ``;
+  //   months.forEach((month, index) => {
+  //     const tasksFilter = game.data.filter(task => {
+  //       return task.startMonth === index + 1
+  //     })
+  //     const tasks = `${tasksFilter.map(task => { return `<span class="task-wrapper"><span style="background-color: ${task.backgroundColor}; color: ${task.textColor}" class="data count-${task.long}">${task.task}</span></span>` }).join('')}`
+  //     cells = cells + `<div class="cell">${tasks}</div > `;
+  //   });
 
-    const row = `
-    <div class="row">
-      <div class="row-header">${game.name}</div>
-      ${cells}
-    </div>  
-    `;
-    tableNODE = tableNODE + row;
+  //   const row = `
+  //   <div class="row">
+  //     <div class="row-header">${game.name}</div>
+  //     ${cells}
+  //   </div>  
+  //   `;
+  //   tableNODE = tableNODE + row;
 
-  }));
-  roadmap.innerHTML = tableNODE;
+  // }));
+  // roadmap.innerHTML = tableNODE;
 
   new Splide('.splide', {
     type: 'loop',
