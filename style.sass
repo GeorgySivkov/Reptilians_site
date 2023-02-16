@@ -242,6 +242,7 @@ h1,h2,h3,h4
       line-height: 60px
       text-align: center
       margin-bottom: 16px
+      color: $color-black
       @media(max-width: $media-width)
         font-size: 32px
         margin: 0 15px
@@ -551,6 +552,8 @@ h1,h2,h3,h4
   background-color: $color-grey-dark
   color: $color-yellow-primary
   height: 100%
+  h1,h2,h3,h4
+    color: $color-white
   .head-menu
     position: fixed
     top: 145px
@@ -563,11 +566,20 @@ h1,h2,h3,h4
     @media(max-width: $media-width)
       display: none
     .menu-item
+      position: relative
       cursor: pointer
       color: $color-yellow-primary
       text-decoration: unset
       line-height: 31px
       max-width: 140px
+      &::after
+        content: ""
+        position: absolute
+        width: 100%
+        height: 1px
+        background: #FDFF52
+        left: 0
+        bottom: 0
   .menu-links
     overflow-y: scroll
   .logo
@@ -626,8 +638,23 @@ h1,h2,h3,h4
           transform: rotate(-45deg)
   .list
     padding-left: 20px
+    list-style: none
+    counter-reset: li
+    li
+      counter-increment: li
+      display: flex
+    li::before
+      margin-top: 5px
+      content: counter(li)
+      color: $color-white
+      display: inline-block
+      width: 1em
+      margin-left: -1em
     li::marker
       color: $color-white
+    .text
+      margin-top: 0
+      margin-left: 10px
 
 // Animation
 @keyframes scroll

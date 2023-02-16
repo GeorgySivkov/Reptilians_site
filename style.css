@@ -318,6 +318,7 @@ h1, h2, h3, h4 {
   line-height: 60px;
   text-align: center;
   margin-bottom: 16px;
+  color: #000;
 }
 @media (max-width: 1000px) {
   .section-nft .title {
@@ -744,6 +745,9 @@ h1, h2, h3, h4 {
   color: #FDFF52;
   height: 100%;
 }
+.privacy h1, .privacy h2, .privacy h3, .privacy h4 {
+  color: #FFF;
+}
 .privacy .head-menu {
   position: fixed;
   top: 145px;
@@ -760,11 +764,21 @@ h1, h2, h3, h4 {
   }
 }
 .privacy .head-menu .menu-item {
+  position: relative;
   cursor: pointer;
   color: #FDFF52;
   text-decoration: unset;
   line-height: 31px;
   max-width: 140px;
+}
+.privacy .head-menu .menu-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #FDFF52;
+  left: 0;
+  bottom: 0;
 }
 .privacy .menu-links {
   overflow-y: scroll;
@@ -844,9 +858,27 @@ h1, h2, h3, h4 {
 }
 .privacy .list {
   padding-left: 20px;
+  list-style: none;
+  counter-reset: li;
+}
+.privacy .list li {
+  counter-increment: li;
+  display: flex;
+}
+.privacy .list li::before {
+  margin-top: 5px;
+  content: counter(li);
+  color: #FFF;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 .privacy .list li::marker {
   color: #FFF;
+}
+.privacy .list .text {
+  margin-top: 0;
+  margin-left: 10px;
 }
 
 @keyframes scroll {
