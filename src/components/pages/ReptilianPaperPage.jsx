@@ -1521,14 +1521,25 @@ export default function ReptilianPaperPage() {
             <p className="name">Anton</p>
           </div>
         </div>
-        <p className="email">hey@reptilians.band</p>
+        <a
+          href="mailto:hey@reptilians.band?subject=I have some text for you!"
+          className="email"
+          style={{
+            display: "block",
+            marginBlockStart: "2.2rem",
+            marginBlockEnd: "98px",
+            textDecoration: "none",
+          }}
+        >
+          hey@reptilians.band
+        </a>
         <div className="links">
-          <a className="link" target="_blank" href="terms_of_service.html">
+          <Link className="link" to="/service">
             Terms of Service
-          </a>
-          <a className="link" target="_blank" href="privacypolicy.html">
+          </Link>
+          <Link className="link" to="/privacy">
             Privacy Policy
-          </a>
+          </Link>
         </div>
         <p className="rights">© 2023, all rights reserved</p>
       </section>

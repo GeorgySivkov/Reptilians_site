@@ -19,6 +19,7 @@ export default function Navigation() {
           className="menu"
           items={["weare", "nft", "gameapps", "contacts"]}
           currentClassName="active"
+          style={{ paddingLeft: "0" }}
         >
           <a className="menu-item" href="#weare">
             We are
@@ -73,7 +74,13 @@ export default function Navigation() {
             </a>
           </Scrollspy>
         </div>
-        <p className="paper">Reptilian Paper</p>
+        <Link
+          className="paper"
+          style={{ color: "black", textDecoration: "unset" }}
+          to="/paper"
+        >
+          Reptilian Paper
+        </Link>
         <div className="mobile-socials">
           <a href="#twitter" target="_blank">
             <img src="assets/twitter.png" alt="nft" />

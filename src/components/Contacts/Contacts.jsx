@@ -44,7 +44,18 @@ export default function Contacts() {
           <p className="name">Anton</p>
         </div>
       </div>
-      <p className="email">hey@reptilians.band</p>
+      <a
+        href="mailto:hey@reptilians.band?subject=I have some text for you!"
+        className="email"
+        style={{
+          display: "block",
+          marginBlockStart: "2.2rem",
+          marginBlockEnd: "98px",
+          textDecoration: "none",
+        }}
+      >
+        hey@reptilians.band
+      </a>
       <div className="links">
         <Link className="link" to="/service">
           Terms of Service

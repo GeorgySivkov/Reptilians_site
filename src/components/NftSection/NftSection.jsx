@@ -1,5 +1,5 @@
 import React from "react";
-import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 
@@ -179,12 +179,13 @@ export default function NftSection() {
             <img className="img" src="assets/NFT00048.png" alt="nft" />
           </SplideSlide>
         </Splide>
+        <span className="nft-text">Want some?</span>
         <a
           className="link"
           href="https://discord.gg/CuPZU7KHQY"
           target="_blank"
         >
-          Want some? Join Discord
+          Join Discord
         </a>
       </section>
     </>
