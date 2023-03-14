@@ -69,7 +69,10 @@ export default function WeAreSection() {
             Let's make the poll <br />
             and Reptilians will choose! <br />
             Check{" "}
-            <Link style={{ color: "#FDFF52" }} to="/paper">
+            <Link
+              className="link-paper"
+              /* style={{ color: "#FDFF52" }} */ to="/paper"
+            >
               Reptilians Paper
             </Link>{" "}
             for more information.

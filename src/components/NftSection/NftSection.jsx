@@ -25,9 +25,10 @@ export default function NftSection() {
             type: "loop",
             gap: "2rem",
             drag: "free",
+            focus: "center",
             arrows: false,
             pagination: false,
-            perPage: 3,
+            perPage: 1,
             autoScroll: {
               pauseOnHover: false,
               pauseOnFocus: false,

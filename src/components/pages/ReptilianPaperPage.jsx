@@ -201,14 +201,8 @@ export default function ReptilianPaperPage() {
           {"\n"}
           If you see some mistakes or have some suggestions to improve it -
           please welcome mate, text us at{" "}
-          <a href="https://t.me/sivkovg" style={{ color: "#FDFF52" }}>
-            @sivkovg
-          </a>{" "}
-          in Telegram or via{" "}
-          <a
-            href="mailto:hey@reptilians.band?subject=I have some text for you!"
-            style={{ color: "#FDFF52" }}
-          >
+          <a href="https://t.me/sivkovg">@sivkovg</a> in Telegram or via{" "}
+          <a href="mailto:hey@reptilians.band?subject=I have some text for you!">
             hey @reptilians.band
           </a>
           !{"\n"}
@@ -538,10 +532,7 @@ export default function ReptilianPaperPage() {
         </details>
         <p className="text">
           All of our plans can be found in{" "}
-          <a
-            href="https://miro.com/app/board/uXjVP08aLmI=/?share_link_id=779945468109"
-            style={{ color: "#FDFF52" }}
-          >
+          <a href="https://miro.com/app/board/uXjVP08aLmI=/?share_link_id=779945468109">
             our public roadmap
           </a>
           .
@@ -1008,14 +999,8 @@ export default function ReptilianPaperPage() {
           {"\n"}
           Mate! If you have any idea how to hack us and our community or how to
           make it safer - please share it with us by{" "}
-          <a href="https://t.me/sivkovg" style={{ color: "#FDFF52" }}>
-            @sivkovg
-          </a>
-          in Telegram or via{" "}
-          <a
-            href="mailto:hey@reptilians.band?subject=I have some text for you!"
-            style={{ color: "#FDFF52" }}
-          >
+          <a href="https://t.me/sivkovg">@sivkovg</a> in Telegram or via{" "}
+          <a href="mailto:hey@reptilians.band?subject=I have some text for you!">
             hey@reptilians.band
           </a>
           !{"\n"}
@@ -1334,9 +1319,7 @@ export default function ReptilianPaperPage() {
           generation of ideas at the global level. He is in love with Chupa
           Chups, motorcycles, and Legos. {"\n"}
           <strong>Co-founder of Reptilians.</strong>{" "}
-          <a href="https://t.me/sivkovg" style={{ color: "#FDFF52" }}>
-            TG @sivkovg
-          </a>
+          <a href="https://t.me/sivkovg">TG @sivkovg</a>
           {"\n"}
           {"\n"}
           <strong>Aleksei.</strong> The God of engineering, can change the stack
@@ -1344,9 +1327,7 @@ export default function ReptilianPaperPage() {
           technical parts of our products and engineering processes. He adores
           technologies and chilling.{"\n"}
           <strong>Co-founder of Reptilians.</strong>{" "}
-          <a href="https://t.me/gokadi" style={{ color: "#FDFF52" }}>
-            TG @gokadi
-          </a>
+          <a href="https://t.me/gokadi">TG @gokadi</a>
           {"\n"}
           {"\n"}
           <strong>Eugene.</strong> The heart and cold mind of our team always
@@ -1354,9 +1335,7 @@ export default function ReptilianPaperPage() {
           background and responsible for all WEB3 parts of the Reptilians. His
           passions are offroad cars, beer and of course cats.{"\n"}
           <strong>Co-founder of Reptilians. </strong>{" "}
-          <a href="https://t.me/ferzin8" style={{ color: "#FDFF52" }}>
-            TG @ferzin8
-          </a>
+          <a href="https://t.me/ferzin8">TG @ferzin8</a>
           {"\n"}
           {"\n"}
           <strong>Stan.</strong> The sun of art and different visions, he can
@@ -1365,9 +1344,7 @@ export default function ReptilianPaperPage() {
           on, and so on. Co-founder of Reptilians. He loves to smoke weed and
           travel. {"\n"}
           <strong>Co-founder of Reptilians. </strong>{" "}
-          <a href="https://t.me/acidacid" style={{ color: "#FDFF52" }}>
-            TG @acidacid
-          </a>
+          <a href="https://t.me/acidacid">TG @acidacid</a>
           {"\n"}
           {"\n"}
           <strong>Anna.</strong> Our junior intern of art, but with a fiery
@@ -1461,15 +1438,9 @@ export default function ReptilianPaperPage() {
               <p className="text">Content managers</p>
             </li>
           </ol>
-          Welcome to contact us at{" "}
-          <a href="https://t.me/sivkovg" style={{ color: "#FDFF52" }}>
-            @sivkovg
-          </a>
+          Welcome to contact us at <a href="https://t.me/sivkovg">@sivkovg</a>{" "}
           in Telegram or via{" "}
-          <a
-            href="mailto:hey@reptilians.band?subject=I have some text for you!"
-            style={{ color: "#FDFF52" }}
-          >
+          <a href="mailto:hey@reptilians.band?subject=I have some text for you!">
             hey @reptilians.band
           </a>
           !

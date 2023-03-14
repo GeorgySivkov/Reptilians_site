@@ -24,9 +24,11 @@ export default function Navigation() {
           <a className="menu-item" href="#weare">
             We are
           </a>
-          <a className="menu-item" href="#nft">
+
+          <a className="menu-item" href="#nft" id="nft-active-id">
             The NFT
           </a>
+
           <a className="menu-item" href="#gameapps">
             Games & Apps
           </a>

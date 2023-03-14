@@ -30,6 +30,9 @@ h1, h2, h3, h4 {
 a{
   text-decoration: none;
 }
+a:hover{
+  color: #FF00C7;
+}
 
 #showLess {
   display: none;
@@ -37,7 +40,6 @@ a{
 
 .menu {
   position: fixed;
-  isolation: isolate;
   top: 40px;
   left: 32px;
   display: flex;
@@ -47,6 +49,14 @@ a{
   mix-blend-mode: difference;
   z-index: 2;
 }
+/* .menu > span{
+   color: #FF00C7;
+  position:relative;
+  isolation: isolate;
+
+   
+} */
+
 @media (max-width: 1000px) {
   .menu {
     display: none;
@@ -60,14 +70,12 @@ a{
 }
 .menu-item:hover {
   text-decoration: underline;
+  
+  transition: 0.4s;
 }
 .menu-item.active {
   color: #FF00C7;
-  
-  
-
-
-  
+ 
 }
 
 .burger {
@@ -133,6 +141,8 @@ a{
   mix-blend-mode: difference;
 }
 
+
+
 .socials {
   z-index: 2;
   position: fixed;
@@ -142,6 +152,10 @@ a{
   flex-direction: column;
   gap: 32px;
   mix-blend-mode: difference;
+}
+
+.socials img:hover{
+  filter: brightness(0) saturate(100%) invert(24%) sepia(92%) saturate(3438%) hue-rotate(304deg) brightness(102%) contrast(141%);
 }
 @media (max-width: 1000px) {
   .socials {
@@ -164,6 +178,10 @@ a{
   line-height: 31px;
   mix-blend-mode: difference;
   text-decoration: none;
+}
+.main-badge:hover{
+  color: #FFF;
+  background-color: #FF00C7;
 }
 @media (max-width: 1000px) {
   .main-badge {
@@ -301,6 +319,9 @@ a{
   cursor: pointer;
   margin-bottom: 60px;
 }
+.section-weare .button:hover{
+  color: #FF00C7;
+}
 .section-weare .button .plus, .section-weare .button .minus {
   font-size: 36px;
   line-height: 32px;
@@ -401,6 +422,11 @@ a{
   padding: 10px;
   text-decoration: unset;
 }
+
+.section-nft .link:hover{
+  background-color: #FF00C7;
+  color: #FFF;
+}
 .section-nft .nft-text{
   font-family: 'Arial';
   font-style: normal;
@@ -413,6 +439,9 @@ a{
 }
 .section-gameapps {
   padding: 80px 150px;
+}
+.section-gameapps a:hover{
+  color: #FF00C7;
 }
 @media (max-width: 1000px) {
   .section-gameapps {
@@ -490,6 +519,12 @@ a{
   font-size: 24px;
   line-height: 30px;
 }
+.section-gameapps .game-description .discord-link{
+  color: #FDFF52;
+}
+.section-gameapps .game-description .discord-link:hover{
+  color: #FF00C7;
+}
 @media (max-width: 1000px) {
   .section-gameapps .game-description {
     font-size: 18px;
@@ -534,6 +569,11 @@ a{
   display: flex;
   gap: 10px;
 }
+
+.section-gameapps .game-links a:hover{
+  color: #FFF;
+  background-color: #FF00C7;
+}
 .section-gameapps .game-links .link {
   display: flex;
   align-items: center;
@@ -548,6 +588,7 @@ a{
   height: 50px;
   width: 180px;
 }
+
 @media (max-width: 1000px) {
   .section-gameapps .game {
     flex-direction: column-reverse;
@@ -683,6 +724,10 @@ a{
 .section-contacts {
   background-color: #000;
 }
+
+.section-contacts a:hover{
+  color: #FF00C7;
+}
 @media (max-width: 1000px) {
   .section-contacts {
     padding: 10px;
@@ -811,6 +856,9 @@ a{
   line-height: 31px;
   max-width: 140px;
 }
+.privacy .head-menu .menu-item:hover{
+  color: #FF00C7;
+}
 .privacy .head-menu .menu-item::after {
   content: "";
   position: absolute;
@@ -829,6 +877,12 @@ a{
 .privacy .content {
   max-width: 770px;
   margin: auto;
+}
+.privacy .content .text a{
+  color: #FDFF52;
+}
+.privacy .content .text a:hover{
+  color: #FF00C7;
 }
 @media (max-width: 1000px) {
   .privacy .content {
@@ -873,6 +927,13 @@ a{
 .privacy .details {
   font-size: 18px;
   color: #939393;
+}
+
+.privacy .details a{
+  color: #FDFF52;
+}
+.privacy .details a:hover{
+  color: #FF00C7;
 }
 .privacy .details summary {
   list-style: none;
@@ -953,3 +1014,18 @@ a{
   color: #000;
 }
 
+.back-button:hover{
+  color: #FFF;
+  background-color: #FF00C7;
+}
+
+.active-nft{
+  color: #0bf;
+}
+
+.last-title .link-paper {
+  color: #FDFF52;
+}
+.last-title .link-paper:hover{
+  color: #FF00C7;
+}

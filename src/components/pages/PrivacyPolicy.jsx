@@ -8,10 +8,9 @@ export default function PrivacyPolicy() {
       <Link className="back-button" to="/">
         Back
       </Link>
-      <a href="/">
-        {" "}
-        <img src="assets/logoSmall.png" alt="logo" className="logo" />
-      </a>
+
+      <img src="assets/logoSmall.png" alt="logo" className="logo" />
+
       <div className="content">
         <h1 className="heading">
           Reptilian
