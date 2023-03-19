@@ -28,20 +28,67 @@ export default function Contacts() {
             src="assets/heroStanislav.png"
             alt="Stanislav"
           />
-          <p className="name">Stan</p>
+          <p className="name">Stanislav</p>
         </div>
         <div className="hero">
           <img
-            className="image"
+            className="image new-hero"
             src="assets/heroAnton.png"
             alt="Anton"
-            style={{
-              paddingLeft: "10px",
-              paddingBottom: "15px",
-              paddingTop: "5px",
-            }}
           />
           <p className="name">Anton</p>
+        </div>
+        <div className="hero">
+          <img
+            className="image new-hero"
+            src="assets/heroDenis.png"
+            alt="Denis"
+          />
+          <p className="name">Denis</p>
+        </div>
+        <div className="hero">
+          <img
+            className="image new-hero"
+            src="assets/heroIlya.png"
+            alt="Ilya"
+          />
+          <p className="name">Ilya</p>
+        </div>
+        <div className="hero">
+          <img
+            className="image new-hero"
+            src="assets/heroAnna.png"
+            alt="Anna"
+          />
+          <p className="name">Anna</p>
+        </div>
+        <div className="hero">
+          <img
+            className="image new-hero"
+            src="assets/heroIvan.png"
+            alt="Ivan"
+          />
+          <p className="name">Ivan</p>
+        </div>
+        <div className="hero">
+          <img
+            className="image new-hero"
+            src="assets/heroIgor.png"
+            alt="Igor"
+          />
+          <p className="name">Igor</p>
+        </div>
+        <div className="hero">
+          <img className="image new-hero" src="assets/heroTim.png" alt="Tim" />
+          <p className="name">Tim</p>
+        </div>
+        <div className="hero">
+          <img
+            className="image new-hero"
+            src="assets/heroArseny.png"
+            alt="Arseny"
+          />
+          <p className="name">Arseny</p>
         </div>
       </div>
       <a

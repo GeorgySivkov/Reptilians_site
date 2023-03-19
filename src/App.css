@@ -756,14 +756,22 @@ a:hover{
   }
 }
 .section-contacts .heroes {
-  display: flex;
-  gap: 35px;
-  align-items: center;
+  display: grid;
+  grid-column-gap: 22px;
+  grid-row-gap: 28px;
+  grid-template-columns: repeat(4, 150px);
+  grid-auto-rows: auto;
   justify-content: center;
+}
+
+.section-contacts .heroes .hero .new-hero{
+  padding-left: 10px;
+  padding-bottom: 15px;
+  padding-top: 5px;
 }
 @media (max-width: 1000px) {
   .section-contacts .heroes {
-    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 135px);
   }
 }
 .section-contacts .heroes .hero .image {
