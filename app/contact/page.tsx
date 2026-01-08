@@ -3,6 +3,9 @@ import { Footer } from "@/components/footer"
 import { ContactForm } from "@/components/contact-form"
 import { Mail, MapPin, Github, Twitter, Linkedin } from "lucide-react"
 
+export const dynamic = "force-static"
+export const revalidate = false
+
 export const metadata = {
   title: "Contact | DevLabs",
   description: "Get in touch with our team to discuss your project or collaboration ideas",

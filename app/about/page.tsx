@@ -4,6 +4,9 @@ import { TeamCard } from "@/components/team-card"
 import { team } from "@/lib/team"
 import { Code2, Lightbulb, Users, Zap } from "lucide-react"
 
+export const dynamic = "force-static"
+export const revalidate = false
+
 export const metadata = {
   title: "About | DevLabs",
   description: "Learn about our team and mission to build innovative software solutions",

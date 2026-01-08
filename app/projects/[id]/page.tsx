@@ -1,4 +1,3 @@
-import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
 import { Navbar } from "@/components/navbar"
@@ -7,6 +6,9 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft, ExternalLink, Github } from "lucide-react"
 import { getProjectById, projects } from "@/lib/projects"
+
+export const dynamic = "force-static"
+export const revalidate = false
 
 export async function generateStaticParams() {
   return projects.map((project) => ({
@@ -33,7 +35,21 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
   const project = getProjectById(id)
 
   if (!project) {
-    notFound()
+    return (
+      <div className="flex min-h-screen flex-col">
+        <Navbar />
+        <main className="flex flex-1 items-center justify-center">
+          <div className="text-center">
+            <h1 className="text-4xl font-bold">Project Not Found</h1>
+            <p className="mt-4 text-muted-foreground">The project you're looking for doesn't exist.</p>
+            <Button asChild className="mt-8">
+              <Link href="/projects">Back to Projects</Link>
+            </Button>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    )
   }
 
   return (

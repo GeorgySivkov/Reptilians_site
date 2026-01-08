@@ -3,6 +3,9 @@ import { Footer } from "@/components/footer"
 import { ProjectCard } from "@/components/project-card"
 import { projects } from "@/lib/projects"
 
+export const dynamic = "force-static"
+export const revalidate = false
+
 export const metadata = {
   title: "Projects | DevLabs",
   description: "Explore our collection of pet projects and experimental tools",

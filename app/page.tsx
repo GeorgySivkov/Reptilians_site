@@ -4,6 +4,9 @@ import { FeaturedProjects } from "@/components/featured-projects"
 import { Stats } from "@/components/stats"
 import { Footer } from "@/components/footer"
 
+export const dynamic = "force-static"
+export const revalidate = false
+
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">

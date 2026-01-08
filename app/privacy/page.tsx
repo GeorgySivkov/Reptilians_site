@@ -1,6 +1,9 @@
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 
+export const dynamic = "force-static"
+export const revalidate = false
+
 export const metadata = {
   title: "Privacy Policy | DevLabs",
   description: "Privacy Policy for DevLabs and our projects",
