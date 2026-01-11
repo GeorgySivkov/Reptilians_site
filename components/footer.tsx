@@ -63,7 +63,6 @@ export function Footer() {
 
         <div className="mt-6 text-center text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} Reptilians. All rights reserved.</p>
-          <p className="mt-1 text-xs">Serbia • Amsterdam • Cyprus</p>
         </div>
       </div>
     </footer>

@@ -19,112 +19,255 @@ export default function PrivacyPage() {
           <p className="mt-4 text-muted-foreground">Last updated: January 11, 2026</p>
 
           <div className="prose prose-neutral dark:prose-invert mt-12 max-w-none">
-            <section className="space-y-4">
-              <h2 className="text-2xl font-semibold tracking-tight">1. Introduction</h2>
+            <p className="leading-relaxed text-muted-foreground">
+              This Privacy Policy explains how Reptilians (&quot;we&quot;, &quot;us&quot;) collects, uses, shares, and
+              protects information when you use our website(s) and mobile applications (the &quot;Services&quot;).
+            </p>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">1) Controller and contact</h2>
               <p className="leading-relaxed text-muted-foreground">
-                Reptilians (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy.
-                This Privacy Policy explains how we collect, use, and safeguard your information when you visit our
-                websites or engage our services.
-              </p>
-            </section>
-
-            <section className="mt-10 space-y-4">
-              <h2 className="text-2xl font-semibold tracking-tight">2. Information We Collect</h2>
-              <p className="leading-relaxed text-muted-foreground">We may collect information in the following ways:</p>
-              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
-                <li>
-                  <strong className="text-foreground">Contact Information:</strong> Name, email address, company, and
-                  project details you provide through our contact form.
-                </li>
-                <li>
-                  <strong className="text-foreground">Usage Data:</strong> Information about how you interact with our
-                  websites, including pages visited and time spent.
-                </li>
-                <li>
-                  <strong className="text-foreground">Technical Data:</strong> Browser type, device information, and IP
-                  address for analytics purposes.
-                </li>
-              </ul>
-            </section>
-
-            <section className="mt-10 space-y-4">
-              <h2 className="text-2xl font-semibold tracking-tight">3. How We Use Your Information</h2>
-              <p className="leading-relaxed text-muted-foreground">We use collected information to:</p>
-              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
-                <li>Respond to your inquiries and project requests</li>
-                <li>Provide and improve our services</li>
-                <li>Analyze usage patterns and optimize user experience</li>
-                <li>Communicate project updates and relevant information</li>
-                <li>Comply with legal obligations</li>
-              </ul>
-            </section>
-
-            <section className="mt-10 space-y-4">
-              <h2 className="text-2xl font-semibold tracking-tight">4. Data Security</h2>
-              <p className="leading-relaxed text-muted-foreground">
-                We implement appropriate technical and organizational measures to protect your personal information
-                against unauthorized access, alteration, disclosure, or destruction. This includes encryption, access
-                controls, and regular security assessments.
-              </p>
-            </section>
-
-            <section className="mt-10 space-y-4">
-              <h2 className="text-2xl font-semibold tracking-tight">5. Third-Party Services</h2>
-              <p className="leading-relaxed text-muted-foreground">
-                Our websites may use third-party services such as analytics providers (e.g., Vercel Analytics). These
-                services may collect information about your use of our websites. We encourage you to review the privacy
-                policies of these third-party services.
-              </p>
-            </section>
-
-            <section className="mt-10 space-y-4">
-              <h2 className="text-2xl font-semibold tracking-tight">6. Cookies</h2>
-              <p className="leading-relaxed text-muted-foreground">
-                We use essential cookies to ensure our website functions properly. We may also use analytics cookies to
-                understand how visitors interact with our site. You can control cookies through your browser settings.
-              </p>
-            </section>
-
-            <section className="mt-10 space-y-4">
-              <h2 className="text-2xl font-semibold tracking-tight">7. Your Rights</h2>
-              <p className="leading-relaxed text-muted-foreground">
-                Under applicable data protection laws (including GDPR), you have the right to:
-              </p>
-              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
-                <li>Access the personal information we hold about you</li>
-                <li>Request correction of inaccurate information</li>
-                <li>Request deletion of your personal information</li>
-                <li>Object to processing of your personal information</li>
-                <li>Request data portability</li>
-                <li>Withdraw consent where applicable</li>
-              </ul>
-            </section>
-
-            <section className="mt-10 space-y-4">
-              <h2 className="text-2xl font-semibold tracking-tight">8. Data Retention</h2>
-              <p className="leading-relaxed text-muted-foreground">
-                We retain personal information only for as long as necessary to fulfill the purposes for which it was
-                collected, or as required by law. Project-related information may be retained longer for legal and
-                business purposes.
-              </p>
-            </section>
-
-            <section className="mt-10 space-y-4">
-              <h2 className="text-2xl font-semibold tracking-tight">9. Changes to This Policy</h2>
-              <p className="leading-relaxed text-muted-foreground">
-                We may update this Privacy Policy from time to time. We will notify you of any material changes by
-                posting the new Privacy Policy on this page and updating the &quot;Last updated&quot; date.
-              </p>
-            </section>
-
-            <section className="mt-10 space-y-4">
-              <h2 className="text-2xl font-semibold tracking-tight">10. Contact Us</h2>
-              <p className="leading-relaxed text-muted-foreground">
-                If you have any questions about this Privacy Policy or our data practices, please contact us at{" "}
-                <a href="mailto:privacy@reptilians.dev" className="text-accent hover:underline">
-                  privacy@reptilians.dev
+                <strong className="text-foreground">Data controller:</strong> Reptilians
+                <br />
+                <strong className="text-foreground">Contact email:</strong>{" "}
+                <a href="mailto:hey@reptilians.band" className="text-accent hover:underline">
+                  hey@reptilians.band
                 </a>
-                .
+              </p>
+              <p className="leading-relaxed text-muted-foreground">
+                If you are in the EEA/UK, you may have rights under applicable data protection laws (including GDPR). We
+                address those rights below.
+              </p>
+            </section>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">2) What data we collect</h2>
+              <p className="leading-relaxed text-muted-foreground">
+                We collect information depending on how you use the Services.
+              </p>
+
+              <h3 className="mt-6 text-xl font-medium">A) Information you provide</h3>
+              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
+                <li>
+                  <strong className="text-foreground">Contact details</strong> (e.g., name, email) when you fill forms,
+                  request a quote, or contact us.
+                </li>
+                <li>
+                  <strong className="text-foreground">Project details</strong> you submit (briefs, attachments,
+                  messages).
+                </li>
+                <li>
+                  <strong className="text-foreground">Account data</strong> (if Apps include accounts): username, email,
+                  and any profile fields you choose to add.
+                </li>
+              </ul>
+
+              <h3 className="mt-6 text-xl font-medium">B) Information collected automatically (Website and Apps)</h3>
+              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
+                <li>
+                  <strong className="text-foreground">Device and usage data:</strong> device type, OS version, app
+                  version, pages/screens viewed, actions taken, timestamps, language, referrer.
+                </li>
+                <li>
+                  <strong className="text-foreground">Log data:</strong> IP address (Website), server logs, error logs.
+                </li>
+                <li>
+                  <strong className="text-foreground">Diagnostics / crash data:</strong> crash reports, performance
+                  metrics, and debugging information.
+                </li>
+              </ul>
+
+              <h3 className="mt-6 text-xl font-medium">C) Cookies and similar technologies (Website)</h3>
+              <p className="leading-relaxed text-muted-foreground">We may use cookies/local storage for:</p>
+              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
+                <li>essential functionality (security, session management),</li>
+                <li>preferences,</li>
+                <li>analytics (if enabled).</li>
+              </ul>
+              <p className="leading-relaxed text-muted-foreground">
+                You can control cookies via your browser settings. Some features may not work without essential cookies.
+              </p>
+
+              <h3 className="mt-6 text-xl font-medium">D) Data we do NOT intend to collect</h3>
+              <p className="leading-relaxed text-muted-foreground">
+                Unless explicitly stated inside a specific app, we do <strong className="text-foreground">not</strong>{" "}
+                intentionally collect:
+              </p>
+              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
+                <li>sensitive personal data (e.g., health data, biometrics, precise location, government IDs),</li>
+                <li>children&apos;s data.</li>
+              </ul>
+              <p className="leading-relaxed text-muted-foreground">
+                If any specific app requires additional categories (e.g., health-related inputs), that app must provide
+                clear in-app disclosures and consent flows where required.
+              </p>
+            </section>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">3) How we use data (purposes)</h2>
+              <p className="leading-relaxed text-muted-foreground">We use your data to:</p>
+              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
+                <li>
+                  <strong className="text-foreground">Provide and operate</strong> the Services (deliver features,
+                  respond to requests, maintain accounts).
+                </li>
+                <li>
+                  <strong className="text-foreground">Communicate</strong> with you (support, updates, transactional
+                  messages).
+                </li>
+                <li>
+                  <strong className="text-foreground">Improve and secure</strong> the Services (analytics,
+                  troubleshooting, monitoring, fraud prevention).
+                </li>
+                <li>
+                  <strong className="text-foreground">Comply with legal obligations</strong> and enforce our Terms.
+                </li>
+                <li>
+                  <strong className="text-foreground">Business operations</strong> (internal reporting, administration).
+                </li>
+              </ul>
+            </section>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">4) Legal bases (EEA/UK users)</h2>
+              <p className="leading-relaxed text-muted-foreground">Where applicable, we rely on:</p>
+              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
+                <li>
+                  <strong className="text-foreground">Contract</strong> (to provide the Services you request),
+                </li>
+                <li>
+                  <strong className="text-foreground">Legitimate interests</strong> (security, improvement, fraud
+                  prevention),
+                </li>
+                <li>
+                  <strong className="text-foreground">Consent</strong> (where required, e.g., certain cookies,
+                  marketing, or optional data collection),
+                </li>
+                <li>
+                  <strong className="text-foreground">Legal obligation</strong> (compliance).
+                </li>
+              </ul>
+            </section>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">5) How we share data</h2>
+              <p className="leading-relaxed text-muted-foreground">We do not sell your personal data.</p>
+              <p className="leading-relaxed text-muted-foreground">We may share information with:</p>
+              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
+                <li>
+                  <strong className="text-foreground">Service providers/processors</strong> that help us run the
+                  Services (hosting, email delivery, analytics, crash reporting, customer support tools).
+                </li>
+                <li>
+                  <strong className="text-foreground">Legal authorities</strong> if required by law or to protect
+                  rights, safety, and security.
+                </li>
+                <li>
+                  <strong className="text-foreground">Corporate events</strong> (merger/acquisition/restructuring) where
+                  data may transfer as part of the transaction.
+                </li>
+              </ul>
+
+              <h3 className="mt-6 text-xl font-medium">Service provider transparency</h3>
+              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
+                <li>Hosting: DigitalOcean / Cloudflare</li>
+                <li>Analytics: PostHog</li>
+                <li>Crash reporting: Sentry</li>
+              </ul>
+            </section>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">6) International transfers</h2>
+              <p className="leading-relaxed text-muted-foreground">
+                Your data may be processed in countries other than where you live. Where required, we use appropriate
+                safeguards for cross-border transfers.
+              </p>
+            </section>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">7) Data retention</h2>
+              <p className="leading-relaxed text-muted-foreground">
+                We retain personal data only as long as necessary for the purposes described above, including:
+              </p>
+              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
+                <li>to provide the Services,</li>
+                <li>to comply with legal obligations,</li>
+                <li>to resolve disputes and enforce agreements.</li>
+              </ul>
+              <p className="leading-relaxed text-muted-foreground">
+                Retention periods vary by data type. You may request deletion where applicable (see Section 9).
+              </p>
+            </section>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">8) Security</h2>
+              <p className="leading-relaxed text-muted-foreground">
+                We use reasonable administrative, technical, and organizational measures to protect data. However, no
+                method of transmission or storage is 100% secure, and we cannot guarantee absolute security.
+              </p>
+            </section>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">9) Your privacy rights</h2>
+              <p className="leading-relaxed text-muted-foreground">
+                Depending on your location, you may have the right to:
+              </p>
+              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
+                <li>access, correct, or delete your personal data,</li>
+                <li>object to or restrict processing,</li>
+                <li>withdraw consent (where processing is based on consent),</li>
+                <li>data portability,</li>
+                <li>lodge a complaint with a supervisory authority.</li>
+              </ul>
+              <p className="leading-relaxed text-muted-foreground">
+                To exercise rights, contact us at{" "}
+                <a href="mailto:hey@reptilians.band" className="text-accent hover:underline">
+                  hey@reptilians.band
+                </a>
+                . We may verify your identity before fulfilling requests.
+              </p>
+            </section>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">10) Marketing communications</h2>
+              <p className="leading-relaxed text-muted-foreground">
+                If we send marketing emails, you can opt out at any time using the unsubscribe link or by contacting us.
+                We may still send non-marketing service messages (e.g., security or transactional notices).
+              </p>
+            </section>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">11) Children&apos;s privacy</h2>
+              <p className="leading-relaxed text-muted-foreground">
+                The Services are not directed to children under <strong className="text-foreground">13</strong>. We do
+                not knowingly collect personal data from children under 13. If you believe a child provided data,
+                contact us and we will delete it where required.
+              </p>
+            </section>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">12) Third-party links</h2>
+              <p className="leading-relaxed text-muted-foreground">
+                The Services may link to third-party sites. Their privacy practices are not controlled by us. Review
+                their policies before providing information.
+              </p>
+            </section>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">13) Changes to this policy</h2>
+              <p className="leading-relaxed text-muted-foreground">
+                We may update this Privacy Policy. If changes are material, we will post the updated version with a new
+                &quot;Last updated&quot; date. Continued use means you accept the updated policy.
+              </p>
+            </section>
+
+            <section className="mt-10 space-y-4">
+              <h2 className="text-2xl font-semibold tracking-tight">14) Contact</h2>
+              <p className="leading-relaxed text-muted-foreground">
+                Privacy questions or requests:{" "}
+                <a href="mailto:hey@reptilians.band" className="text-accent hover:underline">
+                  hey@reptilians.band
+                </a>
               </p>
             </section>
           </div>
