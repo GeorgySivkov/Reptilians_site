@@ -1,24 +1,23 @@
 import Link from "next/link"
-import { Github, Twitter, Linkedin } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react"
+import { ReptiliansLogo } from "@/components/reptilians-logo"
 
 export function Footer() {
   return (
     <footer className="border-t border-border/40 bg-background">
-      <div className="container mx-auto max-w-5xl px-4 py-12">
+      <div className="container mx-auto max-w-6xl px-4 py-12">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-          <div className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-              <span className="text-sm font-bold text-primary-foreground">DL</span>
-            </div>
-            <span className="text-lg font-semibold tracking-tight">DevLabs</span>
+          <div className="flex items-center gap-2.5">
+            <ReptiliansLogo className="h-8 w-8" />
+            <span className="text-lg font-semibold tracking-tight">Reptilians</span>
           </div>
 
           <nav className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
             <Link href="/" className="transition-colors hover:text-foreground">
               Home
             </Link>
-            <Link href="/projects" className="transition-colors hover:text-foreground">
-              Projects
+            <Link href="/case-studies" className="transition-colors hover:text-foreground">
+              Case Studies
             </Link>
             <Link href="/about" className="transition-colors hover:text-foreground">
               About
@@ -29,17 +28,26 @@ export function Footer() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">
+            <a
+              href="https://github.com/reptilians"
+              className="text-muted-foreground transition-colors hover:text-foreground"
+            >
               <Github className="h-5 w-5" />
               <span className="sr-only">GitHub</span>
             </a>
-            <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">
-              <Twitter className="h-5 w-5" />
-              <span className="sr-only">Twitter</span>
-            </a>
-            <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">
+            <a
+              href="https://linkedin.com/company/reptilians"
+              className="text-muted-foreground transition-colors hover:text-foreground"
+            >
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
+            </a>
+            <a
+              href="mailto:hello@reptilians.dev"
+              className="text-muted-foreground transition-colors hover:text-foreground"
+            >
+              <Mail className="h-5 w-5" />
+              <span className="sr-only">Email</span>
             </a>
           </div>
         </div>
@@ -54,7 +62,8 @@ export function Footer() {
         </div>
 
         <div className="mt-6 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} DevLabs. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Reptilians. All rights reserved.</p>
+          <p className="mt-1 text-xs">Serbia • Amsterdam • Cyprus</p>
         </div>
       </div>
     </footer>

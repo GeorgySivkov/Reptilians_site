@@ -2,15 +2,21 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
-import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 
 const _inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "DevLabs | Custom Software Solutions",
-  description: "Showcasing innovative pet projects from our custom software development team",
+  title: "Reptilians | Startup Studio",
+  description:
+    "A startup studio that builds and ships software. We turn ideas into MVPs and production-ready products — fast.",
+  openGraph: {
+    title: "Reptilians | Startup Studio",
+    description:
+      "A startup studio that builds and ships software. We turn ideas into MVPs and production-ready products — fast.",
+    siteName: "Reptilians",
+  },
 }
 
 export default function RootLayout({
@@ -19,11 +25,12 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="dark">
+      <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+      </head>
       <body className="font-sans antialiased">
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-          {children}
-        </ThemeProvider>
+        {children}
         <Analytics />
       </body>
     </html>
