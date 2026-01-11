@@ -11,16 +11,22 @@ export function Hero() {
 
       <div className="container mx-auto max-w-6xl px-4">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="mb-6 text-balance text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
-            Reptilians — a startup studio that builds and ships <span className="text-accent">software.</span>
+          <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
+            <span className="text-accent">Reptilians</span>
+            <br />
+            Startup studio that builds and ships software.
           </h1>
-          <p className="mx-auto mb-8 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground">
-            We turn ideas into MVPs and production-ready products — fast. Distributed across{" "}
-            <span className="text-foreground font-medium">Serbia, Amsterdam, and Cyprus</span>. Work with us via{" "}
-            <span className="text-foreground font-medium">fixed scope</span>,{" "}
-            <span className="text-foreground font-medium">T&M</span>, or{" "}
-            <span className="text-foreground font-medium">dedicated squads</span>.
-          </p>
+          <div className="mx-auto mb-8 max-w-2xl text-lg leading-relaxed text-muted-foreground">
+            <p>We turn ideas into MVPs and production-ready products — fast.</p>
+            <p className="mt-2">
+              Distributed <span className="font-medium text-foreground">worldwide</span>.
+            </p>
+            <p className="mt-2">
+              Work with us via <span className="font-medium text-foreground">fixed scope</span>,{" "}
+              <span className="font-medium text-foreground">T&M</span>, or{" "}
+              <span className="font-medium text-foreground">dedicated squads</span>.
+            </p>
+          </div>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button asChild size="lg" className="gap-2 bg-accent text-accent-foreground hover:bg-accent/90">
               <Link href="/contact">

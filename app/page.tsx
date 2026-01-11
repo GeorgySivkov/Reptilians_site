@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
+import { FeaturedCaseStudies } from "@/components/featured-case-studies"
 import { ServicesSection } from "@/components/services-section"
 import { HowWeWorkSection } from "@/components/how-we-work-section"
 import { EngagementModelsSection } from "@/components/engagement-models-section"
@@ -15,6 +16,7 @@ export default function HomePage() {
       <Navbar />
       <main className="flex-1">
         <Hero />
+        <FeaturedCaseStudies />
         <ServicesSection />
         <HowWeWorkSection />
         <EngagementModelsSection />

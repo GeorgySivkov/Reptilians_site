@@ -13,7 +13,7 @@ export function HowWeWorkSection() {
   return (
     <section className="border-y border-border/40 bg-secondary/20 py-20 md:py-28">
       <div className="container mx-auto max-w-6xl px-4">
-        <div className="mb-12 text-center">
+        <div className="mb-16 text-center">
           <h2 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">How we work</h2>
           <p className="mx-auto max-w-2xl text-muted-foreground">
             Weekly demos and transparent communication at every stage.
@@ -21,16 +21,16 @@ export function HowWeWorkSection() {
         </div>
 
         <div className="relative">
-          <div className="absolute left-0 right-0 top-6 hidden h-px bg-border/60 lg:block" />
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-6">
+          <div className="absolute left-0 right-0 top-10 hidden h-0.5 bg-accent/30 lg:block" />
+          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-6">
             {steps.map((step, index) => (
               <div key={step.title} className="relative text-center">
-                <div className="relative z-10 mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full border border-border bg-background">
-                  <step.icon className="h-5 w-5 text-accent" />
+                <div className="relative z-10 mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full border-2 border-accent/50 bg-background">
+                  <step.icon className="h-7 w-7 text-accent" />
                 </div>
-                <div className="mb-1 text-xs font-medium text-accent">Step {index + 1}</div>
-                <h3 className="mb-1 font-semibold tracking-tight">{step.title}</h3>
-                <p className="text-xs leading-relaxed text-muted-foreground">{step.description}</p>
+                <div className="mb-2 text-xs font-semibold uppercase tracking-wider text-accent">Step {index + 1}</div>
+                <h3 className="mb-2 text-base font-semibold tracking-tight">{step.title}</h3>
+                <p className="text-sm leading-relaxed text-muted-foreground">{step.description}</p>
               </div>
             ))}
           </div>

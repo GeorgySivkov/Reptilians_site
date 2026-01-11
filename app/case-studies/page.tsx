@@ -5,23 +5,19 @@ import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { CaseStudyCard } from "@/components/case-study-card"
 import { CaseStudyFilters } from "@/components/case-study-filters"
-import { caseStudies, type CaseStudyStatus, type Industry } from "@/lib/case-studies"
+import { caseStudies, type CaseStudyStatus } from "@/lib/case-studies"
 
 export default function CaseStudiesPage() {
-  const [searchQuery, setSearchQuery] = useState("")
   const [selectedStatuses, setSelectedStatuses] = useState<CaseStudyStatus[]>([])
-  const [selectedIndustries, setSelectedIndustries] = useState<Industry[]>([])
   const [selectedStack, setSelectedStack] = useState<string[]>([])
 
   const filteredCaseStudies = useMemo(() => {
     return caseStudies.filter((cs) => {
-      const matchesSearch = cs.name.toLowerCase().includes(searchQuery.toLowerCase())
       const matchesStatus = selectedStatuses.length === 0 || selectedStatuses.includes(cs.status)
-      const matchesIndustry = selectedIndustries.length === 0 || selectedIndustries.includes(cs.industry)
       const matchesStack = selectedStack.length === 0 || selectedStack.some((tech) => cs.stack.includes(tech))
-      return matchesSearch && matchesStatus && matchesIndustry && matchesStack
+      return matchesStatus && matchesStack
     })
-  }, [searchQuery, selectedStatuses, selectedIndustries, selectedStack])
+  }, [selectedStatuses, selectedStack])
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -37,12 +33,8 @@ export default function CaseStudiesPage() {
             </div>
 
             <CaseStudyFilters
-              searchQuery={searchQuery}
-              onSearchChange={setSearchQuery}
               selectedStatuses={selectedStatuses}
               onStatusChange={setSelectedStatuses}
-              selectedIndustries={selectedIndustries}
-              onIndustryChange={setSelectedIndustries}
               selectedStack={selectedStack}
               onStackChange={setSelectedStack}
             />
@@ -56,7 +48,7 @@ export default function CaseStudiesPage() {
             ) : (
               <div className="py-16 text-center">
                 <p className="text-lg text-muted-foreground">No case studies match your filters.</p>
-                <p className="mt-2 text-sm text-muted-foreground">Try adjusting your search or filter criteria.</p>
+                <p className="mt-2 text-sm text-muted-foreground">Try adjusting your filter criteria.</p>
               </div>
             )}
           </div>
