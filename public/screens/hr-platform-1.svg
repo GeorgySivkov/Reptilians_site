@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#111111"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bg1)" width="800" height="500"/>
+  <!-- Sidebar -->
+  <rect fill="#141414" x="0" y="0" width="200" height="500"/>
+  <rect fill="#14b8a6" x="20" y="20" width="32" height="32" rx="6"/>
+  <text x="60" y="42" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="600">HR Platform</text>
+  <rect fill="#1a1a1a" x="16" y="80" width="168" height="36" rx="6"/>
+  <circle fill="#14b8a6" cx="36" cy="98" r="8"/>
+  <text x="52" y="102" fill="#ffffff" font-family="system-ui" font-size="12">Dashboard</text>
+  <rect fill="transparent" x="16" y="124" width="168" height="36" rx="6"/>
+  <circle fill="#404040" cx="36" cy="142" r="8"/>
+  <text x="52" y="146" fill="#888888" font-family="system-ui" font-size="12">Employees</text>
+  <rect fill="transparent" x="16" y="168" width="168" height="36" rx="6"/>
+  <circle fill="#404040" cx="36" cy="186" r="8"/>
+  <text x="52" y="190" fill="#888888" font-family="system-ui" font-size="12">Performance</text>
+  <rect fill="transparent" x="16" y="212" width="168" height="36" rx="6"/>
+  <circle fill="#404040" cx="36" cy="230" r="8"/>
+  <text x="52" y="234" fill="#888888" font-family="system-ui" font-size="12">Time Off</text>
+  <!-- Main Content -->
+  <text x="230" y="50" fill="#ffffff" font-family="system-ui" font-size="20" font-weight="600">Employee Dashboard</text>
+  <text x="230" y="72" fill="#666666" font-family="system-ui" font-size="12">Overview of your organization</text>
+  <!-- Stats Cards -->
+  <rect fill="#141414" x="230" y="100" width="170" height="90" rx="8"/>
+  <text x="250" y="130" fill="#888888" font-family="system-ui" font-size="11">Total Employees</text>
+  <text x="250" y="160" fill="#ffffff" font-family="system-ui" font-size="28" font-weight="600">1,247</text>
+  <text x="250" y="178" fill="#22c55e" font-family="system-ui" font-size="11">+12% this month</text>
+  <rect fill="#141414" x="410" y="100" width="170" height="90" rx="8"/>
+  <text x="430" y="130" fill="#888888" font-family="system-ui" font-size="11">Open Positions</text>
+  <text x="430" y="160" fill="#ffffff" font-family="system-ui" font-size="28" font-weight="600">34</text>
+  <text x="430" y="178" fill="#f59e0b" font-family="system-ui" font-size="11">8 urgent</text>
+  <rect fill="#141414" x="590" y="100" width="170" height="90" rx="8"/>
+  <text x="610" y="130" fill="#888888" font-family="system-ui" font-size="11">Pending Reviews</text>
+  <text x="610" y="160" fill="#ffffff" font-family="system-ui" font-size="28" font-weight="600">89</text>
+  <text x="610" y="178" fill="#14b8a6" font-family="system-ui" font-size="11">Due this week</text>
+  <!-- Chart Area -->
+  <rect fill="#141414" x="230" y="210" width="350" height="200" rx="8"/>
+  <text x="250" y="240" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">Headcount Trend</text>
+  <polyline fill="none" stroke="#14b8a6" stroke-width="2" points="260,380 300,350 340,360 380,320 420,300 460,280 500,260 540,240"/>
+  <circle fill="#14b8a6" cx="540" cy="240" r="4"/>
+  <!-- Recent Activity -->
+  <rect fill="#141414" x="590" y="210" width="170" height="200" rx="8"/>
+  <text x="610" y="240" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">Recent Activity</text>
+  <rect fill="#1a1a1a" x="602" y="260" width="146" height="40" rx="4"/>
+  <text x="612" y="282" fill="#ffffff" font-family="system-ui" font-size="11">New hire: J. Smith</text>
+  <text x="612" y="294" fill="#666666" font-family="system-ui" font-size="10">2 hours ago</text>
+  <rect fill="#1a1a1a" x="602" y="308" width="146" height="40" rx="4"/>
+  <text x="612" y="330" fill="#ffffff" font-family="system-ui" font-size="11">Review completed</text>
+  <text x="612" y="342" fill="#666666" font-family="system-ui" font-size="10">5 hours ago</text>
+  <!-- Bottom Section -->
+  <rect fill="#141414" x="230" y="420" width="530" height="60" rx="8"/>
+  <text x="250" y="455" fill="#888888" font-family="system-ui" font-size="12">Quick Actions:</text>
+  <rect fill="#14b8a6" x="340" y="438" width="100" height="30" rx="4"/>
+  <text x="362" y="458" fill="#000000" font-family="system-ui" font-size="11" font-weight="500">Add Employee</text>
+  <rect fill="#1a1a1a" x="450" y="438" width="100" height="30" rx="4"/>
+  <text x="467" y="458" fill="#ffffff" font-family="system-ui" font-size="11">Start Review</text>
+</svg>

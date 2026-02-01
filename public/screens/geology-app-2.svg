@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0a0a0a" width="800" height="500"/>
+  <!-- Top Toolbar -->
+  <rect fill="#141414" x="0" y="0" width="800" height="50"/>
+  <rect fill="#14b8a6" x="15" y="10" width="30" height="30" rx="4"/>
+  <text x="52" y="30" fill="#ffffff" font-family="system-ui" font-size="13" font-weight="600">GeoAnalyzer Pro</text>
+  <text x="180" y="30" fill="#888888" font-family="system-ui" font-size="11">File</text>
+  <text x="220" y="30" fill="#888888" font-family="system-ui" font-size="11">Edit</text>
+  <text x="260" y="30" fill="#14b8a6" font-family="system-ui" font-size="11">View</text>
+  <text x="305" y="30" fill="#888888" font-family="system-ui" font-size="11">Analysis</text>
+  <!-- Cross Section View -->
+  <rect fill="#0f0f0f" x="0" y="50" width="800" height="400"/>
+  <text x="360" y="75" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">Cross Section A-A'</text>
+  <!-- Depth scale -->
+  <text x="15" y="110" fill="#666666" font-family="system-ui" font-size="9">0m</text>
+  <text x="15" y="180" fill="#666666" font-family="system-ui" font-size="9">500m</text>
+  <text x="15" y="250" fill="#666666" font-family="system-ui" font-size="9">1000m</text>
+  <text x="15" y="320" fill="#666666" font-family="system-ui" font-size="9">1500m</text>
+  <text x="15" y="390" fill="#666666" font-family="system-ui" font-size="9">2000m</text>
+  <line x1="45" y1="100" x2="45" y2="420" stroke="#333333" stroke-width="1"/>
+  <!-- Horizons -->
+  <path d="M50,130 Q200,125 350,140 T700,135 L750,138" fill="none" stroke="#22c55e" stroke-width="2"/>
+  <path d="M50,200 Q200,210 350,195 T700,205 L750,200" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M50,280 Q200,275 350,290 T700,285 L750,282" fill="none" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M50,350 Q200,360 350,345 T700,355 L750,350" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+  <!-- Fill between horizons -->
+  <path d="M50,130 Q200,125 350,140 T700,135 L750,138 L750,200 T700,205 Q550,210 350,195 T50,200 Z" fill="#22c55e10"/>
+  <path d="M50,200 Q200,210 350,195 T700,205 L750,200 L750,282 T700,285 Q550,275 350,290 T50,280 Z" fill="#3b82f610"/>
+  <path d="M50,280 Q200,275 350,290 T700,285 L750,282 L750,350 T700,355 Q550,360 350,345 T50,350 Z" fill="#f59e0b10"/>
+  <!-- Wells -->
+  <line x1="150" y1="95" x2="150" y2="400" stroke="#ffffff" stroke-width="2" stroke-dasharray="4"/>
+  <text x="140" y="90" fill="#ffffff" font-family="system-ui" font-size="9">A-12</text>
+  <line x1="350" y1="95" x2="350" y2="400" stroke="#ffffff" stroke-width="2" stroke-dasharray="4"/>
+  <text x="340" y="90" fill="#ffffff" font-family="system-ui" font-size="9">B-07</text>
+  <line x1="550" y1="95" x2="550" y2="400" stroke="#ffffff" stroke-width="2" stroke-dasharray="4"/>
+  <text x="540" y="90" fill="#ffffff" font-family="system-ui" font-size="9">C-03</text>
+  <!-- Fault -->
+  <line x1="450" y1="100" x2="480" y2="420" stroke="#ef4444" stroke-width="2"/>
+  <text x="485" y="250" fill="#ef4444" font-family="system-ui" font-size="9">Fault F1</text>
+  <!-- Legend -->
+  <rect fill="#141414" x="620" y="90" width="160" height="140" rx="6"/>
+  <text x="635" y="115" fill="#ffffff" font-family="system-ui" font-size="11" font-weight="500">Legend</text>
+  <line x1="635" y1="135" x2="665" y2="135" stroke="#22c55e" stroke-width="2"/>
+  <text x="675" y="138" fill="#888888" font-family="system-ui" font-size="9">Horizon A</text>
+  <line x1="635" y1="158" x2="665" y2="158" stroke="#3b82f6" stroke-width="2"/>
+  <text x="675" y="161" fill="#888888" font-family="system-ui" font-size="9">Horizon B</text>
+  <line x1="635" y1="181" x2="665" y2="181" stroke="#f59e0b" stroke-width="2"/>
+  <text x="675" y="184" fill="#888888" font-family="system-ui" font-size="9">Horizon C</text>
+  <line x1="635" y1="204" x2="665" y2="204" stroke="#ef4444" stroke-width="2"/>
+  <text x="675" y="207" fill="#888888" font-family="system-ui" font-size="9">Fault</text>
+  <!-- Bottom toolbar -->
+  <rect fill="#141414" x="0" y="450" width="800" height="50"/>
+  <text x="20" y="480" fill="#888888" font-family="system-ui" font-size="10">Scale: 1:10,000</text>
+  <text x="150" y="480" fill="#888888" font-family="system-ui" font-size="10">VE: 2x</text>
+  <text x="250" y="480" fill="#888888" font-family="system-ui" font-size="10">Distance: 2,500m</text>
+  <rect fill="#1a1a1a" x="600" y="462" width="80" height="26" rx="4"/>
+  <text x="617" y="480" fill="#888888" font-family="system-ui" font-size="10">Export</text>
+  <rect fill="#14b8a6" x="695" y="462" width="90" height="26" rx="4"/>
+  <text x="715" y="480" fill="#000000" font-family="system-ui" font-size="10">Interpret</text>
+</svg>

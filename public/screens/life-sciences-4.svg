@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0a0a0a" width="800" height="500"/>
+  <rect fill="#141414" x="0" y="0" width="200" height="500"/>
+  <rect fill="#14b8a6" x="20" y="20" width="32" height="32" rx="6"/>
+  <text x="60" y="42" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="600">BioLab LIMS</text>
+  <rect fill="transparent" x="16" y="80" width="168" height="36" rx="6"/>
+  <text x="52" y="102" fill="#888888" font-family="system-ui" font-size="12">Dashboard</text>
+  <rect fill="transparent" x="16" y="124" width="168" height="36" rx="6"/>
+  <text x="52" y="146" fill="#888888" font-family="system-ui" font-size="12">Samples</text>
+  <rect fill="transparent" x="16" y="168" width="168" height="36" rx="6"/>
+  <text x="52" y="190" fill="#888888" font-family="system-ui" font-size="12">Experiments</text>
+  <rect fill="transparent" x="16" y="212" width="168" height="36" rx="6"/>
+  <text x="52" y="234" fill="#888888" font-family="system-ui" font-size="12">Equipment</text>
+  <rect fill="#1a1a1a" x="16" y="256" width="168" height="36" rx="6"/>
+  <circle fill="#14b8a6" cx="36" cy="274" r="8"/>
+  <text x="52" y="278" fill="#ffffff" font-family="system-ui" font-size="12">Protocols</text>
+  <text x="230" y="50" fill="#ffffff" font-family="system-ui" font-size="20" font-weight="600">Protocol Library</text>
+  <rect fill="#14b8a6" x="660" y="30" width="100" height="36" rx="6"/>
+  <text x="677" y="54" fill="#000000" font-family="system-ui" font-size="11" font-weight="500">+ New Protocol</text>
+  <!-- Search and Filters -->
+  <rect fill="#141414" x="230" y="75" width="250" height="32" rx="6"/>
+  <text x="250" y="96" fill="#666666" font-family="system-ui" font-size="11">Search protocols...</text>
+  <rect fill="#1a1a1a" x="490" y="75" width="100" height="32" rx="6"/>
+  <text x="510" y="96" fill="#888888" font-family="system-ui" font-size="10">Category ▼</text>
+  <!-- Protocol Cards -->
+  <rect fill="#141414" x="230" y="125" width="250" height="160" rx="8"/>
+  <rect fill="#22c55e20" x="245" y="140" width="60" height="22" rx="4"/>
+  <text x="255" y="155" fill="#22c55e" font-family="system-ui" font-size="9">Approved</text>
+  <text x="245" y="185" fill="#ffffff" font-family="system-ui" font-size="13" font-weight="500">RT-qPCR Standard</text>
+  <text x="245" y="205" fill="#888888" font-family="system-ui" font-size="10">Version 2.1</text>
+  <text x="245" y="230" fill="#666666" font-family="system-ui" font-size="9">Real-time quantitative PCR for gene</text>
+  <text x="245" y="244" fill="#666666" font-family="system-ui" font-size="9">expression analysis</text>
+  <text x="245" y="270" fill="#888888" font-family="system-ui" font-size="9">Used: 847 times • Last: 2 hours ago</text>
+  
+  <rect fill="#141414" x="510" y="125" width="250" height="160" rx="8"/>
+  <rect fill="#22c55e20" x="525" y="140" width="60" height="22" rx="4"/>
+  <text x="535" y="155" fill="#22c55e" font-family="system-ui" font-size="9">Approved</text>
+  <text x="525" y="185" fill="#ffffff" font-family="system-ui" font-size="13" font-weight="500">Western Blot Analysis</text>
+  <text x="525" y="205" fill="#888888" font-family="system-ui" font-size="10">Version 3.0</text>
+  <text x="525" y="230" fill="#666666" font-family="system-ui" font-size="9">Standard western blot for protein</text>
+  <text x="525" y="244" fill="#666666" font-family="system-ui" font-size="9">detection and quantification</text>
+  <text x="525" y="270" fill="#888888" font-family="system-ui" font-size="9">Used: 562 times • Last: Yesterday</text>
+  
+  <rect fill="#141414" x="230" y="300" width="250" height="160" rx="8"/>
+  <rect fill="#f59e0b20" x="245" y="315" width="50" height="22" rx="4"/>
+  <text x="253" y="330" fill="#f59e0b" font-family="system-ui" font-size="9">Draft</text>
+  <text x="245" y="360" fill="#ffffff" font-family="system-ui" font-size="13" font-weight="500">CRISPR Gene Editing</text>
+  <text x="245" y="380" fill="#888888" font-family="system-ui" font-size="10">Version 1.0-beta</text>
+  <text x="245" y="405" fill="#666666" font-family="system-ui" font-size="9">CRISPR-Cas9 protocol for targeted</text>
+  <text x="245" y="419" fill="#666666" font-family="system-ui" font-size="9">gene modification</text>
+  <text x="245" y="445" fill="#888888" font-family="system-ui" font-size="9">Pending review • Author: Dr. Chen</text>
+  
+  <rect fill="#141414" x="510" y="300" width="250" height="160" rx="8"/>
+  <rect fill="#22c55e20" x="525" y="315" width="60" height="22" rx="4"/>
+  <text x="535" y="330" fill="#22c55e" font-family="system-ui" font-size="9">Approved</text>
+  <text x="525" y="360" fill="#ffffff" font-family="system-ui" font-size="13" font-weight="500">Cell Culture Maintenance</text>
+  <text x="525" y="380" fill="#888888" font-family="system-ui" font-size="10">Version 4.2</text>
+  <text x="525" y="405" fill="#666666" font-family="system-ui" font-size="9">Standard maintenance protocol for</text>
+  <text x="525" y="419" fill="#666666" font-family="system-ui" font-size="9">adherent mammalian cell lines</text>
+  <text x="525" y="445" fill="#888888" font-family="system-ui" font-size="9">Used: 1,204 times • Last: 30 min ago</text>
+</svg>

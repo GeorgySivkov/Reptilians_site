@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0a0a0a" width="800" height="500"/>
+  <rect fill="#141414" x="0" y="0" width="200" height="500"/>
+  <rect fill="#14b8a6" x="20" y="20" width="32" height="32" rx="6"/>
+  <text x="60" y="42" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="600">BioLab LIMS</text>
+  <rect fill="transparent" x="16" y="80" width="168" height="36" rx="6"/>
+  <text x="52" y="102" fill="#888888" font-family="system-ui" font-size="12">Dashboard</text>
+  <rect fill="transparent" x="16" y="124" width="168" height="36" rx="6"/>
+  <text x="52" y="146" fill="#888888" font-family="system-ui" font-size="12">Samples</text>
+  <rect fill="#1a1a1a" x="16" y="168" width="168" height="36" rx="6"/>
+  <circle fill="#14b8a6" cx="36" cy="186" r="8"/>
+  <text x="52" y="190" fill="#ffffff" font-family="system-ui" font-size="12">Experiments</text>
+  <text x="230" y="50" fill="#ffffff" font-family="system-ui" font-size="20" font-weight="600">Experiment: EXP-2024-0089</text>
+  <rect fill="#3b82f620" x="560" y="30" width="80" height="26" rx="13"/>
+  <text x="577" y="48" fill="#3b82f6" font-family="system-ui" font-size="10">In Progress</text>
+  <!-- Experiment Overview -->
+  <rect fill="#141414" x="230" y="75" width="530" height="100" rx="8"/>
+  <text x="250" y="105" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">Gene Expression Analysis - BRCA1 Mutation Study</text>
+  <text x="250" y="125" fill="#666666" font-family="system-ui" font-size="11">Protocol: RT-qPCR Standard v2.1 • Started: Jan 6, 2025</text>
+  <text x="250" y="145" fill="#888888" font-family="system-ui" font-size="10">Principal Investigator: Dr. Sarah Chen • Lab: Molecular Biology A</text>
+  <text x="250" y="165" fill="#888888" font-family="system-ui" font-size="10">Samples: 24 • Replicates: 3 • Total Reactions: 72</text>
+  <!-- Workflow Steps -->
+  <rect fill="#141414" x="230" y="190" width="530" height="140" rx="8"/>
+  <text x="250" y="220" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">Workflow Progress</text>
+  <!-- Step indicators -->
+  <circle fill="#22c55e" cx="280" cy="260" r="20"/>
+  <text x="275" y="265" fill="#000000" font-family="system-ui" font-size="10">✓</text>
+  <text x="255" y="295" fill="#888888" font-family="system-ui" font-size="9">Sample Prep</text>
+  <line x1="300" y1="260" x2="360" y2="260" stroke="#22c55e" stroke-width="2"/>
+  <circle fill="#22c55e" cx="380" cy="260" r="20"/>
+  <text x="375" y="265" fill="#000000" font-family="system-ui" font-size="10">✓</text>
+  <text x="353" y="295" fill="#888888" font-family="system-ui" font-size="9">RNA Extraction</text>
+  <line x1="400" y1="260" x2="460" y2="260" stroke="#22c55e" stroke-width="2"/>
+  <circle fill="#3b82f6" cx="480" cy="260" r="20" stroke="#3b82f6" stroke-width="3"/>
+  <text x="475" y="265" fill="#ffffff" font-family="system-ui" font-size="10">3</text>
+  <text x="458" y="295" fill="#3b82f6" font-family="system-ui" font-size="9">RT-qPCR</text>
+  <line x1="500" y1="260" x2="560" y2="260" stroke="#333333" stroke-width="2"/>
+  <circle fill="transparent" cx="580" cy="260" r="20" stroke="#333333" stroke-width="2"/>
+  <text x="575" y="265" fill="#666666" font-family="system-ui" font-size="10">4</text>
+  <text x="555" y="295" fill="#888888" font-family="system-ui" font-size="9">Data Analysis</text>
+  <line x1="600" y1="260" x2="660" y2="260" stroke="#333333" stroke-width="2"/>
+  <circle fill="transparent" cx="680" cy="260" r="20" stroke="#333333" stroke-width="2"/>
+  <text x="675" y="265" fill="#666666" font-family="system-ui" font-size="10">5</text>
+  <text x="665" y="295" fill="#888888" font-family="system-ui" font-size="9">Review</text>
+  <!-- Current Step Details -->
+  <rect fill="#141414" x="230" y="345" width="350" height="135" rx="8"/>
+  <text x="250" y="375" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">Current Step: RT-qPCR</text>
+  <text x="250" y="400" fill="#888888" font-family="system-ui" font-size="10">Equipment: Thermal Cycler #2</text>
+  <text x="250" y="420" fill="#888888" font-family="system-ui" font-size="10">Cycle: 28 of 40</text>
+  <rect fill="#1a1a1a" x="250" y="435" width="310" height="8" rx="4"/>
+  <rect fill="#3b82f6" x="250" y="435" width="217" height="8" rx="4"/>
+  <text x="250" y="462" fill="#666666" font-family="system-ui" font-size="9">Estimated completion: 45 minutes</text>
+  <!-- Live Data -->
+  <rect fill="#141414" x="590" y="345" width="170" height="135" rx="8"/>
+  <text x="610" y="375" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">Live Readings</text>
+  <text x="610" y="405" fill="#888888" font-family="system-ui" font-size="10">Temperature</text>
+  <text x="610" y="425" fill="#14b8a6" font-family="system-ui" font-size="18" font-weight="600">95.2°C</text>
+  <text x="610" y="450" fill="#888888" font-family="system-ui" font-size="10">Fluorescence</text>
+  <text x="610" y="470" fill="#22c55e" font-family="system-ui" font-size="18" font-weight="600">12,847 RFU</text>
+</svg>

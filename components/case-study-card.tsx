@@ -46,7 +46,7 @@ export function CaseStudyCard({ caseStudy }: CaseStudyCardProps) {
             <span className="text-muted-foreground">{caseStudy.model}</span>
           </div>
 
-          <p className="mb-3 line-clamp-2 text-sm leading-relaxed text-muted-foreground">{caseStudy.summary}</p>
+          <p className="mb-3 line-clamp-2 text-sm leading-relaxed text-muted-foreground">{caseStudy.tagline}</p>
 
           <div className="mb-4 space-y-2 border-t border-border/40 pt-3">
             <div className="flex items-start gap-2 text-xs text-muted-foreground">

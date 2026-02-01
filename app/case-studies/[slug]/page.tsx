@@ -7,7 +7,17 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ProjectCarousel } from "@/components/project-carousel"
 import { ProjectIcon } from "@/components/project-icon"
-import { ArrowLeft, AlertCircle, Lightbulb, ArrowRight, Building2, Users, Target, CheckCircle2 } from "lucide-react"
+import {
+  ArrowLeft,
+  AlertCircle,
+  Lightbulb,
+  ArrowRight,
+  Building2,
+  Users,
+  Target,
+  CheckCircle2,
+  Wrench,
+} from "lucide-react"
 import { caseStudies, getCaseStudyBySlug, statusConfig, industryConfig } from "@/lib/case-studies"
 import { cn } from "@/lib/utils"
 
@@ -34,6 +44,8 @@ export default async function CaseStudyPage({ params }: PageProps) {
 
   const status = statusConfig[caseStudy.status]
   const industry = industryConfig[caseStudy.industry]
+
+  const contactSubject = encodeURIComponent(`Inquiry about: ${caseStudy.name}`)
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -82,7 +94,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
                   <Building2 className="mt-0.5 h-5 w-5 text-accent" />
                   <div>
                     <p className="text-xs font-medium text-muted-foreground">Client</p>
-                    <p className="text-sm font-medium">{caseStudy.client || "Confidential"}</p>
+                    <p className="text-sm font-medium">{caseStudy.sections.client}</p>
                   </div>
                 </CardContent>
               </Card>
@@ -116,9 +128,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
                     </div>
                     <h2 className="text-lg font-semibold">Problem</h2>
                   </div>
-                  <p className="text-sm leading-relaxed text-muted-foreground">
-                    {caseStudy.problem || "Problem details are confidential."}
-                  </p>
+                  <p className="text-sm leading-relaxed text-muted-foreground">{caseStudy.sections.problem}</p>
                 </CardContent>
               </Card>
               <Card className="border-border/50 bg-card/50 p-0">
@@ -129,9 +139,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
                     </div>
                     <h2 className="text-lg font-semibold">Solution</h2>
                   </div>
-                  <p className="text-sm leading-relaxed text-muted-foreground">
-                    {caseStudy.solution || "Solution details are confidential."}
-                  </p>
+                  <p className="text-sm leading-relaxed text-muted-foreground">{caseStudy.sections.solution}</p>
                 </CardContent>
               </Card>
               <Card className="border-border/50 bg-card/50 p-0">
@@ -142,12 +150,30 @@ export default async function CaseStudyPage({ params }: PageProps) {
                     </div>
                     <h2 className="text-lg font-semibold">What's Next</h2>
                   </div>
-                  <p className="text-sm leading-relaxed text-muted-foreground">
-                    {caseStudy.whatsNext || "Next steps are being planned."}
-                  </p>
+                  <p className="text-sm leading-relaxed text-muted-foreground">{caseStudy.sections.whatsNext}</p>
                 </CardContent>
               </Card>
             </div>
+
+            {/* What We Did */}
+            <Card className="mb-12 border-border/50 bg-card/50 p-0">
+              <CardContent className="p-6">
+                <div className="mb-4 flex items-center gap-3">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10">
+                    <Wrench className="h-5 w-5 text-accent" />
+                  </div>
+                  <h2 className="text-lg font-semibold">What We Did</h2>
+                </div>
+                <ul className="grid gap-2 sm:grid-cols-2">
+                  {caseStudy.sections.whatWeDid.map((item, index) => (
+                    <li key={index} className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </CardContent>
+            </Card>
 
             {/* Outcome */}
             <Card className="mb-12 border-accent/30 bg-accent/5 p-0">
@@ -156,21 +182,9 @@ export default async function CaseStudyPage({ params }: PageProps) {
                   <CheckCircle2 className="h-5 w-5 text-accent" />
                   <h2 className="text-lg font-semibold">Outcome</h2>
                 </div>
-                <p className="text-muted-foreground">{caseStudy.outcome}</p>
+                <p className="text-muted-foreground">{caseStudy.sections.outcome}</p>
               </CardContent>
             </Card>
-
-            {/* Highlights */}
-            <div className="mb-12">
-              <h2 className="mb-4 text-lg font-semibold">What We Did</h2>
-              <div className="flex flex-wrap gap-2">
-                {caseStudy.highlights.map((highlight) => (
-                  <Badge key={highlight} variant="secondary" className="text-sm">
-                    {highlight}
-                  </Badge>
-                ))}
-              </div>
-            </div>
 
             {/* Tech stack */}
             <div className="mb-12">
@@ -187,10 +201,10 @@ export default async function CaseStudyPage({ params }: PageProps) {
             {/* CTAs */}
             <div className="flex flex-col gap-4 border-t border-border/40 pt-8 sm:flex-row">
               <Button asChild size="lg" className="gap-2 bg-accent text-accent-foreground hover:bg-accent/90">
-                <Link href="/contact">Request a demo</Link>
+                <Link href={`/contact?subject=${contactSubject}`}>Request a demo</Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="gap-2 bg-transparent">
-                <Link href="/contact">Discuss a similar project</Link>
+                <Link href={`/contact?subject=${contactSubject}`}>Discuss a similar project</Link>
               </Button>
             </div>
           </div>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0a0a0a" width="800" height="500"/>
+  <rect fill="#141414" x="0" y="0" width="200" height="500"/>
+  <rect fill="#14b8a6" x="20" y="20" width="32" height="32" rx="6"/>
+  <text x="60" y="42" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="600">IAM Console</text>
+  <rect fill="transparent" x="16" y="80" width="168" height="36" rx="6"/>
+  <text x="52" y="102" fill="#888888" font-family="system-ui" font-size="12">Overview</text>
+  <rect fill="transparent" x="16" y="124" width="168" height="36" rx="6"/>
+  <text x="52" y="146" fill="#888888" font-family="system-ui" font-size="12">Users</text>
+  <rect fill="#1a1a1a" x="16" y="168" width="168" height="36" rx="6"/>
+  <circle fill="#14b8a6" cx="36" cy="186" r="8"/>
+  <text x="52" y="190" fill="#ffffff" font-family="system-ui" font-size="12">Applications</text>
+  <rect fill="transparent" x="16" y="212" width="168" height="36" rx="6"/>
+  <text x="52" y="234" fill="#888888" font-family="system-ui" font-size="12">Policies</text>
+  <text x="230" y="50" fill="#ffffff" font-family="system-ui" font-size="20" font-weight="600">Connected Applications</text>
+  <rect fill="#14b8a6" x="680" y="30" width="80" height="36" rx="6"/>
+  <text x="692" y="54" fill="#000000" font-family="system-ui" font-size="11" font-weight="500">+ Add App</text>
+  <!-- App Cards -->
+  <rect fill="#141414" x="230" y="80" width="250" height="130" rx="8"/>
+  <rect fill="#3b82f620" x="250" y="100" width="40" height="40" rx="8"/>
+  <text x="262" y="128" fill="#3b82f6" font-family="system-ui" font-size="16" font-weight="600">S</text>
+  <text x="300" y="118" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">Salesforce</text>
+  <text x="300" y="134" fill="#666666" font-family="system-ui" font-size="10">SAML 2.0</text>
+  <rect fill="#22c55e20" x="420" y="108" width="45" height="18" rx="9"/>
+  <text x="430" y="120" fill="#22c55e" font-family="system-ui" font-size="9">Active</text>
+  <text x="250" y="165" fill="#888888" font-family="system-ui" font-size="10">Users: 12,450</text>
+  <text x="340" y="165" fill="#888888" font-family="system-ui" font-size="10">Logins: 45K/day</text>
+  <text x="250" y="185" fill="#666666" font-family="system-ui" font-size="9">Last sync: 2 minutes ago</text>
+  
+  <rect fill="#141414" x="510" y="80" width="250" height="130" rx="8"/>
+  <rect fill="#f59e0b20" x="530" y="100" width="40" height="40" rx="8"/>
+  <text x="542" y="128" fill="#f59e0b" font-family="system-ui" font-size="16" font-weight="600">J</text>
+  <text x="580" y="118" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">Jira</text>
+  <text x="580" y="134" fill="#666666" font-family="system-ui" font-size="10">OIDC</text>
+  <rect fill="#22c55e20" x="700" y="108" width="45" height="18" rx="9"/>
+  <text x="710" y="120" fill="#22c55e" font-family="system-ui" font-size="9">Active</text>
+  <text x="530" y="165" fill="#888888" font-family="system-ui" font-size="10">Users: 8,230</text>
+  <text x="620" y="165" fill="#888888" font-family="system-ui" font-size="10">Logins: 22K/day</text>
+  <text x="530" y="185" fill="#666666" font-family="system-ui" font-size="9">Last sync: 5 minutes ago</text>
+  
+  <rect fill="#141414" x="230" y="230" width="250" height="130" rx="8"/>
+  <rect fill="#8b5cf620" x="250" y="250" width="40" height="40" rx="8"/>
+  <text x="262" y="278" fill="#8b5cf6" font-family="system-ui" font-size="16" font-weight="600">G</text>
+  <text x="300" y="268" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">GitHub Enterprise</text>
+  <text x="300" y="284" fill="#666666" font-family="system-ui" font-size="10">SAML 2.0</text>
+  <rect fill="#22c55e20" x="420" y="258" width="45" height="18" rx="9"/>
+  <text x="430" y="270" fill="#22c55e" font-family="system-ui" font-size="9">Active</text>
+  <text x="250" y="315" fill="#888888" font-family="system-ui" font-size="10">Users: 3,450</text>
+  <text x="340" y="315" fill="#888888" font-family="system-ui" font-size="10">Logins: 8K/day</text>
+  <text x="250" y="335" fill="#666666" font-family="system-ui" font-size="9">Last sync: 1 minute ago</text>
+  
+  <rect fill="#141414" x="510" y="230" width="250" height="130" rx="8"/>
+  <rect fill="#ec489920" x="530" y="250" width="40" height="40" rx="8"/>
+  <text x="542" y="278" fill="#ec4899" font-family="system-ui" font-size="16" font-weight="600">W</text>
+  <text x="580" y="268" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">Workday</text>
+  <text x="580" y="284" fill="#666666" font-family="system-ui" font-size="10">SCIM + SAML</text>
+  <rect fill="#22c55e20" x="700" y="258" width="45" height="18" rx="9"/>
+  <text x="710" y="270" fill="#22c55e" font-family="system-ui" font-size="9">Active</text>
+  <text x="530" y="315" fill="#888888" font-family="system-ui" font-size="10">Users: 24,547</text>
+  <text x="625" y="315" fill="#888888" font-family="system-ui" font-size="10">Logins: 65K/day</text>
+  <text x="530" y="335" fill="#666666" font-family="system-ui" font-size="9">Last sync: 30 seconds ago</text>
+  <!-- Stats -->
+  <rect fill="#141414" x="230" y="380" width="530" height="100" rx="8"/>
+  <text x="250" y="410" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">Integration Health</text>
+  <rect fill="#22c55e20" x="250" y="430" width="120" height="35" rx="6"/>
+  <text x="272" y="452" fill="#22c55e" font-family="system-ui" font-size="11">47 Connected</text>
+  <rect fill="#f59e0b20" x="380" y="430" width="120" height="35" rx="6"/>
+  <text x="405" y="452" fill="#f59e0b" font-family="system-ui" font-size="11">3 Warning</text>
+  <rect fill="#ef444420" x="510" y="430" width="120" height="35" rx="6"/>
+  <text x="545" y="452" fill="#ef4444" font-family="system-ui" font-size="11">1 Error</text>
+</svg>

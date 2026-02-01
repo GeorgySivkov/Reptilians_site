@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#111111"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bg2)" width="800" height="500"/>
+  <!-- Sidebar -->
+  <rect fill="#141414" x="0" y="0" width="200" height="500"/>
+  <rect fill="#14b8a6" x="20" y="20" width="32" height="32" rx="6"/>
+  <text x="60" y="42" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="600">HR Platform</text>
+  <rect fill="transparent" x="16" y="80" width="168" height="36" rx="6"/>
+  <circle fill="#404040" cx="36" cy="98" r="8"/>
+  <text x="52" y="102" fill="#888888" font-family="system-ui" font-size="12">Dashboard</text>
+  <rect fill="#1a1a1a" x="16" y="124" width="168" height="36" rx="6"/>
+  <circle fill="#14b8a6" cx="36" cy="142" r="8"/>
+  <text x="52" y="146" fill="#ffffff" font-family="system-ui" font-size="12">Employees</text>
+  <!-- Main Content -->
+  <text x="230" y="50" fill="#ffffff" font-family="system-ui" font-size="20" font-weight="600">Employee Directory</text>
+  <!-- Search and Filters -->
+  <rect fill="#141414" x="230" y="80" width="300" height="36" rx="6"/>
+  <text x="250" y="104" fill="#666666" font-family="system-ui" font-size="12">Search employees...</text>
+  <rect fill="#14b8a6" x="680" y="80" width="80" height="36" rx="6"/>
+  <text x="700" y="104" fill="#000000" font-family="system-ui" font-size="12" font-weight="500">+ Add</text>
+  <!-- Table Header -->
+  <rect fill="#141414" x="230" y="130" width="530" height="40" rx="6"/>
+  <text x="250" y="156" fill="#888888" font-family="system-ui" font-size="11" font-weight="500">NAME</text>
+  <text x="380" y="156" fill="#888888" font-family="system-ui" font-size="11" font-weight="500">DEPARTMENT</text>
+  <text x="500" y="156" fill="#888888" font-family="system-ui" font-size="11" font-weight="500">ROLE</text>
+  <text x="620" y="156" fill="#888888" font-family="system-ui" font-size="11" font-weight="500">STATUS</text>
+  <text x="710" y="156" fill="#888888" font-family="system-ui" font-size="11" font-weight="500">ACTIONS</text>
+  <!-- Table Rows -->
+  <rect fill="#0f0f0f" x="230" y="175" width="530" height="50" rx="0"/>
+  <circle fill="#3b82f6" cx="260" cy="200" r="16"/>
+  <text x="252" y="205" fill="#ffffff" font-family="system-ui" font-size="11" font-weight="500">JS</text>
+  <text x="285" y="196" fill="#ffffff" font-family="system-ui" font-size="12">John Smith</text>
+  <text x="285" y="210" fill="#666666" font-family="system-ui" font-size="10">john@company.com</text>
+  <text x="380" y="204" fill="#888888" font-family="system-ui" font-size="12">Engineering</text>
+  <text x="500" y="204" fill="#888888" font-family="system-ui" font-size="12">Senior Dev</text>
+  <rect fill="#22c55e20" x="620" y="192" width="50" height="20" rx="10"/>
+  <text x="630" y="206" fill="#22c55e" font-family="system-ui" font-size="10">Active</text>
+  <circle fill="#333333" cx="720" cy="200" r="12"/>
+  <text x="717" y="204" fill="#888888" font-family="system-ui" font-size="10">...</text>
+  
+  <rect fill="#141414" x="230" y="230" width="530" height="50" rx="0"/>
+  <circle fill="#8b5cf6" cx="260" cy="255" r="16"/>
+  <text x="252" y="260" fill="#ffffff" font-family="system-ui" font-size="11" font-weight="500">EJ</text>
+  <text x="285" y="251" fill="#ffffff" font-family="system-ui" font-size="12">Emma Johnson</text>
+  <text x="285" y="265" fill="#666666" font-family="system-ui" font-size="10">emma@company.com</text>
+  <text x="380" y="259" fill="#888888" font-family="system-ui" font-size="12">Product</text>
+  <text x="500" y="259" fill="#888888" font-family="system-ui" font-size="12">PM Lead</text>
+  <rect fill="#22c55e20" x="620" y="247" width="50" height="20" rx="10"/>
+  <text x="630" y="261" fill="#22c55e" font-family="system-ui" font-size="10">Active</text>
+  <circle fill="#333333" cx="720" cy="255" r="12"/>
+  
+  <rect fill="#0f0f0f" x="230" y="285" width="530" height="50" rx="0"/>
+  <circle fill="#f59e0b" cx="260" cy="310" r="16"/>
+  <text x="252" y="315" fill="#ffffff" font-family="system-ui" font-size="11" font-weight="500">MB</text>
+  <text x="285" y="306" fill="#ffffff" font-family="system-ui" font-size="12">Michael Brown</text>
+  <text x="285" y="320" fill="#666666" font-family="system-ui" font-size="10">michael@company.com</text>
+  <text x="380" y="314" fill="#888888" font-family="system-ui" font-size="12">Design</text>
+  <text x="500" y="314" fill="#888888" font-family="system-ui" font-size="12">UX Designer</text>
+  <rect fill="#f59e0b20" x="620" y="302" width="60" height="20" rx="10"/>
+  <text x="628" y="316" fill="#f59e0b" font-family="system-ui" font-size="10">On Leave</text>
+  
+  <rect fill="#141414" x="230" y="340" width="530" height="50" rx="0"/>
+  <circle fill="#ec4899" cx="260" cy="365" r="16"/>
+  <text x="252" y="370" fill="#ffffff" font-family="system-ui" font-size="11" font-weight="500">SW</text>
+  <text x="285" y="361" fill="#ffffff" font-family="system-ui" font-size="12">Sarah Wilson</text>
+  <text x="285" y="375" fill="#666666" font-family="system-ui" font-size="10">sarah@company.com</text>
+  <text x="380" y="369" fill="#888888" font-family="system-ui" font-size="12">Marketing</text>
+  <text x="500" y="369" fill="#888888" font-family="system-ui" font-size="12">Director</text>
+  <rect fill="#22c55e20" x="620" y="357" width="50" height="20" rx="10"/>
+  <text x="630" y="371" fill="#22c55e" font-family="system-ui" font-size="10">Active</text>
+  
+  <!-- Pagination -->
+  <rect fill="#141414" x="230" y="420" width="530" height="50" rx="8"/>
+  <text x="250" y="450" fill="#666666" font-family="system-ui" font-size="12">Showing 1-10 of 1,247 employees</text>
+  <rect fill="#1a1a1a" x="620" y="435" width="30" height="24" rx="4"/>
+  <text x="630" y="452" fill="#888888" font-family="system-ui" font-size="11">1</text>
+  <rect fill="#333333" x="655" y="435" width="30" height="24" rx="4"/>
+  <text x="665" y="452" fill="#ffffff" font-family="system-ui" font-size="11">2</text>
+  <rect fill="#333333" x="690" y="435" width="30" height="24" rx="4"/>
+  <text x="700" y="452" fill="#ffffff" font-family="system-ui" font-size="11">3</text>
+</svg>

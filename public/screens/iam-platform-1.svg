@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0a0a0a" width="800" height="500"/>
+  <rect fill="#141414" x="0" y="0" width="200" height="500"/>
+  <rect fill="#14b8a6" x="20" y="20" width="32" height="32" rx="6"/>
+  <text x="60" y="42" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="600">IAM Console</text>
+  <rect fill="#1a1a1a" x="16" y="80" width="168" height="36" rx="6"/>
+  <text x="52" y="102" fill="#ffffff" font-family="system-ui" font-size="12">Overview</text>
+  <rect fill="transparent" x="16" y="124" width="168" height="36" rx="6"/>
+  <text x="52" y="146" fill="#888888" font-family="system-ui" font-size="12">Users</text>
+  <rect fill="transparent" x="16" y="168" width="168" height="36" rx="6"/>
+  <text x="52" y="190" fill="#888888" font-family="system-ui" font-size="12">Applications</text>
+  <rect fill="transparent" x="16" y="212" width="168" height="36" rx="6"/>
+  <text x="52" y="234" fill="#888888" font-family="system-ui" font-size="12">Policies</text>
+  <text x="230" y="50" fill="#ffffff" font-family="system-ui" font-size="20" font-weight="600">Security Overview</text>
+  <!-- Stats -->
+  <rect fill="#141414" x="230" y="80" width="130" height="90" rx="8"/>
+  <text x="250" y="108" fill="#888888" font-family="system-ui" font-size="10">Active Users</text>
+  <text x="250" y="140" fill="#ffffff" font-family="system-ui" font-size="28" font-weight="600">24.5K</text>
+  <text x="250" y="158" fill="#22c55e" font-family="system-ui" font-size="10">+3.2% today</text>
+  <rect fill="#141414" x="370" y="80" width="130" height="90" rx="8"/>
+  <text x="390" y="108" fill="#888888" font-family="system-ui" font-size="10">Auth Requests</text>
+  <text x="390" y="140" fill="#ffffff" font-family="system-ui" font-size="28" font-weight="600">1.2M</text>
+  <text x="390" y="158" fill="#888888" font-family="system-ui" font-size="10">Last 24 hours</text>
+  <rect fill="#141414" x="510" y="80" width="130" height="90" rx="8"/>
+  <text x="530" y="108" fill="#888888" font-family="system-ui" font-size="10">Failed Logins</text>
+  <text x="530" y="140" fill="#ffffff" font-family="system-ui" font-size="28" font-weight="600">847</text>
+  <text x="530" y="158" fill="#ef4444" font-family="system-ui" font-size="10">12 blocked IPs</text>
+  <rect fill="#141414" x="650" y="80" width="110" height="90" rx="8"/>
+  <text x="668" y="108" fill="#888888" font-family="system-ui" font-size="10">Avg Latency</text>
+  <text x="668" y="140" fill="#ffffff" font-family="system-ui" font-size="28" font-weight="600">42ms</text>
+  <text x="668" y="158" fill="#22c55e" font-family="system-ui" font-size="10">Within SLA</text>
+  <!-- Chart -->
+  <rect fill="#141414" x="230" y="190" width="350" height="200" rx="8"/>
+  <text x="250" y="220" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">Authentication Volume</text>
+  <polyline fill="none" stroke="#14b8a6" stroke-width="2" points="260,360 300,340 340,350 380,310 420,290 460,300 500,260 540,250"/>
+  <polyline fill="none" stroke="#3b82f6" stroke-width="2" points="260,370 300,365 340,368 380,360 420,355 460,358 500,350 540,348"/>
+  <circle fill="#14b8a6" cx="540" cy="250" r="4"/>
+  <circle fill="#3b82f6" cx="540" cy="348" r="4"/>
+  <rect fill="#14b8a620" x="260" y="378" width="60" height="6" rx="3"/>
+  <text x="326" y="384" fill="#888888" font-family="system-ui" font-size="9">Successful</text>
+  <rect fill="#3b82f620" x="400" y="378" width="60" height="6" rx="3"/>
+  <text x="466" y="384" fill="#888888" font-family="system-ui" font-size="9">MFA Required</text>
+  <!-- Security Events -->
+  <rect fill="#141414" x="590" y="190" width="170" height="200" rx="8"/>
+  <text x="610" y="220" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="500">Security Events</text>
+  <rect fill="#ef444420" x="602" y="240" width="146" height="40" rx="4"/>
+  <text x="612" y="258" fill="#ef4444" font-family="system-ui" font-size="10" font-weight="500">Brute Force Attempt</text>
+  <text x="612" y="272" fill="#666666" font-family="system-ui" font-size="9">IP blocked: 192.168.1.1</text>
+  <rect fill="#f59e0b20" x="602" y="288" width="146" height="40" rx="4"/>
+  <text x="612" y="306" fill="#f59e0b" font-family="system-ui" font-size="10" font-weight="500">Suspicious Login</text>
+  <text x="612" y="320" fill="#666666" font-family="system-ui" font-size="9">New device detected</text>
+  <rect fill="#22c55e20" x="602" y="336" width="146" height="40" rx="4"/>
+  <text x="612" y="354" fill="#22c55e" font-family="system-ui" font-size="10" font-weight="500">MFA Enrolled</text>
+  <text x="612" y="368" fill="#666666" font-family="system-ui" font-size="9">user@example.com</text>
+  <!-- Bottom -->
+  <rect fill="#141414" x="230" y="410" width="530" height="70" rx="8"/>
+  <text x="250" y="440" fill="#ffffff" font-family="system-ui" font-size="12" font-weight="500">Quick Actions</text>
+  <rect fill="#1a1a1a" x="250" y="452" width="100" height="20" rx="4"/>
+  <text x="270" y="466" fill="#888888" font-family="system-ui" font-size="9">Add User</text>
+  <rect fill="#1a1a1a" x="360" y="452" width="100" height="20" rx="4"/>
+  <text x="376" y="466" fill="#888888" font-family="system-ui" font-size="9">Create Policy</text>
+  <rect fill="#1a1a1a" x="470" y="452" width="100" height="20" rx="4"/>
+  <text x="485" y="466" fill="#888888" font-family="system-ui" font-size="9">View Audit Log</text>
+</svg>

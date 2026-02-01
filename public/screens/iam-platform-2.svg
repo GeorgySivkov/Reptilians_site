@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0a0a0a" width="800" height="500"/>
+  <rect fill="#141414" x="0" y="0" width="200" height="500"/>
+  <rect fill="#14b8a6" x="20" y="20" width="32" height="32" rx="6"/>
+  <text x="60" y="42" fill="#ffffff" font-family="system-ui" font-size="14" font-weight="600">IAM Console</text>
+  <rect fill="transparent" x="16" y="80" width="168" height="36" rx="6"/>
+  <text x="52" y="102" fill="#888888" font-family="system-ui" font-size="12">Overview</text>
+  <rect fill="#1a1a1a" x="16" y="124" width="168" height="36" rx="6"/>
+  <circle fill="#14b8a6" cx="36" cy="142" r="8"/>
+  <text x="52" y="146" fill="#ffffff" font-family="system-ui" font-size="12">Users</text>
+  <rect fill="transparent" x="16" y="168" width="168" height="36" rx="6"/>
+  <text x="52" y="190" fill="#888888" font-family="system-ui" font-size="12">Applications</text>
+  <text x="230" y="50" fill="#ffffff" font-family="system-ui" font-size="20" font-weight="600">User Management</text>
+  <!-- Search and Actions -->
+  <rect fill="#141414" x="230" y="80" width="280" height="36" rx="6"/>
+  <text x="250" y="104" fill="#666666" font-family="system-ui" font-size="12">Search users by email or name...</text>
+  <rect fill="#1a1a1a" x="520" y="80" width="80" height="36" rx="6"/>
+  <text x="538" y="104" fill="#888888" font-family="system-ui" font-size="11">Filters</text>
+  <rect fill="#14b8a6" x="680" y="80" width="80" height="36" rx="6"/>
+  <text x="697" y="104" fill="#000000" font-family="system-ui" font-size="11" font-weight="500">+ Add</text>
+  <!-- User Table -->
+  <rect fill="#141414" x="230" y="130" width="530" height="40" rx="6"/>
+  <text x="250" y="156" fill="#888888" font-family="system-ui" font-size="10" font-weight="500">USER</text>
+  <text x="400" y="156" fill="#888888" font-family="system-ui" font-size="10" font-weight="500">ROLE</text>
+  <text x="500" y="156" fill="#888888" font-family="system-ui" font-size="10" font-weight="500">MFA</text>
+  <text x="580" y="156" fill="#888888" font-family="system-ui" font-size="10" font-weight="500">LAST LOGIN</text>
+  <text x="700" y="156" fill="#888888" font-family="system-ui" font-size="10" font-weight="500">STATUS</text>
+  <!-- User Rows -->
+  <rect fill="#0f0f0f" x="230" y="175" width="530" height="50"/>
+  <circle fill="#3b82f6" cx="260" cy="200" r="15"/>
+  <text x="253" y="205" fill="#ffffff" font-family="system-ui" font-size="10">AD</text>
+  <text x="285" y="196" fill="#ffffff" font-family="system-ui" font-size="11">admin@company.com</text>
+  <text x="285" y="210" fill="#666666" font-family="system-ui" font-size="9">Alex Davidson</text>
+  <text x="400" y="204" fill="#8b5cf6" font-family="system-ui" font-size="10">Super Admin</text>
+  <rect fill="#22c55e20" x="500" y="192" width="45" height="18" rx="9"/>
+  <text x="510" y="204" fill="#22c55e" font-family="system-ui" font-size="9">Enabled</text>
+  <text x="580" y="204" fill="#888888" font-family="system-ui" font-size="10">2 min ago</text>
+  <rect fill="#22c55e20" x="700" y="192" width="45" height="18" rx="9"/>
+  <text x="710" y="204" fill="#22c55e" font-family="system-ui" font-size="9">Active</text>
+  
+  <rect fill="#141414" x="230" y="230" width="530" height="50"/>
+  <circle fill="#f59e0b" cx="260" cy="255" r="15"/>
+  <text x="253" y="260" fill="#ffffff" font-family="system-ui" font-size="10">JM</text>
+  <text x="285" y="251" fill="#ffffff" font-family="system-ui" font-size="11">john.m@company.com</text>
+  <text x="285" y="265" fill="#666666" font-family="system-ui" font-size="9">John Martinez</text>
+  <text x="400" y="259" fill="#3b82f6" font-family="system-ui" font-size="10">Developer</text>
+  <rect fill="#22c55e20" x="500" y="247" width="45" height="18" rx="9"/>
+  <text x="510" y="259" fill="#22c55e" font-family="system-ui" font-size="9">Enabled</text>
+  <text x="580" y="259" fill="#888888" font-family="system-ui" font-size="10">1 hour ago</text>
+  <rect fill="#22c55e20" x="700" y="247" width="45" height="18" rx="9"/>
+  <text x="710" y="259" fill="#22c55e" font-family="system-ui" font-size="9">Active</text>
+  
+  <rect fill="#0f0f0f" x="230" y="285" width="530" height="50"/>
+  <circle fill="#ec4899" cx="260" cy="310" r="15"/>
+  <text x="253" y="315" fill="#ffffff" font-family="system-ui" font-size="10">SL</text>
+  <text x="285" y="306" fill="#ffffff" font-family="system-ui" font-size="11">sarah.l@company.com</text>
+  <text x="285" y="320" fill="#666666" font-family="system-ui" font-size="9">Sarah Lee</text>
+  <text x="400" y="314" fill="#14b8a6" font-family="system-ui" font-size="10">Manager</text>
+  <rect fill="#f59e0b20" x="500" y="302" width="50" height="18" rx="9"/>
+  <text x="508" y="314" fill="#f59e0b" font-family="system-ui" font-size="9">Pending</text>
+  <text x="580" y="314" fill="#888888" font-family="system-ui" font-size="10">3 days ago</text>
+  <rect fill="#22c55e20" x="700" y="302" width="45" height="18" rx="9"/>
+  <text x="710" y="314" fill="#22c55e" font-family="system-ui" font-size="9">Active</text>
+  
+  <rect fill="#141414" x="230" y="340" width="530" height="50"/>
+  <circle fill="#8b5cf6" cx="260" cy="365" r="15"/>
+  <text x="253" y="370" fill="#ffffff" font-family="system-ui" font-size="10">RK</text>
+  <text x="285" y="361" fill="#ffffff" font-family="system-ui" font-size="11">robert.k@company.com</text>
+  <text x="285" y="375" fill="#666666" font-family="system-ui" font-size="9">Robert Kim</text>
+  <text x="400" y="369" fill="#888888" font-family="system-ui" font-size="10">Viewer</text>
+  <rect fill="#ef444420" x="500" y="357" width="50" height="18" rx="9"/>
+  <text x="508" y="369" fill="#ef4444" font-family="system-ui" font-size="9">Disabled</text>
+  <text x="580" y="369" fill="#888888" font-family="system-ui" font-size="10">2 weeks ago</text>
+  <rect fill="#ef444420" x="700" y="357" width="50" height="18" rx="9"/>
+  <text x="707" y="369" fill="#ef4444" font-family="system-ui" font-size="9">Locked</text>
+  <!-- Pagination -->
+  <rect fill="#141414" x="230" y="420" width="530" height="50" rx="8"/>
+  <text x="250" y="450" fill="#666666" font-family="system-ui" font-size="11">Showing 1-25 of 24,547 users</text>
+  <text x="680" y="450" fill="#888888" font-family="system-ui" font-size="11">1 2 3 ... 982</text>
+</svg>
