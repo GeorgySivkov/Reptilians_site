@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0f1419" width="800" height="500"/>
+  <rect fill="#1e2433" x="100" y="20" width="250" height="460" rx="24"/>
+  <rect fill="#0f1419" x="110" y="30" width="230" height="440" rx="20"/>
+  <rect fill="#1e2433" x="110" y="30" width="230" height="50"/>
+  <text fill="#f3f4f6" x="200" y="62" font-size="14" font-weight="bold">Swap</text>
+  <rect fill="#1e2433" x="125" y="95" width="200" height="90" rx="12"/>
+  <text fill="#9ca3af" x="145" y="120" font-size="10">From</text>
+  <circle fill="#f59e0b" cx="160" cy="155" r="14"/>
+  <text fill="#0f1419" x="150" y="159" font-size="8">BTC</text>
+  <text fill="#f3f4f6" x="185" y="150" font-size="10" font-weight="500">Bitcoin</text>
+  <text fill="#f3f4f6" x="185" y="165" font-size="18" font-weight="bold">0.025</text>
+  <text fill="#9ca3af" x="260" y="165" font-size="10">≈ $1,073</text>
+  <circle fill="#f59e0b" cx="225" cy="200" r="16"/>
+  <text fill="#0f1419" x="218" y="205" font-size="12">⟳</text>
+  <rect fill="#1e2433" x="125" y="220" width="200" height="90" rx="12"/>
+  <text fill="#9ca3af" x="145" y="245" font-size="10">To</text>
+  <circle fill="#6366f1" cx="160" cy="280" r="14"/>
+  <text fill="#fff" x="150" y="284" font-size="8">ETH</text>
+  <text fill="#f3f4f6" x="185" y="275" font-size="10" font-weight="500">Ethereum</text>
+  <text fill="#f3f4f6" x="185" y="290" font-size="18" font-weight="bold">0.450</text>
+  <text fill="#9ca3af" x="260" y="290" font-size="10">≈ $1,072</text>
+  <rect fill="#1e2433" x="125" y="325" width="200" height="70" rx="12"/>
+  <text fill="#9ca3af" x="145" y="350" font-size="9">Rate: 1 BTC = 18.0 ETH</text>
+  <text fill="#9ca3af" x="145" y="370" font-size="9">Fee: 0.25%</text>
+  <text fill="#9ca3af" x="145" y="385" font-size="9">Slippage: 0.5%</text>
+  <rect fill="#f59e0b" x="125" y="410" width="200" height="45" rx="10"/>
+  <text fill="#0f1419" x="185" y="438" font-size="12" font-weight="bold">Swap</text>
+  <rect fill="#1e2433" x="450" y="20" width="250" height="460" rx="24"/>
+  <rect fill="#0f1419" x="460" y="30" width="230" height="440" rx="20"/>
+  <rect fill="#1e2433" x="460" y="30" width="230" height="50"/>
+  <text fill="#f3f4f6" x="535" y="62" font-size="14" font-weight="bold">Price Alerts</text>
+  <rect fill="#f59e0b" x="475" y="95" width="200" height="40" rx="8"/>
+  <text fill="#0f1419" x="530" y="120" font-size="11" font-weight="500">+ New Alert</text>
+  <text fill="#f3f4f6" x="475" y="165" font-size="11" font-weight="500">Active Alerts</text>
+  <rect fill="#1e2433" x="475" y="180" width="200" height="70" rx="10"/>
+  <circle fill="#f59e0b" cx="500" cy="215" r="12"/>
+  <text fill="#0f1419" x="492" y="219" font-size="8">BTC</text>
+  <text fill="#f3f4f6" x="525" y="205" font-size="10" font-weight="500">Bitcoin above $45,000</text>
+  <text fill="#9ca3af" x="525" y="222" font-size="9">Current: $42,928</text>
+  <rect fill="#22c55e" x="635" y="200" width="30" height="16" rx="8"/>
+  <circle fill="#fff" cx="655" cy="208" r="6"/>
+  <rect fill="#1e2433" x="475" y="260" width="200" height="70" rx="10"/>
+  <circle fill="#6366f1" cx="500" cy="295" r="12"/>
+  <text fill="#fff" x="492" y="299" font-size="8">ETH</text>
+  <text fill="#f3f4f6" x="525" y="285" font-size="10" font-weight="500">Ethereum below $2,200</text>
+  <text fill="#9ca3af" x="525" y="302" font-size="9">Current: $2,384</text>
+  <rect fill="#22c55e" x="635" y="280" width="30" height="16" rx="8"/>
+  <circle fill="#fff" cx="655" cy="288" r="6"/>
+  <rect fill="#1e2433" x="475" y="340" width="200" height="70" rx="10"/>
+  <circle fill="#3b82f6" cx="500" cy="375" r="12"/>
+  <text fill="#fff" x="492" y="379" font-size="8">SOL</text>
+  <text fill="#f3f4f6" x="525" y="365" font-size="10" font-weight="500">Solana above $150</text>
+  <text fill="#9ca3af" x="525" y="382" font-size="9">Current: $124.56</text>
+  <rect fill="#374151" x="635" y="360" width="30" height="16" rx="8"/>
+  <circle fill="#9ca3af" cx="645" cy="368" r="6"/>
+</svg>

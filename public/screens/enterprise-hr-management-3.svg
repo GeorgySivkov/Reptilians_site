@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- LIGHT Theme HR Employee Profile Detail -->
+  <rect width="800" height="500" fill="#f1f5f9"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="55" fill="#ffffff"/>
+  <rect x="0" y="54" width="800" height="1" fill="#e2e8f0"/>
+  <text x="20" y="35" font-family="Arial" font-size="12" fill="#6366f1">← Back to Employees</text>
+  <rect x="700" y="15" width="80" height="28" rx="6" fill="#6366f1"/>
+  <text x="718" y="33" font-family="Arial" font-size="11" fill="#ffffff">Edit Profile</text>
+  
+  <!-- Profile header card -->
+  <rect x="20" y="70" width="760" height="120" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+  <circle cx="90" cy="130" r="40" fill="#ddd6fe"/>
+  <text x="73" y="140" font-family="Arial" font-size="22" font-weight="600" fill="#6366f1">SC</text>
+  
+  <text x="150" y="105" font-family="Arial" font-size="20" font-weight="600" fill="#1e293b">Sarah Chen</text>
+  <text x="150" y="125" font-family="Arial" font-size="13" fill="#64748b">Senior Software Developer</text>
+  <text x="150" y="148" font-family="Arial" font-size="12" fill="#94a3b8">Engineering Department • San Francisco Office</text>
+  
+  <rect x="150" y="160" width="55" height="22" rx="11" fill="#dcfce7"/>
+  <text x="163" y="175" font-family="Arial" font-size="10" fill="#16a34a">Active</text>
+  
+  <rect x="215" y="160" width="65" height="22" rx="11" fill="#eef2ff"/>
+  <text x="225" y="175" font-family="Arial" font-size="10" fill="#6366f1">Full-time</text>
+  
+  <!-- Quick stats on right -->
+  <text x="520" y="100" font-family="Arial" font-size="10" fill="#94a3b8">EMPLOYEE ID</text>
+  <text x="520" y="118" font-family="Arial" font-size="14" font-weight="500" fill="#1e293b">EMP-2022-0147</text>
+  
+  <text x="520" y="145" font-family="Arial" font-size="10" fill="#94a3b8">START DATE</text>
+  <text x="520" y="163" font-family="Arial" font-size="14" font-weight="500" fill="#1e293b">Jan 15, 2022</text>
+  
+  <text x="660" y="100" font-family="Arial" font-size="10" fill="#94a3b8">MANAGER</text>
+  <text x="660" y="118" font-family="Arial" font-size="14" font-weight="500" fill="#1e293b">John Park</text>
+  
+  <text x="660" y="145" font-family="Arial" font-size="10" fill="#94a3b8">TENURE</text>
+  <text x="660" y="163" font-family="Arial" font-size="14" font-weight="500" fill="#1e293b">2y 6m</text>
+  
+  <!-- Tabs -->
+  <rect x="20" y="205" width="760" height="40" rx="8" fill="#ffffff"/>
+  <rect x="30" y="238" width="60" height="3" fill="#6366f1"/>
+  <text x="35" y="230" font-family="Arial" font-size="12" font-weight="600" fill="#6366f1">Overview</text>
+  <text x="120" y="230" font-family="Arial" font-size="12" fill="#64748b">Documents</text>
+  <text x="210" y="230" font-family="Arial" font-size="12" fill="#64748b">Performance</text>
+  <text x="310" y="230" font-family="Arial" font-size="12" fill="#64748b">Time Off</text>
+  <text x="390" y="230" font-family="Arial" font-size="12" fill="#64748b">Compensation</text>
+  
+  <!-- Left column - Personal Info -->
+  <rect x="20" y="260" width="370" height="220" rx="12" fill="#ffffff"/>
+  <text x="40" y="290" font-family="Arial" font-size="14" font-weight="600" fill="#1e293b">Personal Information</text>
+  
+  <text x="40" y="320" font-family="Arial" font-size="11" fill="#94a3b8">Email</text>
+  <text x="40" y="336" font-family="Arial" font-size="13" fill="#1e293b">sarah.chen@company.com</text>
+  
+  <text x="220" y="320" font-family="Arial" font-size="11" fill="#94a3b8">Phone</text>
+  <text x="220" y="336" font-family="Arial" font-size="13" fill="#1e293b">+1 (555) 123-4567</text>
+  
+  <text x="40" y="370" font-family="Arial" font-size="11" fill="#94a3b8">Location</text>
+  <text x="40" y="386" font-family="Arial" font-size="13" fill="#1e293b">San Francisco, CA</text>
+  
+  <text x="220" y="370" font-family="Arial" font-size="11" fill="#94a3b8">Work Setup</text>
+  <text x="220" y="386" font-family="Arial" font-size="13" fill="#1e293b">Hybrid (3 days)</text>
+  
+  <text x="40" y="420" font-family="Arial" font-size="11" fill="#94a3b8">Team</text>
+  <text x="40" y="436" font-family="Arial" font-size="13" fill="#1e293b">Platform Engineering</text>
+  
+  <text x="220" y="420" font-family="Arial" font-size="11" fill="#94a3b8">Reports To</text>
+  <text x="220" y="436" font-family="Arial" font-size="13" fill="#1e293b">John Park (VP Eng)</text>
+  
+  <!-- Right column - Activity Timeline -->
+  <rect x="410" y="260" width="370" height="220" rx="12" fill="#ffffff"/>
+  <text x="430" y="290" font-family="Arial" font-size="14" font-weight="600" fill="#1e293b">Recent Activity</text>
+  
+  <rect x="430" y="310" width="4" height="150" fill="#e2e8f0" rx="2"/>
+  
+  <circle cx="432" cy="325" r="8" fill="#6366f1"/>
+  <text x="455" y="322" font-family="Arial" font-size="12" font-weight="500" fill="#1e293b">Performance review completed</text>
+  <text x="455" y="337" font-family="Arial" font-size="10" fill="#94a3b8">2 days ago • Exceeded expectations</text>
+  
+  <circle cx="432" cy="375" r="8" fill="#10b981"/>
+  <text x="455" y="372" font-family="Arial" font-size="12" font-weight="500" fill="#1e293b">Promoted to Senior Developer</text>
+  <text x="455" y="387" font-family="Arial" font-size="10" fill="#94a3b8">1 month ago</text>
+  
+  <circle cx="432" cy="425" r="8" fill="#f59e0b"/>
+  <text x="455" y="422" font-family="Arial" font-size="12" font-weight="500" fill="#1e293b">Completed AWS certification</text>
+  <text x="455" y="437" font-family="Arial" font-size="10" fill="#94a3b8">2 months ago</text>
+  
+  <circle cx="432" cy="460" r="8" fill="#e2e8f0"/>
+  <text x="455" y="457" font-family="Arial" font-size="12" font-weight="500" fill="#1e293b">Joined Platform Engineering</text>
+  <text x="455" y="472" font-family="Arial" font-size="10" fill="#94a3b8">Jan 15, 2022</text>
+</svg>

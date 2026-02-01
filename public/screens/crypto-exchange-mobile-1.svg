@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0f1419" width="800" height="500"/>
+  <rect fill="#1e2433" x="100" y="20" width="250" height="460" rx="24"/>
+  <rect fill="#0f1419" x="110" y="30" width="230" height="440" rx="20"/>
+  <rect fill="#1e2433" x="110" y="30" width="230" height="50"/>
+  <text fill="#f3f4f6" x="195" y="62" font-size="14" font-weight="bold">Portfolio</text>
+  <circle fill="#374151" cx="305" cy="55" r="14"/>
+  <rect fill="#f59e0b" opacity="0.2" x="125" y="95" width="200" height="90" rx="12"/>
+  <text fill="#9ca3af" x="145" y="120" font-size="10">Total Balance</text>
+  <text fill="#f3f4f6" x="145" y="155" font-size="28" font-weight="bold">$24,847.32</text>
+  <text fill="#22c55e" x="145" y="175" font-size="10">↑ $1,234.56 (5.23%) today</text>
+  <rect fill="#1e2433" x="125" y="200" width="95" height="55" rx="10"/>
+  <text fill="#9ca3af" x="140" y="222" font-size="9">24h Change</text>
+  <text fill="#22c55e" x="140" y="242" font-size="14" font-weight="bold">+5.23%</text>
+  <rect fill="#1e2433" x="230" y="200" width="95" height="55" rx="10"/>
+  <text fill="#9ca3af" x="245" y="222" font-size="9">Assets</text>
+  <text fill="#f3f4f6" x="245" y="242" font-size="14" font-weight="bold">7</text>
+  <text fill="#f3f4f6" x="125" y="280" font-size="11" font-weight="500">Holdings</text>
+  <rect fill="#1e2433" x="125" y="295" width="200" height="50" rx="8"/>
+  <circle fill="#f59e0b" cx="150" cy="320" r="12"/>
+  <text fill="#fff" x="143" y="324" font-size="8">BTC</text>
+  <text fill="#f3f4f6" x="175" y="315" font-size="10" font-weight="500">Bitcoin</text>
+  <text fill="#9ca3af" x="175" y="330" font-size="8">0.425 BTC</text>
+  <text fill="#f3f4f6" x="270" y="315" font-size="10">$18,245</text>
+  <text fill="#22c55e" x="280" y="330" font-size="8">+4.2%</text>
+  <rect fill="#1e2433" x="125" y="355" width="200" height="50" rx="8"/>
+  <circle fill="#6366f1" cx="150" cy="380" r="12"/>
+  <text fill="#fff" x="143" y="384" font-size="8">ETH</text>
+  <text fill="#f3f4f6" x="175" y="375" font-size="10" font-weight="500">Ethereum</text>
+  <text fill="#9ca3af" x="175" y="390" font-size="8">2.15 ETH</text>
+  <text fill="#f3f4f6" x="275" y="375" font-size="10">$5,124</text>
+  <text fill="#22c55e" x="285" y="390" font-size="8">+6.8%</text>
+  <rect fill="#1e2433" x="110" y="420" width="230" height="50" rx="0"/>
+  <rect fill="#f59e0b" x="130" y="432" width="45" height="30" rx="6"/>
+  <text fill="#0f1419" x="143" y="452" font-size="9">Buy</text>
+  <rect fill="#374151" x="185" y="432" width="45" height="30" rx="6"/>
+  <text fill="#f3f4f6" x="198" y="452" font-size="9">Sell</text>
+  <rect fill="#374151" x="240" y="432" width="45" height="30" rx="6"/>
+  <text fill="#f3f4f6" x="248" y="452" font-size="9">Swap</text>
+  <rect fill="#374151" x="295" y="432" width="30" height="30" rx="6"/>
+  <rect fill="#1e2433" x="450" y="20" width="250" height="460" rx="24"/>
+  <rect fill="#0f1419" x="460" y="30" width="230" height="440" rx="20"/>
+  <rect fill="#1e2433" x="460" y="30" width="230" height="50"/>
+  <text fill="#f3f4f6" x="545" y="62" font-size="14" font-weight="bold">Markets</text>
+  <rect fill="#0f1419" x="475" y="95" width="200" height="30" rx="15"/>
+  <text fill="#9ca3af" x="495" y="115" font-size="10">Search coins...</text>
+  <rect fill="#f59e0b" opacity="0.1" x="475" y="140" width="200" height="60" rx="10"/>
+  <circle fill="#f59e0b" cx="500" cy="170" r="14"/>
+  <text fill="#fff" x="490" y="174" font-size="8">BTC</text>
+  <text fill="#f3f4f6" x="525" y="162" font-size="11" font-weight="500">Bitcoin</text>
+  <text fill="#9ca3af" x="525" y="178" font-size="9">$42,928.45</text>
+  <text fill="#22c55e" x="630" y="170" font-size="10">+4.2%</text>
+  <rect fill="#6366f1" opacity="0.1" x="475" y="210" width="200" height="60" rx="10"/>
+  <circle fill="#6366f1" cx="500" cy="240" r="14"/>
+  <text fill="#fff" x="490" y="244" font-size="8">ETH</text>
+  <text fill="#f3f4f6" x="525" y="232" font-size="11" font-weight="500">Ethereum</text>
+  <text fill="#9ca3af" x="525" y="248" font-size="9">$2,384.12</text>
+  <text fill="#22c55e" x="630" y="240" font-size="10">+6.8%</text>
+  <rect fill="#0f1419" x="475" y="280" width="200" height="60" rx="10"/>
+  <circle fill="#3b82f6" cx="500" cy="310" r="14"/>
+  <text fill="#fff" x="490" y="314" font-size="8">SOL</text>
+  <text fill="#f3f4f6" x="525" y="302" font-size="11" font-weight="500">Solana</text>
+  <text fill="#9ca3af" x="525" y="318" font-size="9">$124.56</text>
+  <text fill="#ef4444" x="635" y="310" font-size="10">-2.1%</text>
+  <rect fill="#0f1419" x="475" y="350" width="200" height="60" rx="10"/>
+  <circle fill="#22c55e" cx="500" cy="380" r="14"/>
+  <text fill="#fff" x="487" y="384" font-size="7">USDT</text>
+  <text fill="#f3f4f6" x="525" y="372" font-size="11" font-weight="500">Tether</text>
+  <text fill="#9ca3af" x="525" y="388" font-size="9">$1.00</text>
+  <text fill="#9ca3af" x="635" y="380" font-size="10">0.0%</text>
+</svg>

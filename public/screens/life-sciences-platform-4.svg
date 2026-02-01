@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- LIGHT Theme Life Sciences Protocol Library -->
+  <rect width="800" height="500" fill="#f0fdf4"/>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="180" height="500" fill="#ffffff"/>
+  <rect x="179" y="0" width="1" height="500" fill="#e2e8f0"/>
+  
+  <rect x="20" y="20" width="32" height="32" rx="6" fill="#059669"/>
+  <text x="60" y="42" font-family="Arial" font-size="14" font-weight="600" fill="#1e293b">LabOS</text>
+  
+  <text x="40" y="85" font-family="Arial" font-size="12" fill="#64748b">Dashboard</text>
+  <text x="40" y="117" font-family="Arial" font-size="12" fill="#64748b">Samples</text>
+  <text x="40" y="149" font-family="Arial" font-size="12" fill="#64748b">Experiments</text>
+  <text x="40" y="181" font-family="Arial" font-size="12" fill="#64748b">Equipment</text>
+  
+  <rect x="12" y="195" width="156" height="38" rx="6" fill="#ecfdf5"/>
+  <text x="40" y="219" font-family="Arial" font-size="12" fill="#059669" font-weight="500">Protocols</text>
+  
+  <!-- Header -->
+  <text x="200" y="45" font-family="Arial" font-size="20" font-weight="600" fill="#1e293b">Protocol Library</text>
+  
+  <rect x="200" y="60" width="200" height="34" rx="6" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="218" y="82" font-family="Arial" font-size="11" fill="#94a3b8">Search protocols...</text>
+  
+  <rect x="700" y="60" width="80" height="34" rx="6" fill="#059669"/>
+  <text x="717" y="82" font-family="Arial" font-size="11" fill="#ffffff">+ Create</text>
+  
+  <!-- Protocol cards -->
+  <rect x="200" y="110" width="280" height="170" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="200" y="110" width="280" height="50" rx="10" fill="#ecfdf5"/>
+  <text x="220" y="142" font-family="Arial" font-size="12" font-weight="600" fill="#059669">RT-qPCR Standard Protocol</text>
+  <text x="220" y="185" font-family="Arial" font-size="11" fill="#475569">Standard real-time PCR protocol for gene</text>
+  <text x="220" y="202" font-family="Arial" font-size="11" fill="#475569">expression analysis.</text>
+  <text x="220" y="230" font-family="Arial" font-size="10" fill="#64748b">Steps: 12 | Duration: ~4 hours</text>
+  <text x="220" y="250" font-family="Arial" font-size="10" fill="#64748b">Used: 156 times | Last: Jan 15, 2024</text>
+  <rect x="220" y="262" width="80" height="26" rx="4" fill="#ecfdf5"/>
+  <text x="238" y="280" font-family="Arial" font-size="10" fill="#059669">Use This</text>
+  
+  <rect x="500" y="110" width="280" height="170" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="500" y="110" width="280" height="50" rx="10" fill="#dcfce7"/>
+  <text x="520" y="142" font-family="Arial" font-size="12" font-weight="600" fill="#16a34a">Cell Culture - Adherent</text>
+  <text x="520" y="185" font-family="Arial" font-size="11" fill="#475569">Standard protocol for maintaining</text>
+  <text x="520" y="202" font-family="Arial" font-size="11" fill="#475569">adherent cell lines.</text>
+  <text x="520" y="230" font-family="Arial" font-size="10" fill="#64748b">Steps: 8 | Duration: ~1 hour</text>
+  <text x="520" y="250" font-family="Arial" font-size="10" fill="#64748b">Used: 342 times | Last: Jan 14, 2024</text>
+  <rect x="520" y="262" width="80" height="26" rx="4" fill="#dcfce7"/>
+  <text x="538" y="280" font-family="Arial" font-size="10" fill="#16a34a">Use This</text>
+  
+  <rect x="200" y="300" width="280" height="170" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="200" y="300" width="280" height="50" rx="10" fill="#fdf2f8"/>
+  <text x="220" y="332" font-family="Arial" font-size="12" font-weight="600" fill="#db2777">Western Blot - Standard</text>
+  <text x="220" y="375" font-family="Arial" font-size="11" fill="#475569">Complete western blotting protocol</text>
+  <text x="220" y="392" font-family="Arial" font-size="11" fill="#475569">with SDS-PAGE separation.</text>
+  <text x="220" y="420" font-family="Arial" font-size="10" fill="#64748b">Steps: 18 | Duration: ~8 hours</text>
+  <text x="220" y="440" font-family="Arial" font-size="10" fill="#64748b">Used: 89 times | Last: Jan 10, 2024</text>
+  <rect x="220" y="452" width="80" height="26" rx="4" fill="#fdf2f8"/>
+  <text x="238" y="470" font-family="Arial" font-size="10" fill="#db2777">Use This</text>
+  
+  <rect x="500" y="300" width="280" height="170" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="500" y="300" width="280" height="50" rx="10" fill="#fef3c7"/>
+  <text x="520" y="332" font-family="Arial" font-size="12" font-weight="600" fill="#d97706">DNA Extraction - Tissue</text>
+  <text x="520" y="375" font-family="Arial" font-size="11" fill="#475569">High-yield DNA extraction from</text>
+  <text x="520" y="392" font-family="Arial" font-size="11" fill="#475569">fresh or frozen tissue samples.</text>
+  <text x="520" y="420" font-family="Arial" font-size="10" fill="#64748b">Steps: 14 | Duration: ~3 hours</text>
+  <text x="520" y="440" font-family="Arial" font-size="10" fill="#64748b">Used: 67 times | Last: Jan 8, 2024</text>
+  <rect x="520" y="452" width="80" height="26" rx="4" fill="#fef3c7"/>
+  <text x="538" y="470" font-family="Arial" font-size="10" fill="#d97706">Use This</text>
+</svg>

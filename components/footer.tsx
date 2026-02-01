@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Linkedin, Mail } from "lucide-react"
 import { ReptiliansLogo } from "@/components/reptilians-logo"
 
 export function Footer() {
@@ -29,21 +29,16 @@ export function Footer() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/reptilians"
-              className="text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <Github className="h-5 w-5" />
-              <span className="sr-only">GitHub</span>
-            </a>
-            <a
-              href="https://linkedin.com/company/reptilians"
+              href="https://www.linkedin.com/in/george-sivkov/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground transition-colors hover:text-foreground"
             >
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
             </a>
             <a
-              href="mailto:hello@reptilians.dev"
+              href="mailto:hey@reptilians.studio"
               className="text-muted-foreground transition-colors hover:text-foreground"
             >
               <Mail className="h-5 w-5" />

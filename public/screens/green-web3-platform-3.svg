@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0f1419" width="800" height="500"/>
+  <text fill="#f3f4f6" x="30" y="40" font-size="20" font-weight="bold">Blockchain Verification</text>
+  <rect fill="#1e2433" x="30" y="60" width="500" height="420" rx="12"/>
+  <text fill="#f3f4f6" x="50" y="95" font-size="14" font-weight="500">Transaction History</text>
+  <rect fill="#22c55e" opacity="0.1" x="50" y="115" width="460" height="70" rx="8"/>
+  <circle fill="#22c55e" cx="80" cy="150" r="15"/>
+  <text fill="#fff" x="73" y="155" font-size="12">✓</text>
+  <text fill="#f3f4f6" x="110" y="140" font-size="12" font-weight="500">Carbon Credit Purchase</text>
+  <text fill="#9ca3af" x="110" y="160" font-size="10">500 tCO2e • VCS Standard</text>
+  <text fill="#9ca3af" x="400" y="140" font-size="10">Jan 28, 2026</text>
+  <text fill="#22c55e" x="400" y="160" font-size="11">Confirmed</text>
+  <rect fill="#22c55e" opacity="0.1" x="50" y="195" width="460" height="70" rx="8"/>
+  <circle fill="#22c55e" cx="80" cy="230" r="15"/>
+  <text fill="#fff" x="73" y="235" font-size="12">✓</text>
+  <text fill="#f3f4f6" x="110" y="220" font-size="12" font-weight="500">Credit Retirement</text>
+  <text fill="#9ca3af" x="110" y="240" font-size="10">200 tCO2e • Carbon Offset</text>
+  <text fill="#9ca3af" x="400" y="220" font-size="10">Jan 25, 2026</text>
+  <text fill="#22c55e" x="400" y="240" font-size="11">Confirmed</text>
+  <rect fill="#3b82f6" opacity="0.1" x="50" y="275" width="460" height="70" rx="8"/>
+  <circle fill="#3b82f6" cx="80" cy="310" r="15"/>
+  <text fill="#fff" x="73" y="315" font-size="12">↔</text>
+  <text fill="#f3f4f6" x="110" y="300" font-size="12" font-weight="500">Credit Transfer</text>
+  <text fill="#9ca3af" x="110" y="320" font-size="10">1,000 tCO2e • To: 0x8a2f...</text>
+  <text fill="#9ca3af" x="400" y="300" font-size="10">Jan 20, 2026</text>
+  <text fill="#3b82f6" x="400" y="320" font-size="11">Transferred</text>
+  <rect fill="#f59e0b" opacity="0.1" x="50" y="355" width="460" height="70" rx="8"/>
+  <circle fill="#f59e0b" cx="80" cy="390" r="15"/>
+  <text fill="#fff" x="73" y="395" font-size="12">⏳</text>
+  <text fill="#f3f4f6" x="110" y="380" font-size="12" font-weight="500">Certification Pending</text>
+  <text fill="#9ca3af" x="110" y="400" font-size="10">New Project Registration</text>
+  <text fill="#9ca3af" x="400" y="380" font-size="10">Jan 18, 2026</text>
+  <text fill="#f59e0b" x="400" y="400" font-size="11">In Review</text>
+  <rect fill="#1e2433" x="550" y="60" width="230" height="200" rx="12"/>
+  <text fill="#f3f4f6" x="570" y="95" font-size="14" font-weight="500">Chain Stats</text>
+  <rect fill="#0f1419" x="570" y="115" width="190" height="55" rx="8"/>
+  <text fill="#9ca3af" x="590" y="138" font-size="10">Total on Chain</text>
+  <text fill="#22c55e" x="590" y="160" font-size="18" font-weight="bold">2.4M tCO2e</text>
+  <rect fill="#0f1419" x="570" y="180" width="190" height="55" rx="8"/>
+  <text fill="#9ca3af" x="590" y="203" font-size="10">Verified Projects</text>
+  <text fill="#f3f4f6" x="590" y="225" font-size="18" font-weight="bold">847</text>
+  <rect fill="#1e2433" x="550" y="280" width="230" height="200" rx="12"/>
+  <text fill="#f3f4f6" x="570" y="315" font-size="14" font-weight="500">Your Wallet</text>
+  <rect fill="#0f1419" x="570" y="335" width="190" height="65" rx="8"/>
+  <text fill="#9ca3af" x="590" y="358" font-size="9">Wallet Address</text>
+  <text fill="#22c55e" x="590" y="378" font-size="10" font-family="monospace">0x7a9f...3b2c</text>
+  <rect fill="#22c55e" x="570" y="415" width="190" height="40" rx="8"/>
+  <text fill="#fff" x="620" y="440" font-size="12">Connect Wallet</text>
+</svg>

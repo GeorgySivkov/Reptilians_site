@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0a0a0b" width="800" height="500"/>
+  <!-- Desktop Window Chrome -->
+  <rect fill="#1a1a1d" x="0" y="0" width="800" height="30"/>
+  <circle cx="18" cy="15" r="6" fill="#ef4444"/>
+  <circle cx="38" cy="15" r="6" fill="#f59e0b"/>
+  <circle cx="58" cy="15" r="6" fill="#22c55e"/>
+  <text fill="#a1a1aa" x="320" y="19" font-family="system-ui" font-size="11">GeoViz Pro - Cross Section View</text>
+  <!-- Toolbar -->
+  <rect fill="#111113" x="0" y="30" width="800" height="40"/>
+  <rect fill="#f59e0b" x="20" y="40" width="80" height="24" rx="4"/>
+  <text fill="#000" x="38" y="56" font-family="system-ui" font-size="10">Section</text>
+  <rect fill="#1a1a1d" x="110" y="40" width="80" height="24" rx="4"/>
+  <text fill="#a1a1aa" x="133" y="56" font-family="system-ui" font-size="10">Map</text>
+  <rect fill="#1a1a1d" x="200" y="40" width="80" height="24" rx="4"/>
+  <text fill="#a1a1aa" x="225" y="56" font-family="system-ui" font-size="10">3D</text>
+  <text fill="#71717a" x="350" y="56" font-family="system-ui" font-size="10">Vertical Exag: 5x</text>
+  <rect fill="#1a1a1d" x="680" y="40" width="100" height="24" rx="4"/>
+  <text fill="#a1a1aa" x="702" y="56" font-family="system-ui" font-size="10">Export PNG</text>
+  <!-- Cross Section View -->
+  <rect fill="#0f0f12" x="0" y="70" width="800" height="380"/>
+  <!-- Depth scale -->
+  <text fill="#71717a" x="15" y="100" font-family="system-ui" font-size="9">1000m</text>
+  <text fill="#71717a" x="15" y="180" font-family="system-ui" font-size="9">2000m</text>
+  <text fill="#71717a" x="15" y="260" font-family="system-ui" font-size="9">3000m</text>
+  <text fill="#71717a" x="15" y="340" font-family="system-ui" font-size="9">4000m</text>
+  <text fill="#71717a" x="15" y="420" font-family="system-ui" font-size="9">5000m</text>
+  <line x1="55" y1="80" x2="55" y2="440" stroke="#3f3f46" stroke-width="1"/>
+  <!-- Horizons -->
+  <path d="M60,120 Q200,140 350,130 Q500,145 650,125 Q750,135 790,140" fill="none" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M60,200 Q200,220 350,210 Q500,230 650,205 Q750,220 790,225" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M60,290 Q200,310 350,295 Q500,315 650,290 Q750,305 790,310" fill="none" stroke="#22c55e" stroke-width="2"/>
+  <path d="M60,380 Q200,400 350,385 Q500,405 650,380 Q750,395 790,400" fill="none" stroke="#ec4899" stroke-width="2"/>
+  <!-- Fill between horizons -->
+  <path d="M60,120 Q200,140 350,130 Q500,145 650,125 Q750,135 790,140 L790,225 Q750,220 650,205 Q500,230 350,210 Q200,220 60,200 Z" fill="#f59e0b10"/>
+  <path d="M60,200 Q200,220 350,210 Q500,230 650,205 Q750,220 790,225 L790,310 Q750,305 650,290 Q500,315 350,295 Q200,310 60,290 Z" fill="#3b82f610"/>
+  <path d="M60,290 Q200,310 350,295 Q500,315 650,290 Q750,305 790,310 L790,400 Q750,395 650,380 Q500,405 350,385 Q200,400 60,380 Z" fill="#22c55e10"/>
+  <!-- Fault -->
+  <line x1="400" y1="100" x2="450" y2="430" stroke="#ef4444" stroke-width="2" stroke-dasharray="5,3"/>
+  <text fill="#ef4444" x="410" y="95" font-family="system-ui" font-size="9">F1</text>
+  <!-- Wells -->
+  <line x1="200" y1="85" x2="200" y2="400" stroke="#fff" stroke-width="3"/>
+  <text fill="#fff" x="185" y="80" font-family="system-ui" font-size="10" font-weight="500">W-01</text>
+  <circle cx="200" cy="125" r="5" fill="#f59e0b"/>
+  <circle cx="200" cy="205" r="5" fill="#3b82f6"/>
+  <circle cx="200" cy="295" r="5" fill="#22c55e"/>
+  <line x1="600" y1="85" x2="600" y2="395" stroke="#fff" stroke-width="3"/>
+  <text fill="#fff" x="585" y="80" font-family="system-ui" font-size="10" font-weight="500">W-02</text>
+  <circle cx="600" cy="128" r="5" fill="#f59e0b"/>
+  <circle cx="600" cy="208" r="5" fill="#3b82f6"/>
+  <circle cx="600" cy="292" r="5" fill="#22c55e"/>
+  <!-- Legend -->
+  <rect fill="#111113" x="640" y="90" width="150" height="130" rx="4"/>
+  <text fill="#fff" x="655" y="110" font-family="system-ui" font-size="10" font-weight="500">Horizons</text>
+  <line x1="655" y1="130" x2="680" y2="130" stroke="#f59e0b" stroke-width="2"/>
+  <text fill="#a1a1aa" x="690" y="134" font-family="system-ui" font-size="9">Top Reservoir</text>
+  <line x1="655" y1="152" x2="680" y2="152" stroke="#3b82f6" stroke-width="2"/>
+  <text fill="#a1a1aa" x="690" y="156" font-family="system-ui" font-size="9">Mid Reservoir</text>
+  <line x1="655" y1="174" x2="680" y2="174" stroke="#22c55e" stroke-width="2"/>
+  <text fill="#a1a1aa" x="690" y="178" font-family="system-ui" font-size="9">Base Reservoir</text>
+  <line x1="655" y1="196" x2="680" y2="196" stroke="#ec4899" stroke-width="2"/>
+  <text fill="#a1a1aa" x="690" y="200" font-family="system-ui" font-size="9">Basement</text>
+  <!-- Status bar -->
+  <rect fill="#111113" x="0" y="450" width="800" height="50"/>
+  <text fill="#71717a" x="20" y="475" font-family="system-ui" font-size="10">Section A-A' | Length: 12.5 km | Direction: NW-SE</text>
+  <text fill="#71717a" x="600" y="475" font-family="system-ui" font-size="10">Cursor: X=6250m, Z=2450m</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0f1419" width="800" height="500"/>
+  <rect fill="#1e2433" x="100" y="20" width="250" height="460" rx="24"/>
+  <rect fill="#0f1419" x="110" y="30" width="230" height="440" rx="20"/>
+  <rect fill="#1e2433" x="110" y="30" width="230" height="50"/>
+  <text fill="#f3f4f6" x="180" y="62" font-size="14" font-weight="bold">Transactions</text>
+  <rect fill="#22c55e" opacity="0.1" x="125" y="95" width="200" height="60" rx="10"/>
+  <circle fill="#22c55e" cx="150" cy="125" r="12"/>
+  <text fill="#fff" x="143" y="129" font-size="10">↓</text>
+  <text fill="#f3f4f6" x="175" y="115" font-size="11" font-weight="500">Received BTC</text>
+  <text fill="#9ca3af" x="175" y="132" font-size="9">Jan 28, 2026 • 2:45 PM</text>
+  <text fill="#22c55e" x="260" y="125" font-size="10">+0.025</text>
+  <rect fill="#ef4444" opacity="0.1" x="125" y="165" width="200" height="60" rx="10"/>
+  <circle fill="#ef4444" cx="150" cy="195" r="12"/>
+  <text fill="#fff" x="143" y="199" font-size="10">↑</text>
+  <text fill="#f3f4f6" x="175" y="185" font-size="11" font-weight="500">Sent ETH</text>
+  <text fill="#9ca3af" x="175" y="202" font-size="9">Jan 27, 2026 • 10:30 AM</text>
+  <text fill="#ef4444" x="265" y="195" font-size="10">-0.5</text>
+  <rect fill="#f59e0b" opacity="0.1" x="125" y="235" width="200" height="60" rx="10"/>
+  <circle fill="#f59e0b" cx="150" cy="265" r="12"/>
+  <text fill="#0f1419" x="143" y="269" font-size="10">⟳</text>
+  <text fill="#f3f4f6" x="175" y="255" font-size="11" font-weight="500">Swapped SOL→ETH</text>
+  <text fill="#9ca3af" x="175" y="272" font-size="9">Jan 26, 2026 • 4:15 PM</text>
+  <text fill="#f59e0b" x="270" y="265" font-size="10">10→0.5</text>
+  <rect fill="#3b82f6" opacity="0.1" x="125" y="305" width="200" height="60" rx="10"/>
+  <circle fill="#3b82f6" cx="150" cy="335" r="12"/>
+  <text fill="#fff" x="143" y="339" font-size="10">$</text>
+  <text fill="#f3f4f6" x="175" y="325" font-size="11" font-weight="500">Bought BTC</text>
+  <text fill="#9ca3af" x="175" y="342" font-size="9">Jan 25, 2026 • 9:00 AM</text>
+  <text fill="#3b82f6" x="255" y="335" font-size="10">$500</text>
+  <rect fill="#22c55e" opacity="0.1" x="125" y="375" width="200" height="60" rx="10"/>
+  <circle fill="#22c55e" cx="150" cy="405" r="12"/>
+  <text fill="#fff" x="143" y="409" font-size="10">↓</text>
+  <text fill="#f3f4f6" x="175" y="395" font-size="11" font-weight="500">Deposit USD</text>
+  <text fill="#9ca3af" x="175" y="412" font-size="9">Jan 24, 2026 • 11:20 AM</text>
+  <text fill="#22c55e" x="255" y="405" font-size="10">+$1,000</text>
+  <rect fill="#1e2433" x="450" y="20" width="250" height="460" rx="24"/>
+  <rect fill="#0f1419" x="460" y="30" width="230" height="440" rx="20"/>
+  <rect fill="#1e2433" x="460" y="30" width="230" height="50"/>
+  <text fill="#f3f4f6" x="548" y="62" font-size="14" font-weight="bold">Settings</text>
+  <rect fill="#1e2433" x="475" y="95" width="200" height="70" rx="12"/>
+  <circle fill="#f59e0b" cx="510" cy="130" r="20"/>
+  <text fill="#0f1419" x="500" y="136" font-size="12" font-weight="bold">JD</text>
+  <text fill="#f3f4f6" x="545" y="125" font-size="12" font-weight="500">John Doe</text>
+  <text fill="#9ca3af" x="545" y="142" font-size="9">john@example.com</text>
+  <text fill="#f3f4f6" x="475" y="195" font-size="11" font-weight="500">Security</text>
+  <rect fill="#1e2433" x="475" y="210" width="200" height="45" rx="8"/>
+  <text fill="#f3f4f6" x="495" y="238" font-size="10">Two-Factor Auth</text>
+  <rect fill="#22c55e" x="635" y="223" width="30" height="16" rx="8"/>
+  <circle fill="#fff" cx="655" cy="231" r="6"/>
+  <rect fill="#1e2433" x="475" y="265" width="200" height="45" rx="8"/>
+  <text fill="#f3f4f6" x="495" y="293" font-size="10">Biometric Login</text>
+  <rect fill="#22c55e" x="635" y="278" width="30" height="16" rx="8"/>
+  <circle fill="#fff" cx="655" cy="286" r="6"/>
+  <text fill="#f3f4f6" x="475" y="340" font-size="11" font-weight="500">Preferences</text>
+  <rect fill="#1e2433" x="475" y="355" width="200" height="45" rx="8"/>
+  <text fill="#f3f4f6" x="495" y="383" font-size="10">Default Currency</text>
+  <text fill="#9ca3af" x="630" y="383" font-size="10">USD</text>
+  <rect fill="#1e2433" x="475" y="410" width="200" height="45" rx="8"/>
+  <text fill="#f3f4f6" x="495" y="438" font-size="10">Push Notifications</text>
+  <rect fill="#374151" x="635" y="423" width="30" height="16" rx="8"/>
+  <circle fill="#9ca3af" cx="645" cy="431" r="6"/>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0a0a0b" width="800" height="500"/>
+  <!-- Desktop Window Chrome -->
+  <rect fill="#1a1a1d" x="0" y="0" width="800" height="30"/>
+  <circle cx="18" cy="15" r="6" fill="#ef4444"/>
+  <circle cx="38" cy="15" r="6" fill="#f59e0b"/>
+  <circle cx="58" cy="15" r="6" fill="#22c55e"/>
+  <text fill="#a1a1aa" x="350" y="19" font-family="system-ui" font-size="11">GeoViz Pro - Subsurface Analysis</text>
+  <!-- Toolbar -->
+  <rect fill="#111113" x="0" y="30" width="800" height="40"/>
+  <text fill="#a1a1aa" x="20" y="55" font-family="system-ui" font-size="11">File</text>
+  <text fill="#a1a1aa" x="60" y="55" font-family="system-ui" font-size="11">Edit</text>
+  <text fill="#a1a1aa" x="100" y="55" font-family="system-ui" font-size="11">View</text>
+  <text fill="#a1a1aa" x="145" y="55" font-family="system-ui" font-size="11">Analysis</text>
+  <text fill="#a1a1aa" x="210" y="55" font-family="system-ui" font-size="11">Tools</text>
+  <rect fill="#f59e0b" x="680" y="38" width="100" height="24" rx="4"/>
+  <text fill="#000" x="702" y="55" font-family="system-ui" font-size="11">Run Analysis</text>
+  <!-- Left Panel - Layers -->
+  <rect fill="#111113" x="0" y="70" width="180" height="430"/>
+  <text fill="#fff" x="16" y="95" font-family="system-ui" font-size="12" font-weight="500">Data Layers</text>
+  <rect fill="#1a1a1d" x="10" y="110" width="160" height="30" rx="4"/>
+  <rect fill="#f59e0b" x="20" y="120" width="10" height="10" rx="2"/>
+  <text fill="#a1a1aa" x="38" y="130" font-family="system-ui" font-size="10">Seismic Horizon A</text>
+  <rect fill="#1a1a1d" x="10" y="148" width="160" height="30" rx="4"/>
+  <rect fill="#3b82f6" x="20" y="158" width="10" height="10" rx="2"/>
+  <text fill="#a1a1aa" x="38" y="168" font-family="system-ui" font-size="10">Seismic Horizon B</text>
+  <rect fill="#1a1a1d" x="10" y="186" width="160" height="30" rx="4"/>
+  <rect fill="#22c55e" x="20" y="196" width="10" height="10" rx="2"/>
+  <text fill="#a1a1aa" x="38" y="206" font-family="system-ui" font-size="10">Well Logs</text>
+  <rect fill="#1a1a1d" x="10" y="224" width="160" height="30" rx="4"/>
+  <rect fill="#ec4899" x="20" y="234" width="10" height="10" rx="2"/>
+  <text fill="#a1a1aa" x="38" y="244" font-family="system-ui" font-size="10">Fault Lines</text>
+  <text fill="#fff" x="16" y="290" font-family="system-ui" font-size="12" font-weight="500">Properties</text>
+  <text fill="#71717a" x="16" y="315" font-family="system-ui" font-size="10">Depth: 2,450m - 3,200m</text>
+  <text fill="#71717a" x="16" y="335" font-family="system-ui" font-size="10">Scale: 1:25000</text>
+  <text fill="#71717a" x="16" y="355" font-family="system-ui" font-size="10">Projection: UTM 32N</text>
+  <!-- Main 3D View -->
+  <rect fill="#0f0f12" x="180" y="70" width="450" height="340"/>
+  <!-- Subsurface visualization -->
+  <polygon points="205,380 380,320 555,380 380,340" fill="#f59e0b30" stroke="#f59e0b" stroke-width="1"/>
+  <polygon points="205,340 380,280 555,340 380,300" fill="#3b82f630" stroke="#3b82f6" stroke-width="1"/>
+  <polygon points="205,300 380,240 555,300 380,260" fill="#22c55e30" stroke="#22c55e" stroke-width="1"/>
+  <!-- Well markers -->
+  <line x1="280" y1="120" x2="280" y2="350" stroke="#fff" stroke-width="2"/>
+  <circle cx="280" cy="120" r="6" fill="#fff"/>
+  <text fill="#fff" x="290" y="124" font-family="system-ui" font-size="9">Well-01</text>
+  <line x1="450" y1="140" x2="450" y2="360" stroke="#fff" stroke-width="2"/>
+  <circle cx="450" cy="140" r="6" fill="#fff"/>
+  <text fill="#fff" x="460" y="144" font-family="system-ui" font-size="9">Well-02</text>
+  <!-- Grid lines -->
+  <line x1="200" y1="200" x2="620" y2="200" stroke="#3f3f46" stroke-width="0.5" stroke-dasharray="4"/>
+  <line x1="200" y1="280" x2="620" y2="280" stroke="#3f3f46" stroke-width="0.5" stroke-dasharray="4"/>
+  <line x1="300" y1="80" x2="300" y2="400" stroke="#3f3f46" stroke-width="0.5" stroke-dasharray="4"/>
+  <line x1="500" y1="80" x2="500" y2="400" stroke="#3f3f46" stroke-width="0.5" stroke-dasharray="4"/>
+  <!-- Scale indicator -->
+  <line x1="520" y1="390" x2="600" y2="390" stroke="#fff" stroke-width="2"/>
+  <text fill="#fff" x="540" y="385" font-family="system-ui" font-size="9">500m</text>
+  <!-- Right Panel - Well Log -->
+  <rect fill="#111113" x="630" y="70" width="170" height="340"/>
+  <text fill="#fff" x="646" y="95" font-family="system-ui" font-size="12" font-weight="500">Well-01 Log</text>
+  <rect fill="#1a1a1d" x="640" y="110" width="150" height="280" rx="4"/>
+  <!-- Well log curves -->
+  <polyline points="660,130 680,150 670,180 690,200 675,230 695,260 680,290 700,320 685,350 705,370" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+  <polyline points="720,130 730,160 715,190 735,220 720,250 740,280 725,310 745,340 730,370" fill="none" stroke="#22c55e" stroke-width="1.5"/>
+  <text fill="#71717a" x="650" y="405" font-family="system-ui" font-size="9">Depth (m)</text>
+  <!-- Bottom status bar -->
+  <rect fill="#111113" x="180" y="410" width="450" height="90"/>
+  <text fill="#fff" x="196" y="435" font-family="system-ui" font-size="11" font-weight="500">Analysis Results</text>
+  <rect fill="#22c55e20" x="196" y="445" width="120" height="45" rx="4"/>
+  <text fill="#71717a" x="210" y="465" font-family="system-ui" font-size="9">Net Pay</text>
+  <text fill="#22c55e" x="210" y="482" font-family="system-ui" font-size="14" font-weight="600">42.3m</text>
+  <rect fill="#3b82f620" x="326" y="445" width="120" height="45" rx="4"/>
+  <text fill="#71717a" x="340" y="465" font-family="system-ui" font-size="9">Porosity Avg</text>
+  <text fill="#3b82f6" x="340" y="482" font-family="system-ui" font-size="14" font-weight="600">18.2%</text>
+  <rect fill="#f59e0b20" x="456" y="445" width="120" height="45" rx="4"/>
+  <text fill="#71717a" x="470" y="465" font-family="system-ui" font-size="9">Permeability</text>
+  <text fill="#f59e0b" x="470" y="482" font-family="system-ui" font-size="14" font-weight="600">125mD</text>
+</svg>

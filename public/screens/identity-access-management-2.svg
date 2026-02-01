@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0a0a0b" width="800" height="500"/>
+  <!-- Sidebar -->
+  <rect fill="#111113" x="0" y="0" width="180" height="500"/>
+  <rect fill="#0891b2" x="20" y="20" width="32" height="32" rx="6"/>
+  <text fill="#fff" x="60" y="42" font-family="system-ui" font-size="14" font-weight="600">IAM Hub</text>
+  <rect fill="#0891b2" x="0" y="156" width="4" height="36"/>
+  <rect fill="#1a1a1d" x="12" y="156" width="156" height="36" rx="6"/>
+  <text fill="#fff" x="44" y="179" font-family="system-ui" font-size="12">Roles & Policies</text>
+  <!-- Header -->
+  <text fill="#fff" x="200" y="45" font-family="system-ui" font-size="20" font-weight="600">Role Management</text>
+  <rect fill="#0891b2" x="700" y="25" width="80" height="36" rx="6"/>
+  <text fill="#fff" x="715" y="48" font-family="system-ui" font-size="12">+ New Role</text>
+  <!-- Permissions Matrix -->
+  <rect fill="#111113" x="200" y="70" width="580" height="410" rx="8"/>
+  <text fill="#fff" x="216" y="95" font-family="system-ui" font-size="13" font-weight="500">Permissions Matrix</text>
+  <!-- Header Row -->
+  <rect fill="#1a1a1d" x="216" y="110" width="548" height="40" rx="4"/>
+  <text fill="#71717a" x="230" y="135" font-family="system-ui" font-size="10" font-weight="500">RESOURCE</text>
+  <text fill="#71717a" x="350" y="135" font-family="system-ui" font-size="10" font-weight="500">ADMIN</text>
+  <text fill="#71717a" x="430" y="135" font-family="system-ui" font-size="10" font-weight="500">MANAGER</text>
+  <text fill="#71717a" x="520" y="135" font-family="system-ui" font-size="10" font-weight="500">DEVELOPER</text>
+  <text fill="#71717a" x="620" y="135" font-family="system-ui" font-size="10" font-weight="500">VIEWER</text>
+  <text fill="#71717a" x="710" y="135" font-family="system-ui" font-size="10" font-weight="500">GUEST</text>
+  <!-- Users Row -->
+  <text fill="#fff" x="230" y="175" font-family="system-ui" font-size="11">Users</text>
+  <rect fill="#22c55e" x="360" y="162" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="366" y="177" font-family="system-ui" font-size="10">R</text>
+  <rect fill="#22c55e" x="440" y="162" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="446" y="177" font-family="system-ui" font-size="10">R</text>
+  <rect fill="#3b82f6" x="530" y="162" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="536" y="177" font-family="system-ui" font-size="10">W</text>
+  <rect fill="#71717a" x="630" y="162" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="636" y="177" font-family="system-ui" font-size="10">-</text>
+  <rect fill="#71717a" x="720" y="162" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="726" y="177" font-family="system-ui" font-size="10">-</text>
+  <line x1="216" y1="195" x2="764" y2="195" stroke="#27272a" stroke-width="1"/>
+  <!-- Roles Row -->
+  <text fill="#fff" x="230" y="220" font-family="system-ui" font-size="11">Roles</text>
+  <rect fill="#22c55e" x="360" y="207" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="366" y="222" font-family="system-ui" font-size="10">R</text>
+  <rect fill="#22c55e" x="440" y="207" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="446" y="222" font-family="system-ui" font-size="10">R</text>
+  <rect fill="#71717a" x="530" y="207" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="536" y="222" font-family="system-ui" font-size="10">-</text>
+  <rect fill="#71717a" x="630" y="207" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="636" y="222" font-family="system-ui" font-size="10">-</text>
+  <rect fill="#71717a" x="720" y="207" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="726" y="222" font-family="system-ui" font-size="10">-</text>
+  <line x1="216" y1="240" x2="764" y2="240" stroke="#27272a" stroke-width="1"/>
+  <!-- Applications Row -->
+  <text fill="#fff" x="230" y="265" font-family="system-ui" font-size="11">Applications</text>
+  <rect fill="#22c55e" x="360" y="252" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="366" y="267" font-family="system-ui" font-size="10">R</text>
+  <rect fill="#3b82f6" x="440" y="252" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="446" y="267" font-family="system-ui" font-size="10">W</text>
+  <rect fill="#3b82f6" x="530" y="252" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="536" y="267" font-family="system-ui" font-size="10">W</text>
+  <rect fill="#3b82f6" x="630" y="252" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="636" y="267" font-family="system-ui" font-size="10">W</text>
+  <rect fill="#71717a" x="720" y="252" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="726" y="267" font-family="system-ui" font-size="10">-</text>
+  <line x1="216" y1="285" x2="764" y2="285" stroke="#27272a" stroke-width="1"/>
+  <!-- Audit Logs Row -->
+  <text fill="#fff" x="230" y="310" font-family="system-ui" font-size="11">Audit Logs</text>
+  <rect fill="#22c55e" x="360" y="297" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="366" y="312" font-family="system-ui" font-size="10">R</text>
+  <rect fill="#3b82f6" x="440" y="297" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="446" y="312" font-family="system-ui" font-size="10">W</text>
+  <rect fill="#71717a" x="530" y="297" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="536" y="312" font-family="system-ui" font-size="10">-</text>
+  <rect fill="#71717a" x="630" y="297" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="636" y="312" font-family="system-ui" font-size="10">-</text>
+  <rect fill="#71717a" x="720" y="297" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="726" y="312" font-family="system-ui" font-size="10">-</text>
+  <line x1="216" y1="330" x2="764" y2="330" stroke="#27272a" stroke-width="1"/>
+  <!-- Settings Row -->
+  <text fill="#fff" x="230" y="355" font-family="system-ui" font-size="11">Settings</text>
+  <rect fill="#22c55e" x="360" y="342" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="366" y="357" font-family="system-ui" font-size="10">R</text>
+  <rect fill="#71717a" x="440" y="342" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="446" y="357" font-family="system-ui" font-size="10">-</text>
+  <rect fill="#71717a" x="530" y="342" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="536" y="357" font-family="system-ui" font-size="10">-</text>
+  <rect fill="#71717a" x="630" y="342" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="636" y="357" font-family="system-ui" font-size="10">-</text>
+  <rect fill="#71717a" x="720" y="342" width="20" height="20" rx="4"/>
+  <text fill="#fff" x="726" y="357" font-family="system-ui" font-size="10">-</text>
+  <!-- Legend -->
+  <text fill="#71717a" x="230" y="420" font-family="system-ui" font-size="10">Legend:</text>
+  <rect fill="#22c55e" x="280" y="408" width="16" height="16" rx="3"/>
+  <text fill="#a1a1aa" x="302" y="420" font-family="system-ui" font-size="10">Full Access</text>
+  <rect fill="#3b82f6" x="380" y="408" width="16" height="16" rx="3"/>
+  <text fill="#a1a1aa" x="402" y="420" font-family="system-ui" font-size="10">Read/Write</text>
+  <rect fill="#71717a" x="480" y="408" width="16" height="16" rx="3"/>
+  <text fill="#a1a1aa" x="502" y="420" font-family="system-ui" font-size="10">No Access</text>
+  <!-- Save Button -->
+  <rect fill="#0891b2" x="630" y="445" width="120" height="32" rx="6"/>
+  <text fill="#fff" x="660" y="466" font-family="system-ui" font-size="11">Save Changes</text>
+</svg>

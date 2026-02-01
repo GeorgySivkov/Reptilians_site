@@ -5,19 +5,17 @@ import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { CaseStudyCard } from "@/components/case-study-card"
 import { CaseStudyFilters } from "@/components/case-study-filters"
-import { caseStudies, type CaseStudyStatus } from "@/lib/case-studies"
+import { caseStudies } from "@/lib/case-studies"
 
 export default function CaseStudiesPage() {
-  const [selectedStatuses, setSelectedStatuses] = useState<CaseStudyStatus[]>([])
   const [selectedStack, setSelectedStack] = useState<string[]>([])
 
   const filteredCaseStudies = useMemo(() => {
     return caseStudies.filter((cs) => {
-      const matchesStatus = selectedStatuses.length === 0 || selectedStatuses.includes(cs.status)
       const matchesStack = selectedStack.length === 0 || selectedStack.some((tech) => cs.stack.includes(tech))
-      return matchesStatus && matchesStack
+      return matchesStack
     })
-  }, [selectedStatuses, selectedStack])
+  }, [selectedStack])
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -33,8 +31,6 @@ export default function CaseStudiesPage() {
             </div>
 
             <CaseStudyFilters
-              selectedStatuses={selectedStatuses}
-              onStatusChange={setSelectedStatuses}
               selectedStack={selectedStack}
               onStackChange={setSelectedStack}
             />

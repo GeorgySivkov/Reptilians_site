@@ -1,7 +1,7 @@
 "use client"
 
 import type React from "react"
-import { useState } from "react"
+import { useState, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -11,19 +11,32 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Send, CheckCircle } from "lucide-react"
 
 export function ContactForm() {
-  const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [ndaRequired, setNdaRequired] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false) // Declare isSubmitting variable
+  const formRef = useRef<HTMLFormElement>(null)
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    setIsSubmitting(true)
+    setIsSubmitting(true) // Set isSubmitting to true when form is submitted
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000))
-
-    setIsSubmitting(false)
+    const formData = new FormData(e.currentTarget)
+    const name = formData.get("name") as string
+    const email = formData.get("email") as string
+    const company = formData.get("company") as string
+    const summary = formData.get("summary") as string
+    const budget = formData.get("budget") as string
+    const timeline = formData.get("timeline") as string
+    const model = formData.get("model") as string
+    
+    const subject = encodeURIComponent(`Project Inquiry from ${name}${company ? ` (${company})` : ""}`)
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}${company ? `\nCompany: ${company}` : ""}\n\nProject Summary:\n${summary}\n\nBudget: ${budget || "Not specified"}\nTimeline: ${timeline || "Not specified"}\nEngagement Model: ${model || "Not specified"}\nNDA Required: ${ndaRequired ? "Yes" : "No"}`
+    )
+    
+    window.location.href = `mailto:hey@reptilians.studio?subject=${subject}&body=${body}`
     setIsSubmitted(true)
+    setIsSubmitting(false) // Set isSubmitting to false after form submission
   }
 
   if (isSubmitted) {
@@ -32,8 +45,8 @@ export function ContactForm() {
         <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-accent/10">
           <CheckCircle className="h-8 w-8 text-accent" />
         </div>
-        <h3 className="mb-2 text-xl font-semibold">Request Received</h3>
-        <p className="text-muted-foreground">Thanks for reaching out. We typically reply within 1–2 business days.</p>
+        <h3 className="mb-2 text-xl font-semibold">Email Client Opened</h3>
+        <p className="text-muted-foreground">Your email client should have opened with the details pre-filled. Just hit send!</p>
         <Button className="mt-6" onClick={() => setIsSubmitted(false)}>
           Submit Another Request
         </Button>
@@ -42,27 +55,28 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6 rounded-xl border border-border/50 bg-card p-8">
+    <form ref={formRef} onSubmit={handleSubmit} className="space-y-6 rounded-xl border border-border/50 bg-card p-8">
       <div className="grid gap-6 md:grid-cols-2">
         <div className="space-y-2">
           <Label htmlFor="name">Name *</Label>
-          <Input id="name" placeholder="Your name" required className="bg-background" />
+          <Input id="name" name="name" placeholder="Your name" required className="bg-background" />
         </div>
         <div className="space-y-2">
           <Label htmlFor="email">Work Email *</Label>
-          <Input id="email" type="email" placeholder="you@company.com" required className="bg-background" />
+          <Input id="email" name="email" type="email" placeholder="you@company.com" required className="bg-background" />
         </div>
       </div>
 
       <div className="space-y-2">
         <Label htmlFor="company">Company</Label>
-        <Input id="company" placeholder="Your company name (optional)" className="bg-background" />
+        <Input id="company" name="company" placeholder="Your company name (optional)" className="bg-background" />
       </div>
 
       <div className="space-y-2">
         <Label htmlFor="summary">Project Summary *</Label>
         <Textarea
           id="summary"
+          name="summary"
           placeholder="Tell us about your project: goals, challenges, and what you're looking to build..."
           required
           className="min-h-[120px] resize-none bg-background"
@@ -72,7 +86,7 @@ export function ContactForm() {
       <div className="grid gap-6 md:grid-cols-2">
         <div className="space-y-2">
           <Label htmlFor="budget">Budget Range</Label>
-          <Select>
+          <Select name="budget">
             <SelectTrigger className="bg-background">
               <SelectValue placeholder="Select budget range" />
             </SelectTrigger>
@@ -89,15 +103,15 @@ export function ContactForm() {
 
         <div className="space-y-2">
           <Label htmlFor="timeline">Timeline</Label>
-          <Select>
+          <Select name="timeline">
             <SelectTrigger className="bg-background">
               <SelectValue placeholder="When do you need this?" />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="asap">ASAP</SelectItem>
               <SelectItem value="1-month">Within 1 month</SelectItem>
-              <SelectItem value="1-3-months">1–3 months</SelectItem>
-              <SelectItem value="3-6-months">3–6 months</SelectItem>
+              <SelectItem value="1-3-months">1-3 months</SelectItem>
+              <SelectItem value="3-6-months">3-6 months</SelectItem>
               <SelectItem value="flexible">Flexible</SelectItem>
             </SelectContent>
           </Select>
@@ -106,7 +120,7 @@ export function ContactForm() {
 
       <div className="space-y-2">
         <Label htmlFor="model">Engagement Model</Label>
-        <Select>
+        <Select name="model">
           <SelectTrigger className="bg-background">
             <SelectValue placeholder="How would you like to work?" />
           </SelectTrigger>

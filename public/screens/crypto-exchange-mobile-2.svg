@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0f1419" width="800" height="500"/>
+  <rect fill="#1e2433" x="100" y="20" width="250" height="460" rx="24"/>
+  <rect fill="#0f1419" x="110" y="30" width="230" height="440" rx="20"/>
+  <rect fill="#1e2433" x="110" y="30" width="230" height="50"/>
+  <text fill="#f3f4f6" x="185" y="62" font-size="14" font-weight="bold">Buy Bitcoin</text>
+  <rect fill="#f59e0b" opacity="0.2" x="125" y="95" width="200" height="80" rx="12"/>
+  <text fill="#9ca3af" x="145" y="120" font-size="10">You Pay</text>
+  <text fill="#f3f4f6" x="145" y="150" font-size="24" font-weight="bold">$500.00</text>
+  <text fill="#9ca3af" x="260" y="150" font-size="12">USD</text>
+  <circle fill="#f59e0b" cx="225" cy="195" r="16"/>
+  <text fill="#0f1419" x="218" y="200" font-size="12">↓</text>
+  <rect fill="#1e2433" x="125" y="220" width="200" height="80" rx="12"/>
+  <text fill="#9ca3af" x="145" y="245" font-size="10">You Receive</text>
+  <text fill="#f3f4f6" x="145" y="275" font-size="24" font-weight="bold">0.01165</text>
+  <text fill="#9ca3af" x="250" y="275" font-size="12">BTC</text>
+  <rect fill="#1e2433" x="125" y="315" width="200" height="80" rx="12"/>
+  <text fill="#9ca3af" x="145" y="340" font-size="10">Price</text>
+  <text fill="#f3f4f6" x="145" y="360" font-size="12">1 BTC = $42,928.45</text>
+  <text fill="#9ca3af" x="145" y="380" font-size="9">Fee: $2.50 (0.5%)</text>
+  <rect fill="#f59e0b" x="125" y="410" width="200" height="45" rx="10"/>
+  <text fill="#0f1419" x="175" y="438" font-size="12" font-weight="bold">Buy Bitcoin</text>
+  <rect fill="#1e2433" x="450" y="20" width="250" height="460" rx="24"/>
+  <rect fill="#0f1419" x="460" y="30" width="230" height="440" rx="20"/>
+  <rect fill="#1e2433" x="460" y="30" width="230" height="50"/>
+  <text fill="#f3f4f6" x="542" y="62" font-size="14" font-weight="bold">BTC/USD</text>
+  <rect fill="#1e2433" x="475" y="95" width="200" height="120" rx="12"/>
+  <text fill="#f3f4f6" x="495" y="125" font-size="22" font-weight="bold">$42,928.45</text>
+  <text fill="#22c55e" x="495" y="150" font-size="11">+$1,723.56 (+4.18%)</text>
+  <rect fill="#0f1419" x="495" y="170" width="160" height="30" rx="6"/>
+  <polyline fill="none" stroke="#22c55e" stroke-width="2" points="510,185 530,190 550,182 570,188 590,175 610,180 630,170"/>
+  <rect fill="#22c55e" opacity="0.3" x="475" y="230" width="60" height="28" rx="6"/>
+  <text fill="#22c55e" x="492" y="249" font-size="10">1H</text>
+  <rect fill="#374151" x="545" y="230" width="60" height="28" rx="6"/>
+  <text fill="#9ca3af" x="562" y="249" font-size="10">1D</text>
+  <rect fill="#374151" x="615" y="230" width="60" height="28" rx="6"/>
+  <text fill="#9ca3af" x="632" y="249" font-size="10">1W</text>
+  <text fill="#f3f4f6" x="475" y="290" font-size="11" font-weight="500">Order Book</text>
+  <rect fill="#ef4444" opacity="0.1" x="475" y="305" width="200" height="25" rx="4"/>
+  <text fill="#ef4444" x="495" y="322" font-size="9">$42,950.00</text>
+  <text fill="#9ca3af" x="600" y="322" font-size="9">2.45 BTC</text>
+  <rect fill="#ef4444" opacity="0.1" x="475" y="335" width="200" height="25" rx="4"/>
+  <text fill="#ef4444" x="495" y="352" font-size="9">$42,940.00</text>
+  <text fill="#9ca3af" x="600" y="352" font-size="9">1.82 BTC</text>
+  <rect fill="#22c55e" opacity="0.1" x="475" y="370" width="200" height="25" rx="4"/>
+  <text fill="#22c55e" x="495" y="387" font-size="9">$42,920.00</text>
+  <text fill="#9ca3af" x="600" y="387" font-size="9">3.12 BTC</text>
+  <rect fill="#22c55e" opacity="0.1" x="475" y="400" width="200" height="25" rx="4"/>
+  <text fill="#22c55e" x="495" y="417" font-size="9">$42,910.00</text>
+  <text fill="#9ca3af" x="600" y="417" font-size="9">5.67 BTC</text>
+  <rect fill="#22c55e" x="475" y="435" width="95" height="30" rx="6"/>
+  <text fill="#fff" x="505" y="455" font-size="10">Buy</text>
+  <rect fill="#ef4444" x="580" y="435" width="95" height="30" rx="6"/>
+  <text fill="#fff" x="612" y="455" font-size="10">Sell</text>
+</svg>

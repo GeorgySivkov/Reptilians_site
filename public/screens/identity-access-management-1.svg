@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0a0a0b" width="800" height="500"/>
+  <!-- Sidebar -->
+  <rect fill="#111113" x="0" y="0" width="180" height="500"/>
+  <rect fill="#0891b2" x="20" y="20" width="32" height="32" rx="6"/>
+  <text fill="#fff" x="60" y="42" font-family="system-ui" font-size="14" font-weight="600">IAM Hub</text>
+  <rect fill="#0891b2" x="0" y="80" width="4" height="36"/>
+  <rect fill="#1a1a1d" x="12" y="80" width="156" height="36" rx="6"/>
+  <text fill="#fff" x="44" y="103" font-family="system-ui" font-size="12">Security Dashboard</text>
+  <text fill="#71717a" x="44" y="143" font-family="system-ui" font-size="12">Users</text>
+  <text fill="#71717a" x="44" y="179" font-family="system-ui" font-size="12">Roles & Policies</text>
+  <text fill="#71717a" x="44" y="215" font-family="system-ui" font-size="12">Applications</text>
+  <text fill="#71717a" x="44" y="251" font-family="system-ui" font-size="12">Audit Logs</text>
+  <text fill="#71717a" x="44" y="287" font-family="system-ui" font-size="12">SSO Settings</text>
+  <!-- Main -->
+  <text fill="#fff" x="200" y="45" font-family="system-ui" font-size="20" font-weight="600">Security Overview</text>
+  <!-- Alert Banner -->
+  <rect fill="#f59e0b20" x="200" y="60" width="580" height="40" rx="6"/>
+  <text fill="#f59e0b" x="220" y="85" font-family="system-ui" font-size="11">2 security alerts require attention - 3 failed login attempts detected</text>
+  <!-- Stats -->
+  <rect fill="#111113" x="200" y="115" width="140" height="90" rx="8"/>
+  <text fill="#71717a" x="216" y="140" font-family="system-ui" font-size="10">Active Users</text>
+  <text fill="#fff" x="216" y="170" font-family="system-ui" font-size="28" font-weight="600">4,892</text>
+  <text fill="#22c55e" x="216" y="190" font-family="system-ui" font-size="10">+124 this week</text>
+  <rect fill="#111113" x="350" y="115" width="140" height="90" rx="8"/>
+  <text fill="#71717a" x="366" y="140" font-family="system-ui" font-size="10">Auth Requests/24h</text>
+  <text fill="#fff" x="366" y="170" font-family="system-ui" font-size="28" font-weight="600">89.2K</text>
+  <text fill="#0891b2" x="366" y="190" font-family="system-ui" font-size="10">99.9% success rate</text>
+  <rect fill="#111113" x="500" y="115" width="140" height="90" rx="8"/>
+  <text fill="#71717a" x="516" y="140" font-family="system-ui" font-size="10">MFA Adoption</text>
+  <text fill="#fff" x="516" y="170" font-family="system-ui" font-size="28" font-weight="600">94%</text>
+  <text fill="#22c55e" x="516" y="190" font-family="system-ui" font-size="10">+8% this month</text>
+  <rect fill="#111113" x="650" y="115" width="130" height="90" rx="8"/>
+  <text fill="#71717a" x="666" y="140" font-family="system-ui" font-size="10">Blocked Threats</text>
+  <text fill="#fff" x="666" y="170" font-family="system-ui" font-size="28" font-weight="600">127</text>
+  <text fill="#ef4444" x="666" y="190" font-family="system-ui" font-size="10">Last 30 days</text>
+  <!-- Auth Chart -->
+  <rect fill="#111113" x="200" y="220" width="380" height="160" rx="8"/>
+  <text fill="#fff" x="216" y="245" font-family="system-ui" font-size="13" font-weight="500">Authentication Trends</text>
+  <polyline points="230,340 280,310 330,320 380,290 430,300 480,270 530,285" fill="none" stroke="#0891b2" stroke-width="2"/>
+  <line x1="230" y1="350" x2="550" y2="350" stroke="#3f3f46" stroke-width="1"/>
+  <text fill="#71717a" x="230" y="365" font-family="system-ui" font-size="9">Mon</text>
+  <text fill="#71717a" x="330" y="365" font-family="system-ui" font-size="9">Wed</text>
+  <text fill="#71717a" x="430" y="365" font-family="system-ui" font-size="9">Fri</text>
+  <text fill="#71717a" x="530" y="365" font-family="system-ui" font-size="9">Sun</text>
+  <!-- Recent Events -->
+  <rect fill="#111113" x="590" y="220" width="190" height="160" rx="8"/>
+  <text fill="#fff" x="606" y="245" font-family="system-ui" font-size="13" font-weight="500">Security Events</text>
+  <rect fill="#22c55e20" x="606" y="260" width="8" height="8" rx="2"/>
+  <text fill="#a1a1aa" x="622" y="268" font-family="system-ui" font-size="10">MFA enabled - user@co..</text>
+  <text fill="#71717a" x="622" y="282" font-family="system-ui" font-size="9">2 min ago</text>
+  <rect fill="#ef444420" x="606" y="296" width="8" height="8" rx="2"/>
+  <text fill="#a1a1aa" x="622" y="304" font-family="system-ui" font-size="10">Failed login - admin@..</text>
+  <text fill="#71717a" x="622" y="318" font-family="system-ui" font-size="9">15 min ago</text>
+  <rect fill="#0891b220" x="606" y="332" width="8" height="8" rx="2"/>
+  <text fill="#a1a1aa" x="622" y="340" font-family="system-ui" font-size="10">New role created</text>
+  <text fill="#71717a" x="622" y="354" font-family="system-ui" font-size="9">1 hour ago</text>
+  <!-- Applications -->
+  <rect fill="#111113" x="200" y="395" width="580" height="85" rx="8"/>
+  <text fill="#fff" x="216" y="420" font-family="system-ui" font-size="13" font-weight="500">Connected Applications</text>
+  <rect fill="#1a1a1d" x="216" y="435" width="100" height="35" rx="6"/>
+  <circle cx="236" cy="453" r="10" fill="#4285f4"/>
+  <text fill="#a1a1aa" x="254" y="457" font-family="system-ui" font-size="10">Workspace</text>
+  <rect fill="#1a1a1d" x="326" y="435" width="100" height="35" rx="6"/>
+  <circle cx="346" cy="453" r="10" fill="#0078d4"/>
+  <text fill="#a1a1aa" x="364" y="457" font-family="system-ui" font-size="10">Azure AD</text>
+  <rect fill="#1a1a1d" x="436" y="435" width="100" height="35" rx="6"/>
+  <circle cx="456" cy="453" r="10" fill="#ff9900"/>
+  <text fill="#a1a1aa" x="474" y="457" font-family="system-ui" font-size="10">AWS</text>
+  <rect fill="#1a1a1d" x="546" y="435" width="100" height="35" rx="6"/>
+  <circle cx="566" cy="453" r="10" fill="#7b68ee"/>
+  <text fill="#a1a1aa" x="584" y="457" font-family="system-ui" font-size="10">Slack</text>
+  <rect fill="#0891b2" x="660" y="435" width="80" height="35" rx="6"/>
+  <text fill="#fff" x="680" y="457" font-family="system-ui" font-size="10">+ Add</text>
+</svg>

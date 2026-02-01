@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#ffffff" width="800" height="500"/>
+  <rect fill="#f8fafc" x="0" y="0" width="800" height="50"/>
+  <text fill="#1e293b" x="30" y="32" font-size="16" font-weight="bold">Shipment Tracking</text>
+  <rect fill="#8b5cf6" x="650" y="12" width="120" height="28" rx="6"/>
+  <text fill="#fff" x="675" y="31" font-size="11">Track Another</text>
+  
+  <rect fill="#ffffff" x="30" y="65" width="465" height="175" rx="12" stroke="#e2e8f0" stroke-width="1"/>
+  <text fill="#1e293b" x="50" y="95" font-size="13" font-weight="600">Shipment #SHP-4520</text>
+  <text fill="#64748b" x="50" y="115" font-size="11">Chicago, IL to Miami, FL</text>
+  
+  <rect fill="#f8fafc" x="50" y="130" width="425" height="90" rx="8"/>
+  <circle fill="#16a34a" cx="100" cy="175" r="10"/>
+  <line stroke="#16a34a" stroke-width="3" x1="110" y1="175" x2="180" y2="175"/>
+  <circle fill="#16a34a" cx="190" cy="175" r="10"/>
+  <line stroke="#16a34a" stroke-width="3" x1="200" y1="175" x2="260" y2="175"/>
+  <circle fill="#8b5cf6" cx="270" cy="175" r="12" stroke="#fff" stroke-width="3"/>
+  <line stroke="#e2e8f0" stroke-width="3" x1="282" y1="175" x2="340" y2="175"/>
+  <circle fill="#e2e8f0" cx="350" cy="175" r="10"/>
+  <line stroke="#e2e8f0" stroke-width="3" x1="360" y1="175" x2="420" y2="175"/>
+  <circle fill="#e2e8f0" cx="430" cy="175" r="10"/>
+  <text fill="#16a34a" x="78" y="200" font-size="8">Picked Up</text>
+  <text fill="#16a34a" x="170" y="200" font-size="8">In Transit</text>
+  <text fill="#8b5cf6" x="245" y="200" font-size="8" font-weight="500">Nashville Hub</text>
+  <text fill="#94a3b8" x="325" y="200" font-size="8">Out for Delivery</text>
+  <text fill="#94a3b8" x="410" y="200" font-size="8">Delivered</text>
+  
+  <rect fill="#ffffff" x="515" y="65" width="260" height="175" rx="12" stroke="#e2e8f0" stroke-width="1"/>
+  <text fill="#1e293b" x="535" y="95" font-size="13" font-weight="600">Shipment Details</text>
+  <text fill="#64748b" x="535" y="120" font-size="10">Weight: 245 lbs</text>
+  <text fill="#64748b" x="535" y="140" font-size="10">Dimensions: 48x40x36 in</text>
+  <text fill="#64748b" x="535" y="160" font-size="10">Carrier: FastFreight LLC</text>
+  <text fill="#64748b" x="535" y="180" font-size="10">Service: Express 2-Day</text>
+  <rect fill="#dbeafe" x="535" y="195" width="90" height="24" rx="12"/>
+  <text fill="#3b82f6" x="550" y="211" font-size="10">ETA: 6 hours</text>
+  
+  <rect fill="#ffffff" x="30" y="255" width="745" height="225" rx="12" stroke="#e2e8f0" stroke-width="1"/>
+  <text fill="#1e293b" x="50" y="285" font-size="13" font-weight="600">Tracking History</text>
+  
+  <rect fill="#ede9fe" x="50" y="305" width="705" height="55" rx="8"/>
+  <circle fill="#8b5cf6" cx="80" cy="332" r="8"/>
+  <text fill="#1e293b" x="100" y="327" font-size="11" font-weight="500">Arrived at Nashville Hub</text>
+  <text fill="#64748b" x="100" y="345" font-size="10">Jan 28, 2026 - 2:45 PM CST</text>
+  <rect fill="#dbeafe" x="670" y="320" width="65" height="22" rx="11"/>
+  <text fill="#3b82f6" x="683" y="335" font-size="9">Current</text>
+  
+  <rect fill="#dcfce7" x="50" y="370" width="705" height="50" rx="8"/>
+  <circle fill="#16a34a" cx="80" cy="395" r="8"/>
+  <text fill="#1e293b" x="100" y="390" font-size="11" font-weight="500">Departed Chicago Facility</text>
+  <text fill="#64748b" x="100" y="407" font-size="10">Jan 28, 2026 - 8:30 AM CST</text>
+  
+  <rect fill="#dcfce7" x="50" y="430" width="705" height="45" rx="8"/>
+  <circle fill="#16a34a" cx="80" cy="452" r="8"/>
+  <text fill="#1e293b" x="100" y="447" font-size="11" font-weight="500">Picked up from sender</text>
+  <text fill="#64748b" x="100" y="464" font-size="10">Jan 28, 2026 - 6:15 AM CST</text>
+</svg>

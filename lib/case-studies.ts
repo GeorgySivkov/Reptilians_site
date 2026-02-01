@@ -73,10 +73,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redis", "Elasticsearch", "AWS", "Docker"],
     icon: "Users",
     screenshots: [
-      "/screens/hr-platform-1.svg",
-      "/screens/hr-platform-2.svg",
-      "/screens/hr-platform-3.svg",
-      "/screens/hr-platform-4.svg",
+      "/screens/enterprise-hr-management-1.svg",
+      "/screens/enterprise-hr-management-2.svg",
+      "/screens/enterprise-hr-management-3.svg",
+      "/screens/enterprise-hr-management-4.svg",
     ],
     sections: {
       client: "Enterprise Organization (NDA)",
@@ -115,10 +115,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["Go", "PostgreSQL", "Redis", "Kafka", "Kubernetes", "Vault", "OIDC", "SAML"],
     icon: "Shield",
     screenshots: [
-      "/screens/iam-platform-1.svg",
-      "/screens/iam-platform-2.svg",
-      "/screens/iam-platform-3.svg",
-      "/screens/iam-platform-4.svg",
+      "/screens/identity-access-management-1.svg",
+      "/screens/identity-access-management-2.svg",
+      "/screens/identity-access-management-3.svg",
+      "/screens/identity-access-management-4.svg",
     ],
     sections: {
       client: "Large Enterprise (NDA)",
@@ -157,10 +157,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["C++", "Qt", "OpenGL", "Python", "SQLite", "VTK", "GDAL", "HDF5"],
     icon: "Mountain",
     screenshots: [
-      "/screens/geology-app-1.svg",
-      "/screens/geology-app-2.svg",
-      "/screens/geology-app-3.svg",
-      "/screens/geology-app-4.svg",
+      "/screens/geology-desktop-application-1.svg",
+      "/screens/geology-desktop-application-2.svg",
+      "/screens/geology-desktop-application-3.svg",
+      "/screens/geology-desktop-application-4.svg",
     ],
     sections: {
       client: "Oil & Gas Exploration Company",
@@ -199,10 +199,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["React", "TypeScript", "Python", "FastAPI", "PostgreSQL", "TimescaleDB", "RabbitMQ", "AWS"],
     icon: "Microscope",
     screenshots: [
-      "/screens/life-sciences-1.svg",
-      "/screens/life-sciences-2.svg",
-      "/screens/life-sciences-3.svg",
-      "/screens/life-sciences-4.svg",
+      "/screens/life-sciences-platform-1.svg",
+      "/screens/life-sciences-platform-2.svg",
+      "/screens/life-sciences-platform-3.svg",
+      "/screens/life-sciences-platform-4.svg",
     ],
     sections: {
       client: "Biotech Research Organization",
@@ -241,10 +241,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["Next.js", "TypeScript", "Python", "ClickHouse", "Redis", "Google Ads API", "BigQuery", "GCP"],
     icon: "Megaphone",
     screenshots: [
-      "/screens/ads-platform-1.svg",
-      "/screens/ads-platform-2.svg",
-      "/screens/ads-platform-3.svg",
-      "/screens/ads-platform-4.svg",
+      "/screens/advertising-management-platform-1.svg",
+      "/screens/advertising-management-platform-2.svg",
+      "/screens/advertising-management-platform-3.svg",
+      "/screens/advertising-management-platform-4.svg",
     ],
     sections: {
       client: "Digital Marketing Agency",
@@ -283,10 +283,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["React", "Node.js", "WebRTC", "PostgreSQL", "Redis", "Twilio", "Stripe", "AWS"],
     icon: "Heart",
     screenshots: [
-      "/screens/telehealth-1.svg",
-      "/screens/telehealth-2.svg",
-      "/screens/telehealth-3.svg",
-      "/screens/telehealth-4.svg",
+      "/screens/telehealth-mental-health-1.svg",
+      "/screens/telehealth-mental-health-2.svg",
+      "/screens/telehealth-mental-health-3.svg",
+      "/screens/telehealth-mental-health-4.svg",
     ],
     sections: {
       client: "Mental Health Services Provider",
@@ -325,10 +325,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "Redis", "Stripe", "Vercel", "Mixpanel"],
     icon: "Trophy",
     screenshots: [
-      "/screens/hr-gamification-1.svg",
-      "/screens/hr-gamification-2.svg",
-      "/screens/hr-gamification-3.svg",
-      "/screens/hr-gamification-4.svg",
+      "/screens/hr-gamification-platform-1.svg",
+      "/screens/hr-gamification-platform-2.svg",
+      "/screens/hr-gamification-platform-3.svg",
+      "/screens/hr-gamification-platform-4.svg",
     ],
     sections: {
       client: "Enterprise HR Tech Company",
@@ -367,10 +367,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["Rust", "Solidity", "TypeScript", "Next.js", "PostgreSQL", "IPFS", "The Graph", "AWS"],
     icon: "Leaf",
     screenshots: [
-      "/screens/web3-platform-1.svg",
-      "/screens/web3-platform-2.svg",
-      "/screens/web3-platform-3.svg",
-      "/screens/web3-platform-4.svg",
+      "/screens/green-web3-platform-1.svg",
+      "/screens/green-web3-platform-2.svg",
+      "/screens/green-web3-platform-3.svg",
+      "/screens/green-web3-platform-4.svg",
     ],
     sections: {
       client: "Web3 Infrastructure Company",
@@ -409,10 +409,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["React", "TypeScript", "Java", "Spring Boot", "PostgreSQL", "Elasticsearch", "Kafka", "Azure"],
     icon: "Settings",
     screenshots: [
-      "/screens/eam-platform-1.svg",
-      "/screens/eam-platform-2.svg",
-      "/screens/eam-platform-3.svg",
-      "/screens/eam-platform-4.svg",
+      "/screens/enterprise-asset-management-1.svg",
+      "/screens/enterprise-asset-management-2.svg",
+      "/screens/enterprise-asset-management-3.svg",
+      "/screens/enterprise-asset-management-4.svg",
     ],
     sections: {
       client: "Industrial Enterprise (NDA)",
@@ -451,10 +451,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "Elasticsearch", "Redis", "Stripe", "AWS"],
     icon: "Car",
     screenshots: [
-      "/screens/automotive-1.svg",
-      "/screens/automotive-2.svg",
-      "/screens/automotive-3.svg",
-      "/screens/automotive-4.svg",
+      "/screens/automotive-marketplace-1.svg",
+      "/screens/automotive-marketplace-2.svg",
+      "/screens/automotive-marketplace-3.svg",
+      "/screens/automotive-marketplace-4.svg",
     ],
     sections: {
       client: "Automotive Marketplace Platform",
@@ -493,10 +493,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redis", "Google Maps API", "Twilio", "AWS"],
     icon: "Truck",
     screenshots: [
-      "/screens/logistics-1.svg",
-      "/screens/logistics-2.svg",
-      "/screens/logistics-3.svg",
-      "/screens/logistics-4.svg",
+      "/screens/logistics-crm-portal-1.svg",
+      "/screens/logistics-crm-portal-2.svg",
+      "/screens/logistics-crm-portal-3.svg",
+      "/screens/logistics-crm-portal-4.svg",
     ],
     sections: {
       client: "FTL Logistics Provider",
@@ -535,10 +535,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["React Native", "TypeScript", "Node.js", "PostgreSQL", "AWS S3", "Firebase", "SAP Integration"],
     icon: "Package",
     screenshots: [
-      "/screens/supply-chain-1.svg",
-      "/screens/supply-chain-2.svg",
-      "/screens/supply-chain-3.svg",
-      "/screens/supply-chain-4.svg",
+      "/screens/supply-chain-mobile-app-1.svg",
+      "/screens/supply-chain-mobile-app-2.svg",
+      "/screens/supply-chain-mobile-app-3.svg",
+      "/screens/supply-chain-mobile-app-4.svg",
     ],
     sections: {
       client: "Major Energy Corporation",
@@ -577,10 +577,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["React Native", "TypeScript", "Go", "PostgreSQL", "Redis", "Kubernetes", "AWS", "Hardware Security Modules"],
     icon: "Coins",
     screenshots: [
-      "/screens/crypto-app-1.svg",
-      "/screens/crypto-app-2.svg",
-      "/screens/crypto-app-3.svg",
-      "/screens/crypto-app-4.svg",
+      "/screens/crypto-exchange-mobile-1.svg",
+      "/screens/crypto-exchange-mobile-2.svg",
+      "/screens/crypto-exchange-mobile-3.svg",
+      "/screens/crypto-exchange-mobile-4.svg",
     ],
     sections: {
       client: "FinTech Startup",

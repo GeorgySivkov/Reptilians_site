@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0a0a0b" width="800" height="500"/>
+  <!-- Sidebar -->
+  <rect fill="#111113" x="0" y="0" width="180" height="500"/>
+  <rect fill="#0891b2" x="20" y="20" width="32" height="32" rx="6"/>
+  <text fill="#fff" x="60" y="42" font-family="system-ui" font-size="14" font-weight="600">IAM Hub</text>
+  <rect fill="#0891b2" x="0" y="228" width="4" height="36"/>
+  <rect fill="#1a1a1d" x="12" y="228" width="156" height="36" rx="6"/>
+  <text fill="#fff" x="44" y="251" font-family="system-ui" font-size="12">Audit Logs</text>
+  <!-- Header -->
+  <text fill="#fff" x="200" y="45" font-family="system-ui" font-size="20" font-weight="600">Audit Log</text>
+  <!-- Filters -->
+  <rect fill="#1a1a1d" x="200" y="60" width="180" height="36" rx="6"/>
+  <text fill="#71717a" x="220" y="83" font-family="system-ui" font-size="11">All Events</text>
+  <rect fill="#1a1a1d" x="390" y="60" width="150" height="36" rx="6"/>
+  <text fill="#71717a" x="410" y="83" font-family="system-ui" font-size="11">Last 7 days</text>
+  <rect fill="#1a1a1d" x="550" y="60" width="140" height="36" rx="6"/>
+  <text fill="#71717a" x="570" y="83" font-family="system-ui" font-size="11">All Users</text>
+  <rect fill="#0891b2" x="700" y="60" width="80" height="36" rx="6"/>
+  <text fill="#fff" x="718" y="83" font-family="system-ui" font-size="11">Export</text>
+  <!-- Log Table -->
+  <rect fill="#111113" x="200" y="110" width="580" height="370" rx="8"/>
+  <!-- Header -->
+  <rect fill="#1a1a1d" x="216" y="126" width="548" height="35" rx="4"/>
+  <text fill="#71717a" x="230" y="148" font-family="system-ui" font-size="10">TIMESTAMP</text>
+  <text fill="#71717a" x="340" y="148" font-family="system-ui" font-size="10">USER</text>
+  <text fill="#71717a" x="450" y="148" font-family="system-ui" font-size="10">EVENT</text>
+  <text fill="#71717a" x="600" y="148" font-family="system-ui" font-size="10">IP ADDRESS</text>
+  <text fill="#71717a" x="700" y="148" font-family="system-ui" font-size="10">STATUS</text>
+  <!-- Log Entries -->
+  <text fill="#a1a1aa" x="230" y="185" font-family="system-ui" font-size="10">2024-01-15 14:32:01</text>
+  <text fill="#fff" x="340" y="185" font-family="system-ui" font-size="10">admin@corp.com</text>
+  <text fill="#a1a1aa" x="450" y="185" font-family="system-ui" font-size="10">Login successful</text>
+  <text fill="#71717a" x="600" y="185" font-family="system-ui" font-size="10">192.168.1.100</text>
+  <rect fill="#22c55e20" x="700" y="172" width="50" height="20" rx="3"/>
+  <text fill="#22c55e" x="712" y="186" font-family="system-ui" font-size="9">Success</text>
+  <line x1="216" y1="200" x2="764" y2="200" stroke="#27272a" stroke-width="1"/>
+  
+  <text fill="#a1a1aa" x="230" y="225" font-family="system-ui" font-size="10">2024-01-15 14:28:45</text>
+  <text fill="#fff" x="340" y="225" font-family="system-ui" font-size="10">john.d@corp.com</text>
+  <text fill="#a1a1aa" x="450" y="225" font-family="system-ui" font-size="10">MFA enabled</text>
+  <text fill="#71717a" x="600" y="225" font-family="system-ui" font-size="10">10.0.0.55</text>
+  <rect fill="#0891b220" x="700" y="212" width="50" height="20" rx="3"/>
+  <text fill="#0891b2" x="712" y="226" font-family="system-ui" font-size="9">Info</text>
+  <line x1="216" y1="240" x2="764" y2="240" stroke="#27272a" stroke-width="1"/>
+  
+  <text fill="#a1a1aa" x="230" y="265" font-family="system-ui" font-size="10">2024-01-15 14:15:22</text>
+  <text fill="#fff" x="340" y="265" font-family="system-ui" font-size="10">unknown</text>
+  <text fill="#a1a1aa" x="450" y="265" font-family="system-ui" font-size="10">Login failed - bad password</text>
+  <text fill="#71717a" x="600" y="265" font-family="system-ui" font-size="10">45.33.21.98</text>
+  <rect fill="#ef444420" x="700" y="252" width="50" height="20" rx="3"/>
+  <text fill="#ef4444" x="715" y="266" font-family="system-ui" font-size="9">Failed</text>
+  <line x1="216" y1="280" x2="764" y2="280" stroke="#27272a" stroke-width="1"/>
+  
+  <text fill="#a1a1aa" x="230" y="305" font-family="system-ui" font-size="10">2024-01-15 14:10:11</text>
+  <text fill="#fff" x="340" y="305" font-family="system-ui" font-size="10">sarah.m@corp.com</text>
+  <text fill="#a1a1aa" x="450" y="305" font-family="system-ui" font-size="10">Role assigned: Manager</text>
+  <text fill="#71717a" x="600" y="305" font-family="system-ui" font-size="10">192.168.1.45</text>
+  <rect fill="#22c55e20" x="700" y="292" width="50" height="20" rx="3"/>
+  <text fill="#22c55e" x="712" y="306" font-family="system-ui" font-size="9">Success</text>
+  <line x1="216" y1="320" x2="764" y2="320" stroke="#27272a" stroke-width="1"/>
+  
+  <text fill="#a1a1aa" x="230" y="345" font-family="system-ui" font-size="10">2024-01-15 13:55:33</text>
+  <text fill="#fff" x="340" y="345" font-family="system-ui" font-size="10">api-service</text>
+  <text fill="#a1a1aa" x="450" y="345" font-family="system-ui" font-size="10">Token refreshed</text>
+  <text fill="#71717a" x="600" y="345" font-family="system-ui" font-size="10">10.0.0.12</text>
+  <rect fill="#22c55e20" x="700" y="332" width="50" height="20" rx="3"/>
+  <text fill="#22c55e" x="712" y="346" font-family="system-ui" font-size="9">Success</text>
+  <line x1="216" y1="360" x2="764" y2="360" stroke="#27272a" stroke-width="1"/>
+  
+  <text fill="#a1a1aa" x="230" y="385" font-family="system-ui" font-size="10">2024-01-15 13:45:02</text>
+  <text fill="#fff" x="340" y="385" font-family="system-ui" font-size="10">admin@corp.com</text>
+  <text fill="#a1a1aa" x="450" y="385" font-family="system-ui" font-size="10">Policy updated: SecurityPolicy</text>
+  <text fill="#71717a" x="600" y="385" font-family="system-ui" font-size="10">192.168.1.100</text>
+  <rect fill="#f59e0b20" x="700" y="372" width="50" height="20" rx="3"/>
+  <text fill="#f59e0b" x="710" y="386" font-family="system-ui" font-size="9">Warning</text>
+  <!-- Pagination -->
+  <text fill="#71717a" x="230" y="455" font-family="system-ui" font-size="10">Showing 1-6 of 12,847 events</text>
+  <rect fill="#1a1a1d" x="670" y="440" width="30" height="26" rx="4"/>
+  <text fill="#a1a1aa" x="681" y="458" font-family="system-ui" font-size="11">&lt;</text>
+  <rect fill="#0891b2" x="705" y="440" width="30" height="26" rx="4"/>
+  <text fill="#fff" x="716" y="458" font-family="system-ui" font-size="11">1</text>
+  <rect fill="#1a1a1d" x="740" y="440" width="30" height="26" rx="4"/>
+  <text fill="#a1a1aa" x="751" y="458" font-family="system-ui" font-size="11">&gt;</text>
+</svg>

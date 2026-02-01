@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect fill="#0a0a0b" width="800" height="500"/>
+  <rect fill="#111113" x="0" y="0" width="180" height="500"/>
+  <rect fill="#ec4899" x="20" y="20" width="32" height="32" rx="6"/>
+  <text fill="#fff" x="60" y="42" font-family="system-ui" font-size="14" font-weight="600">AdFlow</text>
+  <rect fill="#ec4899" x="0" y="156" width="4" height="36"/>
+  <rect fill="#1a1a1d" x="12" y="156" width="156" height="36" rx="6"/>
+  <text fill="#fff" x="44" y="179" font-family="system-ui" font-size="12">Automation</text>
+  <text fill="#fff" x="200" y="45" font-family="system-ui" font-size="20" font-weight="600">Automation Rules</text>
+  <rect fill="#ec4899" x="680" y="25" width="100" height="36" rx="6"/>
+  <text fill="#fff" x="700" y="48" font-family="system-ui" font-size="11">+ New Rule</text>
+  <rect fill="#111113" x="200" y="70" width="280" height="200" rx="8"/>
+  <rect fill="#22c55e20" x="200" y="70" width="280" height="50" rx="8 8 0 0"/>
+  <text fill="#22c55e" x="220" y="95" font-family="system-ui" font-size="11" font-weight="500">Budget Cap Alert</text>
+  <text fill="#22c55e" x="420" y="95" font-family="system-ui" font-size="10">Active</text>
+  <text fill="#a1a1aa" x="220" y="140" font-family="system-ui" font-size="10">IF spend reaches 90% of daily budget</text>
+  <text fill="#a1a1aa" x="220" y="160" font-family="system-ui" font-size="10">THEN send Slack notification</text>
+  <text fill="#71717a" x="220" y="195" font-family="system-ui" font-size="9">Triggered: 12 times (last 7 days)</text>
+  <rect fill="#1a1a1d" x="220" y="215" width="60" height="28" rx="4"/>
+  <text fill="#a1a1aa" x="237" y="234" font-family="system-ui" font-size="10">Edit</text>
+  <rect fill="#1a1a1d" x="290" y="215" width="70" height="28" rx="4"/>
+  <text fill="#a1a1aa" x="303" y="234" font-family="system-ui" font-size="10">Disable</text>
+  <rect fill="#111113" x="500" y="70" width="280" height="200" rx="8"/>
+  <rect fill="#22c55e20" x="500" y="70" width="280" height="50" rx="8 8 0 0"/>
+  <text fill="#22c55e" x="520" y="95" font-family="system-ui" font-size="11" font-weight="500">Low ROAS Pause</text>
+  <text fill="#22c55e" x="720" y="95" font-family="system-ui" font-size="10">Active</text>
+  <text fill="#a1a1aa" x="520" y="140" font-family="system-ui" font-size="10">IF ROAS drops below 1.5x for 3 days</text>
+  <text fill="#a1a1aa" x="520" y="160" font-family="system-ui" font-size="10">THEN pause ad group automatically</text>
+  <text fill="#71717a" x="520" y="195" font-family="system-ui" font-size="9">Triggered: 3 times (last 7 days)</text>
+  <rect fill="#1a1a1d" x="520" y="215" width="60" height="28" rx="4"/>
+  <text fill="#a1a1aa" x="537" y="234" font-family="system-ui" font-size="10">Edit</text>
+  <rect fill="#1a1a1d" x="590" y="215" width="70" height="28" rx="4"/>
+  <text fill="#a1a1aa" x="603" y="234" font-family="system-ui" font-size="10">Disable</text>
+  <rect fill="#111113" x="200" y="290" width="280" height="200" rx="8"/>
+  <rect fill="#06b6d420" x="200" y="290" width="280" height="50" rx="8 8 0 0"/>
+  <text fill="#06b6d4" x="220" y="315" font-family="system-ui" font-size="11" font-weight="500">Bid Optimization</text>
+  <text fill="#06b6d4" x="420" y="315" font-family="system-ui" font-size="10">Active</text>
+  <text fill="#a1a1aa" x="220" y="360" font-family="system-ui" font-size="10">IF conversion rate improves > 10%</text>
+  <text fill="#a1a1aa" x="220" y="380" font-family="system-ui" font-size="10">THEN increase bid by 15%</text>
+  <text fill="#71717a" x="220" y="415" font-family="system-ui" font-size="9">Triggered: 8 times (last 7 days)</text>
+  <rect fill="#1a1a1d" x="220" y="435" width="60" height="28" rx="4"/>
+  <text fill="#a1a1aa" x="237" y="454" font-family="system-ui" font-size="10">Edit</text>
+  <rect fill="#1a1a1d" x="290" y="435" width="70" height="28" rx="4"/>
+  <text fill="#a1a1aa" x="303" y="454" font-family="system-ui" font-size="10">Disable</text>
+  <rect fill="#111113" x="500" y="290" width="280" height="200" rx="8"/>
+  <rect fill="#71717a20" x="500" y="290" width="280" height="50" rx="8 8 0 0"/>
+  <text fill="#71717a" x="520" y="315" font-family="system-ui" font-size="11" font-weight="500">Weekend Budget Boost</text>
+  <text fill="#71717a" x="720" y="315" font-family="system-ui" font-size="10">Paused</text>
+  <text fill="#71717a" x="520" y="360" font-family="system-ui" font-size="10">IF day is Saturday or Sunday</text>
+  <text fill="#71717a" x="520" y="380" font-family="system-ui" font-size="10">THEN increase budget by 25%</text>
+  <text fill="#71717a" x="520" y="415" font-family="system-ui" font-size="9">Last triggered: 14 days ago</text>
+  <rect fill="#1a1a1d" x="520" y="435" width="60" height="28" rx="4"/>
+  <text fill="#a1a1aa" x="537" y="454" font-family="system-ui" font-size="10">Edit</text>
+  <rect fill="#22c55e20" x="590" y="435" width="70" height="28" rx="4"/>
+  <text fill="#22c55e" x="605" y="454" font-family="system-ui" font-size="10">Enable</text>
+</svg>
