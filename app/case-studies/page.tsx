@@ -26,7 +26,9 @@ export default function CaseStudiesPage() {
             <div className="mb-10">
               <h1 className="mb-4 text-4xl font-bold tracking-tight md:text-5xl">Case Studies</h1>
               <p className="max-w-2xl text-lg text-muted-foreground">
-                A selection of client work and studio-built products. Some cases are anonymized due to NDAs.
+                A selection of client work and studio-built products.
+                <br />
+                Some cases are anonymized due to NDAs.
               </p>
             </div>
 

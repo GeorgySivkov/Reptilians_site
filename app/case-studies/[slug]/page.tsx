@@ -79,7 +79,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
                 <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{caseStudy.name}</h1>
               </div>
 
-              <p className="max-w-3xl text-lg leading-relaxed text-muted-foreground">{caseStudy.summary}</p>
+              <p className="text-lg leading-relaxed text-muted-foreground">{caseStudy.summary}</p>
             </header>
 
             {/* Screenshot carousel */}

@@ -12,31 +12,31 @@ import { Send, CheckCircle } from "lucide-react"
 
 export function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
   const [ndaRequired, setNdaRequired] = useState(false)
-  const [isSubmitting, setIsSubmitting] = useState(false) // Declare isSubmitting variable
+  const [budget, setBudget] = useState("")
+  const [timeline, setTimeline] = useState("")
+  const [model, setModel] = useState("")
   const formRef = useRef<HTMLFormElement>(null)
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    setIsSubmitting(true) // Set isSubmitting to true when form is submitted
+    setIsSubmitting(true)
 
     const formData = new FormData(e.currentTarget)
     const name = formData.get("name") as string
     const email = formData.get("email") as string
     const company = formData.get("company") as string
     const summary = formData.get("summary") as string
-    const budget = formData.get("budget") as string
-    const timeline = formData.get("timeline") as string
-    const model = formData.get("model") as string
-    
+
     const subject = encodeURIComponent(`Project Inquiry from ${name}${company ? ` (${company})` : ""}`)
     const body = encodeURIComponent(
       `Name: ${name}\nEmail: ${email}${company ? `\nCompany: ${company}` : ""}\n\nProject Summary:\n${summary}\n\nBudget: ${budget || "Not specified"}\nTimeline: ${timeline || "Not specified"}\nEngagement Model: ${model || "Not specified"}\nNDA Required: ${ndaRequired ? "Yes" : "No"}`
     )
-    
-    window.location.href = `mailto:hey@reptilians.studio?subject=${subject}&body=${body}`
+
+    window.open(`mailto:hey@reptilians.studio?subject=${subject}&body=${body}`, "_self")
     setIsSubmitted(true)
-    setIsSubmitting(false) // Set isSubmitting to false after form submission
+    setIsSubmitting(false)
   }
 
   if (isSubmitted) {
@@ -86,7 +86,7 @@ export function ContactForm() {
       <div className="grid gap-6 md:grid-cols-2">
         <div className="space-y-2">
           <Label htmlFor="budget">Budget Range</Label>
-          <Select name="budget">
+          <Select value={budget} onValueChange={setBudget}>
             <SelectTrigger className="bg-background">
               <SelectValue placeholder="Select budget range" />
             </SelectTrigger>
@@ -103,7 +103,7 @@ export function ContactForm() {
 
         <div className="space-y-2">
           <Label htmlFor="timeline">Timeline</Label>
-          <Select name="timeline">
+          <Select value={timeline} onValueChange={setTimeline}>
             <SelectTrigger className="bg-background">
               <SelectValue placeholder="When do you need this?" />
             </SelectTrigger>
@@ -120,7 +120,7 @@ export function ContactForm() {
 
       <div className="space-y-2">
         <Label htmlFor="model">Engagement Model</Label>
-        <Select name="model">
+        <Select value={model} onValueChange={setModel}>
           <SelectTrigger className="bg-background">
             <SelectValue placeholder="How would you like to work?" />
           </SelectTrigger>

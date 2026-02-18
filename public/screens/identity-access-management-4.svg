@@ -1,61 +1,146 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
-  <rect fill="#0a0a0b" width="800" height="500"/>
-  <!-- Sidebar -->
-  <rect fill="#111113" x="0" y="0" width="180" height="500"/>
-  <rect fill="#0891b2" x="20" y="20" width="32" height="32" rx="6"/>
-  <text fill="#fff" x="60" y="42" font-family="system-ui" font-size="14" font-weight="600">IAM Hub</text>
-  <rect fill="#0891b2" x="0" y="264" width="4" height="36"/>
-  <rect fill="#1a1a1d" x="12" y="264" width="156" height="36" rx="6"/>
-  <text fill="#fff" x="44" y="287" font-family="system-ui" font-size="12">SSO Settings</text>
-  <!-- Header -->
-  <text fill="#fff" x="200" y="45" font-family="system-ui" font-size="20" font-weight="600">SSO Configuration</text>
-  <!-- Tabs -->
-  <rect fill="#0891b2" x="200" y="60" width="80" height="32" rx="6"/>
-  <text fill="#fff" x="220" y="81" font-family="system-ui" font-size="11">SAML</text>
-  <rect fill="#1a1a1d" x="290" y="60" width="80" height="32" rx="6"/>
-  <text fill="#a1a1aa" x="310" y="81" font-family="system-ui" font-size="11">OIDC</text>
-  <rect fill="#1a1a1d" x="380" y="60" width="80" height="32" rx="6"/>
-  <text fill="#a1a1aa" x="400" y="81" font-family="system-ui" font-size="11">LDAP</text>
-  <!-- SAML Settings Form -->
-  <rect fill="#111113" x="200" y="105" width="380" height="375" rx="8"/>
-  <text fill="#fff" x="216" y="130" font-family="system-ui" font-size="13" font-weight="500">SAML 2.0 Configuration</text>
-  <text fill="#71717a" x="216" y="165" font-family="system-ui" font-size="11">Entity ID</text>
-  <rect fill="#1a1a1d" x="216" y="175" width="348" height="36" rx="4"/>
-  <text fill="#a1a1aa" x="230" y="198" font-family="system-ui" font-size="11">https://idp.company.com/metadata</text>
-  <text fill="#71717a" x="216" y="235" font-family="system-ui" font-size="11">SSO URL</text>
-  <rect fill="#1a1a1d" x="216" y="245" width="348" height="36" rx="4"/>
-  <text fill="#a1a1aa" x="230" y="268" font-family="system-ui" font-size="11">https://idp.company.com/sso/saml</text>
-  <text fill="#71717a" x="216" y="305" font-family="system-ui" font-size="11">X.509 Certificate</text>
-  <rect fill="#1a1a1d" x="216" y="315" width="348" height="70" rx="4"/>
-  <text fill="#52525b" x="230" y="340" font-family="system-ui" font-size="10">-----BEGIN CERTIFICATE-----</text>
-  <text fill="#52525b" x="230" y="355" font-family="system-ui" font-size="10">MIICmTCCAgKgAwIBAgIBADANBgk...</text>
-  <text fill="#52525b" x="230" y="370" font-family="system-ui" font-size="10">-----END CERTIFICATE-----</text>
-  <text fill="#71717a" x="216" y="410" font-family="system-ui" font-size="11">Name ID Format</text>
-  <rect fill="#1a1a1d" x="216" y="420" width="348" height="36" rx="4"/>
-  <text fill="#a1a1aa" x="230" y="443" font-family="system-ui" font-size="11">urn:oasis:names:tc:SAML:1.1:nameid-format:email</text>
-  <!-- Status Panel -->
-  <rect fill="#111113" x="590" y="105" width="190" height="180" rx="8"/>
-  <text fill="#fff" x="606" y="130" font-family="system-ui" font-size="13" font-weight="500">Connection Status</text>
-  <circle cx="620" cy="165" r="8" fill="#22c55e"/>
-  <text fill="#22c55e" x="640" y="170" font-family="system-ui" font-size="12">Connected</text>
-  <text fill="#71717a" x="606" y="200" font-family="system-ui" font-size="10">Last sync: 2 minutes ago</text>
-  <text fill="#71717a" x="606" y="220" font-family="system-ui" font-size="10">Users synced: 4,892</text>
-  <text fill="#71717a" x="606" y="240" font-family="system-ui" font-size="10">Groups synced: 127</text>
-  <rect fill="#1a1a1d" x="606" y="255" width="160" height="28" rx="4"/>
-  <text fill="#a1a1aa" x="645" y="274" font-family="system-ui" font-size="10">Test Connection</text>
-  <!-- MFA Settings -->
-  <rect fill="#111113" x="590" y="295" width="190" height="185" rx="8"/>
-  <text fill="#fff" x="606" y="320" font-family="system-ui" font-size="13" font-weight="500">MFA Policies</text>
-  <rect fill="#1a1a1d" x="606" y="340" width="160" height="35" rx="4"/>
-  <text fill="#a1a1aa" x="620" y="355" font-family="system-ui" font-size="10">Authenticator App</text>
-  <rect fill="#22c55e" x="728" y="348" width="28" height="14" rx="7"/>
-  <circle cx="751" cy="355" r="9" fill="#fff"/>
-  <rect fill="#1a1a1d" x="606" y="385" width="160" height="35" rx="4"/>
-  <text fill="#a1a1aa" x="620" y="400" font-family="system-ui" font-size="10">SMS Verification</text>
-  <rect fill="#22c55e" x="728" y="393" width="28" height="14" rx="7"/>
-  <circle cx="751" cy="400" r="9" fill="#fff"/>
-  <rect fill="#1a1a1d" x="606" y="430" width="160" height="35" rx="4"/>
-  <text fill="#a1a1aa" x="620" y="445" font-family="system-ui" font-size="10">Hardware Keys</text>
-  <rect fill="#3f3f46" x="728" y="438" width="28" height="14" rx="7"/>
-  <circle cx="733" cy="445" r="9" fill="#fff"/>
+  <!-- Light gray background -->
+  <rect fill="#eef1f6" width="800" height="500"/>
+
+  <!-- Blue header bar -->
+  <rect fill="#2c3e6b" x="20" y="20" width="760" height="52" rx="10"/>
+  <!-- Monitor icon -->
+  <rect fill="none" x="38" y="34" width="18" height="14" rx="2" stroke="#fff" stroke-width="1.5"/>
+  <line x1="47" y1="48" x2="47" y2="54" stroke="#fff" stroke-width="1.5"/>
+  <line x1="41" y1="54" x2="53" y2="54" stroke="#fff" stroke-width="1.5"/>
+  <text fill="#fff" x="68" y="52" font-family="system-ui" font-size="18" font-weight="700">Audit Logs</text>
+  <!-- Icons -->
+  <circle cx="730" cy="46" r="8" fill="none" stroke="#fff" stroke-width="1" opacity="0.6"/>
+  <rect fill="none" x="750" y="38" width="14" height="14" rx="2" stroke="#fff" stroke-width="1" opacity="0.6"/>
+
+  <!-- Filter bar -->
+  <rect fill="#fff" x="20" y="82" width="760" height="38" rx="0"/>
+  <!-- Date filter -->
+  <rect fill="#f8f9fb" x="40" y="88" width="108" height="26" rx="4" stroke="#d0d5dd" stroke-width="1"/>
+  <text fill="#666" x="52" y="106" font-family="system-ui" font-size="10">&#128197; Last 7 days</text>
+  <text fill="#999" x="130" y="106" font-family="system-ui" font-size="9">&#9660;</text>
+  <!-- Activity type filter -->
+  <rect fill="#f8f9fb" x="160" y="88" width="124" height="26" rx="4" stroke="#d0d5dd" stroke-width="1"/>
+  <text fill="#666" x="172" y="106" font-family="system-ui" font-size="10">&#9881; All activity types</text>
+  <text fill="#999" x="266" y="106" font-family="system-ui" font-size="9">&#9660;</text>
+  <!-- Search -->
+  <rect fill="#f8f9fb" x="296" y="88" width="160" height="26" rx="4" stroke="#d0d5dd" stroke-width="1"/>
+  <text fill="#aaa" x="310" y="106" font-family="system-ui" font-size="10">&#128269; Search audit logs...</text>
+  <!-- User activity label -->
+  <text fill="#333" x="520" y="106" font-family="system-ui" font-size="11" font-weight="500">User activity</text>
+  <rect fill="none" x="598" y="90" width="20" height="20" rx="3" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Main content area - two columns -->
+  <rect fill="#fff" x="20" y="126" width="460" height="350" rx="10"/>
+  <rect fill="#fff" x="494" y="126" width="286" height="350" rx="10"/>
+
+  <!-- Left panel: Activity log -->
+  <text fill="#333" x="40" y="152" font-family="system-ui" font-size="12" font-weight="600">Activity Log</text>
+  <text fill="#999" x="140" y="152" font-family="system-ui" font-size="10">&#10005;</text>
+
+  <!-- Table headers -->
+  <text fill="#888" x="40" y="176" font-family="system-ui" font-size="9" font-weight="500">Permission</text>
+  <text fill="#888" x="230" y="176" font-family="system-ui" font-size="9" font-weight="500">Platform</text>
+  <text fill="#888" x="328" y="176" font-family="system-ui" font-size="9" font-weight="500">Session details</text>
+  <line x1="40" y1="184" x2="462" y2="184" stroke="#e8e8e8" stroke-width="1"/>
+
+  <!-- Row 1: Successful Login -->
+  <circle cx="52" cy="204" r="10" fill="#e8d4c8"/>
+  <text fill="#333" x="68" y="200" font-family="system-ui" font-size="10" font-weight="500">Successful Login</text>
+  <text fill="#888" x="68" y="212" font-family="system-ui" font-size="8">Access granted</text>
+  <text fill="#888" x="230" y="206" font-family="system-ui" font-size="9">21:53 AM...</text>
+  <text fill="#888" x="328" y="206" font-family="system-ui" font-size="9">24.18.380 com</text>
+  <line x1="40" y1="224" x2="462" y2="224" stroke="#f0f0f0" stroke-width="1"/>
+
+  <!-- Row 2: Cloud Import Login -->
+  <circle cx="52" cy="244" r="10" fill="#c8d4e8"/>
+  <text fill="#333" x="68" y="240" font-family="system-ui" font-size="10" font-weight="500">Cloud Import Login</text>
+  <text fill="#888" x="68" y="252" font-family="system-ui" font-size="8">Sync operation</text>
+  <text fill="#888" x="230" y="246" font-family="system-ui" font-size="9">22:53 AM...</text>
+  <text fill="#888" x="328" y="246" font-family="system-ui" font-size="9">04.18.380 com</text>
+  <line x1="40" y1="264" x2="462" y2="264" stroke="#f0f0f0" stroke-width="1"/>
+
+  <!-- Row 3: Administrator -->
+  <circle cx="52" cy="284" r="10" fill="#d8c8e8"/>
+  <text fill="#333" x="68" y="280" font-family="system-ui" font-size="10" font-weight="500">Administrator</text>
+  <text fill="#888" x="68" y="292" font-family="system-ui" font-size="8">Config change</text>
+  <text fill="#888" x="230" y="286" font-family="system-ui" font-size="9">21:53 AM...</text>
+  <text fill="#888" x="328" y="286" font-family="system-ui" font-size="9">03.8.58039 com</text>
+  <line x1="40" y1="304" x2="462" y2="304" stroke="#f0f0f0" stroke-width="1"/>
+
+  <!-- Row 4: Fraud Login Attempt -->
+  <circle cx="52" cy="324" r="10" fill="#e8c8c8"/>
+  <text fill="#333" x="68" y="320" font-family="system-ui" font-size="10" font-weight="500">Fraud Login Attempt</text>
+  <text fill="#888" x="68" y="332" font-family="system-ui" font-size="8">Blocked access</text>
+  <text fill="#888" x="230" y="326" font-family="system-ui" font-size="9">1:53 AM...</text>
+  <rect fill="#fde8e8" x="328" y="316" width="60" height="18" rx="3"/>
+  <text fill="#e74c3c" x="336" y="329" font-family="system-ui" font-size="8">Blocked</text>
+  <rect fill="#e8f8e8" x="396" y="316" width="56" height="18" rx="3"/>
+  <text fill="#4caf50" x="402" y="329" font-family="system-ui" font-size="8">Geo-fence</text>
+  <line x1="40" y1="344" x2="462" y2="344" stroke="#f0f0f0" stroke-width="1"/>
+
+  <!-- Row 5: Failed Login Attempt -->
+  <circle cx="52" cy="364" r="10" fill="#c8e8d8"/>
+  <text fill="#333" x="68" y="360" font-family="system-ui" font-size="10" font-weight="500">Failed Login Attempt</text>
+  <text fill="#888" x="68" y="372" font-family="system-ui" font-size="8">Bad credentials</text>
+  <text fill="#888" x="230" y="366" font-family="system-ui" font-size="9">1:55 AM...</text>
+  <rect fill="#e8f8e8" x="328" y="356" width="60" height="18" rx="3"/>
+  <text fill="#4caf50" x="336" y="369" font-family="system-ui" font-size="8">0.6 Attempts</text>
+  <rect fill="#e8f8e8" x="396" y="356" width="56" height="18" rx="3"/>
+  <text fill="#4caf50" x="404" y="369" font-family="system-ui" font-size="8">Services</text>
+  <line x1="40" y1="384" x2="462" y2="384" stroke="#f0f0f0" stroke-width="1"/>
+
+  <!-- Row 6 -->
+  <circle cx="52" cy="404" r="10" fill="#e8e4c8"/>
+  <text fill="#333" x="68" y="400" font-family="system-ui" font-size="10" font-weight="500">Auth Config Update</text>
+  <text fill="#888" x="68" y="412" font-family="system-ui" font-size="8">Policy modified</text>
+  <text fill="#888" x="230" y="406" font-family="system-ui" font-size="9">1:55 AM...</text>
+  <rect fill="#e8f8e8" x="328" y="396" width="60" height="18" rx="3"/>
+  <text fill="#4caf50" x="336" y="409" font-family="system-ui" font-size="8">0.6 changes</text>
+  <rect fill="#e8f8e8" x="396" y="396" width="56" height="18" rx="3"/>
+  <text fill="#4caf50" x="404" y="409" font-family="system-ui" font-size="8">Services</text>
+  <line x1="40" y1="424" x2="462" y2="424" stroke="#f0f0f0" stroke-width="1"/>
+
+  <!-- Row 7 -->
+  <circle cx="52" cy="444" r="10" fill="#d8d8e8"/>
+  <text fill="#333" x="68" y="440" font-family="system-ui" font-size="10" font-weight="500">Disable Account</text>
+  <text fill="#888" x="68" y="452" font-family="system-ui" font-size="8">User suspended</text>
+  <text fill="#888" x="230" y="446" font-family="system-ui" font-size="9">1:55 AM...</text>
+  <rect fill="#fde8e8" x="328" y="436" width="60" height="18" rx="3"/>
+  <text fill="#e74c3c" x="336" y="449" font-family="system-ui" font-size="8">Admin action</text>
+  <rect fill="#e8f8e8" x="396" y="436" width="56" height="18" rx="3"/>
+  <text fill="#4caf50" x="404" y="449" font-family="system-ui" font-size="8">Services</text>
+
+  <!-- Right panel: User activity detail -->
+  <text fill="#333" x="514" y="152" font-family="system-ui" font-size="12" font-weight="600">User activity</text>
+  <rect fill="none" x="740" y="138" width="20" height="20" rx="3" stroke="#ccc" stroke-width="1"/>
+  <line x1="514" y1="164" x2="760" y2="164" stroke="#e8e8e8" stroke-width="1"/>
+
+  <!-- User profile -->
+  <circle cx="530" cy="192" r="16" fill="#e8d4c8"/>
+  <text fill="#333" x="554" y="186" font-family="system-ui" font-size="10" font-weight="500">Role Assignment Changed</text>
+  <text fill="#888" x="554" y="200" font-family="system-ui" font-size="9">Administrator</text>
+
+  <!-- Detail fields -->
+  <text fill="#e74c3c" x="514" y="234" font-family="system-ui" font-size="10">&#9888;</text>
+  <line x1="514" y1="240" x2="760" y2="240" stroke="#f0f0f0" stroke-width="1"/>
+
+  <text fill="#888" x="514" y="260" font-family="system-ui" font-size="9" font-weight="500">Description:</text>
+  <text fill="#333" x="514" y="278" font-family="system-ui" font-size="10">Group Mapping Updated to Administrator</text>
+
+  <text fill="#888" x="514" y="306" font-family="system-ui" font-size="9" font-weight="500">IP Address:</text>
+  <text fill="#333" x="514" y="322" font-family="system-ui" font-size="10">203.0.113.45</text>
+
+  <text fill="#888" x="514" y="350" font-family="system-ui" font-size="9" font-weight="500">Timestamp:</text>
+  <text fill="#333" x="514" y="366" font-family="system-ui" font-size="10">18.6.78.2024, 10:ap:10 AM</text>
+
+  <text fill="#888" x="514" y="394" font-family="system-ui" font-size="9" font-weight="500">Associated accounts:</text>
+  <!-- Account rows -->
+  <rect fill="#f8f9fb" x="514" y="404" width="246" height="28" rx="4" stroke="#e8e8e8" stroke-width="1"/>
+  <circle cx="530" cy="418" r="8" fill="#e8d4c8"/>
+  <text fill="#333" x="544" y="422" font-family="system-ui" font-size="10">admin@corp.com</text>
+
+  <rect fill="#f8f9fb" x="514" y="438" width="246" height="28" rx="4" stroke="#e8e8e8" stroke-width="1"/>
+  <circle cx="530" cy="452" r="8" fill="#c8d4e8"/>
+  <text fill="#333" x="544" y="456" font-family="system-ui" font-size="10">admin@corp.com</text>
 </svg>

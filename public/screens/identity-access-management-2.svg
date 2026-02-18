@@ -1,100 +1,114 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
-  <rect fill="#0a0a0b" width="800" height="500"/>
-  <!-- Sidebar -->
-  <rect fill="#111113" x="0" y="0" width="180" height="500"/>
-  <rect fill="#0891b2" x="20" y="20" width="32" height="32" rx="6"/>
-  <text fill="#fff" x="60" y="42" font-family="system-ui" font-size="14" font-weight="600">IAM Hub</text>
-  <rect fill="#0891b2" x="0" y="156" width="4" height="36"/>
-  <rect fill="#1a1a1d" x="12" y="156" width="156" height="36" rx="6"/>
-  <text fill="#fff" x="44" y="179" font-family="system-ui" font-size="12">Roles & Policies</text>
-  <!-- Header -->
-  <text fill="#fff" x="200" y="45" font-family="system-ui" font-size="20" font-weight="600">Role Management</text>
-  <rect fill="#0891b2" x="700" y="25" width="80" height="36" rx="6"/>
-  <text fill="#fff" x="715" y="48" font-family="system-ui" font-size="12">+ New Role</text>
-  <!-- Permissions Matrix -->
-  <rect fill="#111113" x="200" y="70" width="580" height="410" rx="8"/>
-  <text fill="#fff" x="216" y="95" font-family="system-ui" font-size="13" font-weight="500">Permissions Matrix</text>
-  <!-- Header Row -->
-  <rect fill="#1a1a1d" x="216" y="110" width="548" height="40" rx="4"/>
-  <text fill="#71717a" x="230" y="135" font-family="system-ui" font-size="10" font-weight="500">RESOURCE</text>
-  <text fill="#71717a" x="350" y="135" font-family="system-ui" font-size="10" font-weight="500">ADMIN</text>
-  <text fill="#71717a" x="430" y="135" font-family="system-ui" font-size="10" font-weight="500">MANAGER</text>
-  <text fill="#71717a" x="520" y="135" font-family="system-ui" font-size="10" font-weight="500">DEVELOPER</text>
-  <text fill="#71717a" x="620" y="135" font-family="system-ui" font-size="10" font-weight="500">VIEWER</text>
-  <text fill="#71717a" x="710" y="135" font-family="system-ui" font-size="10" font-weight="500">GUEST</text>
-  <!-- Users Row -->
-  <text fill="#fff" x="230" y="175" font-family="system-ui" font-size="11">Users</text>
-  <rect fill="#22c55e" x="360" y="162" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="366" y="177" font-family="system-ui" font-size="10">R</text>
-  <rect fill="#22c55e" x="440" y="162" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="446" y="177" font-family="system-ui" font-size="10">R</text>
-  <rect fill="#3b82f6" x="530" y="162" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="536" y="177" font-family="system-ui" font-size="10">W</text>
-  <rect fill="#71717a" x="630" y="162" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="636" y="177" font-family="system-ui" font-size="10">-</text>
-  <rect fill="#71717a" x="720" y="162" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="726" y="177" font-family="system-ui" font-size="10">-</text>
-  <line x1="216" y1="195" x2="764" y2="195" stroke="#27272a" stroke-width="1"/>
-  <!-- Roles Row -->
-  <text fill="#fff" x="230" y="220" font-family="system-ui" font-size="11">Roles</text>
-  <rect fill="#22c55e" x="360" y="207" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="366" y="222" font-family="system-ui" font-size="10">R</text>
-  <rect fill="#22c55e" x="440" y="207" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="446" y="222" font-family="system-ui" font-size="10">R</text>
-  <rect fill="#71717a" x="530" y="207" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="536" y="222" font-family="system-ui" font-size="10">-</text>
-  <rect fill="#71717a" x="630" y="207" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="636" y="222" font-family="system-ui" font-size="10">-</text>
-  <rect fill="#71717a" x="720" y="207" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="726" y="222" font-family="system-ui" font-size="10">-</text>
-  <line x1="216" y1="240" x2="764" y2="240" stroke="#27272a" stroke-width="1"/>
-  <!-- Applications Row -->
-  <text fill="#fff" x="230" y="265" font-family="system-ui" font-size="11">Applications</text>
-  <rect fill="#22c55e" x="360" y="252" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="366" y="267" font-family="system-ui" font-size="10">R</text>
-  <rect fill="#3b82f6" x="440" y="252" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="446" y="267" font-family="system-ui" font-size="10">W</text>
-  <rect fill="#3b82f6" x="530" y="252" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="536" y="267" font-family="system-ui" font-size="10">W</text>
-  <rect fill="#3b82f6" x="630" y="252" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="636" y="267" font-family="system-ui" font-size="10">W</text>
-  <rect fill="#71717a" x="720" y="252" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="726" y="267" font-family="system-ui" font-size="10">-</text>
-  <line x1="216" y1="285" x2="764" y2="285" stroke="#27272a" stroke-width="1"/>
-  <!-- Audit Logs Row -->
-  <text fill="#fff" x="230" y="310" font-family="system-ui" font-size="11">Audit Logs</text>
-  <rect fill="#22c55e" x="360" y="297" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="366" y="312" font-family="system-ui" font-size="10">R</text>
-  <rect fill="#3b82f6" x="440" y="297" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="446" y="312" font-family="system-ui" font-size="10">W</text>
-  <rect fill="#71717a" x="530" y="297" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="536" y="312" font-family="system-ui" font-size="10">-</text>
-  <rect fill="#71717a" x="630" y="297" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="636" y="312" font-family="system-ui" font-size="10">-</text>
-  <rect fill="#71717a" x="720" y="297" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="726" y="312" font-family="system-ui" font-size="10">-</text>
-  <line x1="216" y1="330" x2="764" y2="330" stroke="#27272a" stroke-width="1"/>
-  <!-- Settings Row -->
-  <text fill="#fff" x="230" y="355" font-family="system-ui" font-size="11">Settings</text>
-  <rect fill="#22c55e" x="360" y="342" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="366" y="357" font-family="system-ui" font-size="10">R</text>
-  <rect fill="#71717a" x="440" y="342" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="446" y="357" font-family="system-ui" font-size="10">-</text>
-  <rect fill="#71717a" x="530" y="342" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="536" y="357" font-family="system-ui" font-size="10">-</text>
-  <rect fill="#71717a" x="630" y="342" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="636" y="357" font-family="system-ui" font-size="10">-</text>
-  <rect fill="#71717a" x="720" y="342" width="20" height="20" rx="4"/>
-  <text fill="#fff" x="726" y="357" font-family="system-ui" font-size="10">-</text>
-  <!-- Legend -->
-  <text fill="#71717a" x="230" y="420" font-family="system-ui" font-size="10">Legend:</text>
-  <rect fill="#22c55e" x="280" y="408" width="16" height="16" rx="3"/>
-  <text fill="#a1a1aa" x="302" y="420" font-family="system-ui" font-size="10">Full Access</text>
-  <rect fill="#3b82f6" x="380" y="408" width="16" height="16" rx="3"/>
-  <text fill="#a1a1aa" x="402" y="420" font-family="system-ui" font-size="10">Read/Write</text>
-  <rect fill="#71717a" x="480" y="408" width="16" height="16" rx="3"/>
-  <text fill="#a1a1aa" x="502" y="420" font-family="system-ui" font-size="10">No Access</text>
-  <!-- Save Button -->
-  <rect fill="#0891b2" x="630" y="445" width="120" height="32" rx="6"/>
-  <text fill="#fff" x="660" y="466" font-family="system-ui" font-size="11">Save Changes</text>
+  <!-- Light gray background -->
+  <rect fill="#eef1f6" width="800" height="500"/>
+
+  <!-- Blue header bar -->
+  <rect fill="#2c3e6b" x="20" y="20" width="760" height="52" rx="10"/>
+  <text fill="#fff" x="68" y="52" font-family="system-ui" font-size="18" font-weight="700">Policy Editor</text>
+  <!-- Lock icon placeholder -->
+  <rect fill="#fff" x="38" y="36" width="20" height="22" rx="3" opacity="0.3"/>
+
+  <!-- Left column - Policy Name -->
+  <rect fill="#fff" x="20" y="88" width="220" height="390" rx="10"/>
+  <text fill="#333" x="40" y="118" font-family="system-ui" font-size="13" font-weight="700">Policy Name</text>
+  <!-- Policy Name field -->
+  <text fill="#888" x="40" y="146" font-family="system-ui" font-size="10">Policy Name</text>
+  <rect fill="#fff" x="40" y="152" width="180" height="30" rx="5" stroke="#d0d5dd" stroke-width="1"/>
+  <text fill="#333" x="50" y="172" font-family="system-ui" font-size="11">Location: Intranet</text>
+  <!-- Combination field -->
+  <text fill="#888" x="40" y="202" font-family="system-ui" font-size="10">Combination</text>
+  <rect fill="#fff" x="40" y="208" width="180" height="30" rx="5" stroke="#d0d5dd" stroke-width="1"/>
+  <text fill="#333" x="50" y="228" font-family="system-ui" font-size="11">Int Intranet</text>
+  <text fill="#999" x="198" y="228" font-family="system-ui" font-size="10">&#9660;</text>
+  <!-- Active toggle -->
+  <text fill="#888" x="40" y="260" font-family="system-ui" font-size="10">Active:</text>
+  <rect fill="#3b5998" x="78" y="248" width="32" height="18" rx="9"/>
+  <circle cx="100" cy="257" r="7" fill="#fff"/>
+  <text fill="#888" x="118" y="260" font-family="system-ui" font-size="9">Dis &amp; Reconfigure Actions</text>
+  <circle cx="205" cy="257" r="7" fill="none" stroke="#ccc" stroke-width="1"/>
+  <!-- Preset Name -->
+  <text fill="#888" x="40" y="296" font-family="system-ui" font-size="10">Preset Name</text>
+  <rect fill="#f0f0f0" x="40" y="302" width="180" height="30" rx="5" stroke="#e0e0e0" stroke-width="1"/>
+  <rect fill="#3b5998" x="50" y="309" width="14" height="14" rx="3"/>
+  <text fill="#333" x="72" y="321" font-family="system-ui" font-size="11">Password Policy</text>
+  <!-- Save buttons -->
+  <rect fill="#3b5998" x="40" y="350" width="84" height="32" rx="6"/>
+  <text fill="#fff" x="52" y="371" font-family="system-ui" font-size="11" font-weight="600">Save</text>
+  <rect fill="#f0f0f0" x="40" y="394" width="84" height="32" rx="6" stroke="#d0d5dd" stroke-width="1"/>
+  <rect fill="#333" x="54" y="403" width="12" height="12" rx="2"/>
+  <text fill="#333" x="72" y="415" font-family="system-ui" font-size="11">Save</text>
+
+  <!-- Middle column - Conditions -->
+  <rect fill="#fff" x="254" y="88" width="260" height="390" rx="10"/>
+  <text fill="#333" x="274" y="118" font-family="system-ui" font-size="13" font-weight="700">Conditions</text>
+  <!-- Checkbox row with green check -->
+  <rect fill="#3b5998" x="274" y="132" width="18" height="18" rx="4"/>
+  <text fill="#fff" x="278" y="146" font-family="system-ui" font-size="12">&#10003;</text>
+  <text fill="#333" x="300" y="147" font-family="system-ui" font-size="12" font-weight="500">Require Multi-Factor Authentication</text>
+  <circle cx="490" cy="142" r="8" fill="#22c55e"/>
+  <text fill="#fff" x="487" y="146" font-family="system-ui" font-size="8">&#10003;</text>
+  <!-- Recommendations box -->
+  <rect fill="#f8f9fb" x="274" y="166" width="220" height="72" rx="8" stroke="#e8eaf0" stroke-width="1"/>
+  <text fill="#888" x="286" y="184" font-family="system-ui" font-size="9">Recommendations:</text>
+  <rect fill="#fff" x="286" y="192" width="196" height="28" rx="4" stroke="#d0d5dd" stroke-width="1"/>
+  <text fill="#333" x="296" y="210" font-family="system-ui" font-size="10">Require MFA for Privileged Accounts</text>
+  <text fill="#999" x="468" y="210" font-family="system-ui" font-size="9">&#8693;</text>
+  <!-- Recommended tag -->
+  <rect fill="#3b5998" x="274" y="252" width="220" height="32" rx="6"/>
+  <text fill="#fff" x="306" y="273" font-family="system-ui" font-size="11" font-weight="500">Recommended for Authentication</text>
+  <!-- MFA policy row -->
+  <rect fill="#f0f2f8" x="274" y="296" width="220" height="32" rx="6" stroke="#d8dce8" stroke-width="1"/>
+  <rect fill="#e74c3c" x="284" y="304" width="14" height="14" rx="3"/>
+  <text fill="#333" x="306" y="317" font-family="system-ui" font-size="10">Require Multi-Factor Authentication</text>
+  <text fill="#3b5998" x="478" y="317" font-family="system-ui" font-size="10">&#10003;</text>
+
+  <!-- Actions heading -->
+  <text fill="#333" x="274" y="358" font-family="system-ui" font-size="13" font-weight="700">Actions:</text>
+  <rect fill="#fff" x="274" y="368" width="220" height="32" rx="6" stroke="#d0d5dd" stroke-width="1"/>
+  <circle cx="290" cy="384" r="8" fill="none" stroke="#ccc" stroke-width="1"/>
+  <text fill="#333" x="306" y="389" font-family="system-ui" font-size="10">Require Multi-Factor Authentication</text>
+
+  <!-- Right column - Settings/Policies list -->
+  <rect fill="#fff" x="528" y="88" width="252" height="390" rx="10"/>
+  <text fill="#888" x="548" y="114" font-family="system-ui" font-size="10">Settings</text>
+  <text fill="#888" x="618" y="114" font-family="system-ui" font-size="10">&#9472;&#9472;</text>
+  <!-- User icon -->
+  <circle cx="738" cy="110" r="12" fill="#f0f0f0" stroke="#ccc" stroke-width="1"/>
+  <!-- Policies heading -->
+  <text fill="#333" x="548" y="142" font-family="system-ui" font-size="12" font-weight="600">Policies</text>
+  <!-- Policy items -->
+  <rect fill="#f8f9fb" x="548" y="154" width="212" height="44" rx="6" stroke="#e8eaf0" stroke-width="1"/>
+  <rect fill="#3b5998" x="558" y="164" width="22" height="22" rx="4"/>
+  <text fill="#fff" x="563" y="180" font-family="system-ui" font-size="10">&#128100;</text>
+  <text fill="#333" x="588" y="174" font-family="system-ui" font-size="10" font-weight="500">Rotate MFA</text>
+  <text fill="#888" x="588" y="188" font-family="system-ui" font-size="9">Require Employee Accounts</text>
+  <circle cx="740" cy="175" r="6" fill="#e74c3c"/>
+
+  <rect fill="#f8f9fb" x="548" y="206" width="212" height="44" rx="6" stroke="#e8eaf0" stroke-width="1"/>
+  <rect fill="#3b5998" x="558" y="216" width="22" height="22" rx="4"/>
+  <text fill="#fff" x="563" y="232" font-family="system-ui" font-size="10">&#128100;</text>
+  <text fill="#333" x="588" y="226" font-family="system-ui" font-size="10" font-weight="500">Enable MFA</text>
+  <text fill="#888" x="588" y="240" font-family="system-ui" font-size="9">Configuration Management</text>
+
+  <rect fill="#f8f9fb" x="548" y="258" width="212" height="44" rx="6" stroke="#e8eaf0" stroke-width="1"/>
+  <rect fill="#3b5998" x="558" y="268" width="22" height="22" rx="4"/>
+  <text fill="#333" x="588" y="278" font-family="system-ui" font-size="10" font-weight="500">Require MFA</text>
+  <text fill="#888" x="588" y="292" font-family="system-ui" font-size="9">All Accounts</text>
+  <circle cx="740" cy="279" r="6" fill="none" stroke="#ccc" stroke-width="1"/>
+
+  <rect fill="#f8f9fb" x="548" y="310" width="212" height="44" rx="6" stroke="#e8eaf0" stroke-width="1"/>
+  <rect fill="#3b5998" x="558" y="320" width="22" height="22" rx="4"/>
+  <text fill="#333" x="588" y="330" font-family="system-ui" font-size="10" font-weight="500">Intranet MFA</text>
+  <text fill="#888" x="588" y="344" font-family="system-ui" font-size="9">Requirement</text>
+
+  <rect fill="#f8f9fb" x="548" y="362" width="212" height="44" rx="6" stroke="#e8eaf0" stroke-width="1"/>
+  <rect fill="#3b5998" x="558" y="372" width="22" height="22" rx="4"/>
+  <text fill="#333" x="588" y="382" font-family="system-ui" font-size="10" font-weight="500">Block Expired</text>
+  <text fill="#888" x="588" y="396" font-family="system-ui" font-size="9">Disable Accounts</text>
+  <circle cx="740" cy="383" r="6" fill="#e74c3c"/>
+
+  <rect fill="#f8f9fb" x="548" y="414" width="212" height="44" rx="6" stroke="#e8eaf0" stroke-width="1"/>
+  <rect fill="#3b5998" x="558" y="424" width="22" height="22" rx="4"/>
+  <text fill="#333" x="588" y="434" font-family="system-ui" font-size="10" font-weight="500">Enforce Policies</text>
+  <text fill="#888" x="588" y="448" font-family="system-ui" font-size="9">System Configuration</text>
 </svg>

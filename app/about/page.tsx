@@ -14,7 +14,7 @@ import {
   BarChart3,
   Workflow,
 } from "lucide-react"
-import Image from "next/image"
+
 
 export const dynamic = "force-static"
 export const revalidate = false
@@ -85,19 +85,16 @@ const teamRoles = [
     icon: Cpu,
     title: "Engineering",
     description: "Full-stack developers, system architects, and DevOps engineers who ship production-ready code.",
-    photo: "/engineering-team-photo.jpg",
   },
   {
     icon: Workflow,
     title: "Product",
     description: "Product managers and designers who translate business goals into user-centered solutions.",
-    photo: "/product-team-photo.jpg",
   },
   {
     icon: BarChart3,
     title: "Analytics",
     description: "Data engineers and analysts who ensure decisions are backed by metrics and insights.",
-    photo: "/analytics-team-photo.jpg",
   },
 ]
 
@@ -142,24 +139,14 @@ export default function AboutPage() {
               </p>
               <div className="grid gap-6 sm:grid-cols-3">
                 {teamRoles.map((role) => (
-                  <div key={role.title} className="overflow-hidden rounded-xl border border-border/50 bg-card/50">
-                    <div className="relative aspect-[3/2] w-full">
-                      <Image
-                        src={role.photo || "/placeholder.svg"}
-                        alt={`${role.title} team`}
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                    <div className="p-6">
-                      <div className="mb-3 flex items-center gap-3">
-                        <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-accent/10">
-                          <role.icon className="h-4 w-4 text-accent" />
-                        </div>
-                        <h3 className="text-lg font-semibold">{role.title}</h3>
+                  <div key={role.title} className="rounded-xl border border-border/50 bg-card/50 p-6">
+                    <div className="mb-3 flex items-center gap-3">
+                      <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-accent/10">
+                        <role.icon className="h-4 w-4 text-accent" />
                       </div>
-                      <p className="text-sm leading-relaxed text-muted-foreground">{role.description}</p>
+                      <h3 className="text-lg font-semibold">{role.title}</h3>
                     </div>
+                    <p className="text-sm leading-relaxed text-muted-foreground">{role.description}</p>
                   </div>
                 ))}
               </div>

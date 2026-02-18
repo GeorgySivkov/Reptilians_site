@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { ContactForm } from "@/components/contact-form"
-import { Mail, MapPin, Github, Linkedin } from "lucide-react"
+import { Mail, MapPin } from "lucide-react"
 
 export const dynamic = "force-static"
 export const revalidate = false
@@ -15,20 +15,15 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "hello@reptilians.dev",
-    href: "mailto:hello@reptilians.dev",
+    value: "hey@reptilians.studio",
+    href: "mailto:hey@reptilians.studio",
   },
   {
     icon: MapPin,
-    label: "Locations",
-    value: "Serbia • Amsterdam • Cyprus",
+    label: "Location",
+    value: "Distributed worldwide",
     href: null,
   },
-]
-
-const socialLinks = [
-  { icon: Github, label: "GitHub", href: "https://github.com/reptilians" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/company/reptilians" },
 ]
 
 export default function ContactPage() {
@@ -74,23 +69,7 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                <div className="rounded-xl border border-border/50 bg-card/50 p-6">
-                  <h3 className="mb-5 font-semibold">Follow Us</h3>
-                  <div className="flex gap-3">
-                    {socialLinks.map((link) => (
-                      <a
-                        key={link.label}
-                        href={link.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex h-10 w-10 items-center justify-center rounded-lg bg-secondary text-muted-foreground transition-colors hover:bg-accent/10 hover:text-accent"
-                      >
-                        <link.icon className="h-5 w-5" />
-                        <span className="sr-only">{link.label}</span>
-                      </a>
-                    ))}
-                  </div>
-                </div>
+
               </div>
             </div>
           </div>
