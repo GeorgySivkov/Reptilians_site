@@ -157,10 +157,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["C++", "Qt", "OpenGL", "Python", "SQLite", "VTK", "GDAL", "HDF5"],
     icon: "Mountain",
     screenshots: [
-      "/screens/geology-desktop-application-1.jpg",
-      "/screens/geology-desktop-application-2.jpg",
-      "/screens/geology-desktop-application-3.jpg",
-      "/screens/geology-desktop-application-4.jpg",
+      "/screens/geology-app-1.png",
+      "/screens/geology-app-2.png",
+      "/screens/geology-app-3.png",
+      "/screens/geology-app-4.png",
     ],
     sections: {
       client: "Oil & Gas Exploration Company",
@@ -241,10 +241,10 @@ export const caseStudies: CaseStudy[] = [
     stack: ["Next.js", "TypeScript", "Python", "ClickHouse", "Redis", "Google Ads API", "BigQuery", "GCP"],
     icon: "Megaphone",
     screenshots: [
-      "/screens/advertising-management-platform-1.jpg",
-      "/screens/advertising-management-platform-2.jpg",
-      "/screens/advertising-management-platform-3.jpg",
-      "/screens/advertising-management-platform-4.jpg",
+      "/screens/advertising-management-platform-1.png",
+      "/screens/advertising-management-platform-2.png",
+      "/screens/advertising-management-platform-3.png",
+      "/screens/advertising-management-platform-4.png",
     ],
     sections: {
       client: "Digital Marketing Agency",
