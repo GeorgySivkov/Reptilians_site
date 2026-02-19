@@ -39,8 +39,8 @@ export default function TermsPage() {
                 <strong className="text-foreground">Legal entity name:</strong> Reptilians
                 <br />
                 <strong className="text-foreground">Contact:</strong>{" "}
-                <a href="mailto:hey@reptilians.band" className="text-accent hover:underline">
-                  hey@reptilians.band
+                <a href="mailto:hey@reptilians.studio" className="text-accent hover:underline">
+                  hey@reptilians.studio
                 </a>
               </p>
               <p className="leading-relaxed text-muted-foreground">
@@ -243,8 +243,8 @@ export default function TermsPage() {
               <h2 className="text-2xl font-semibold tracking-tight">16) Contact</h2>
               <p className="leading-relaxed text-muted-foreground">
                 Questions about these Terms:{" "}
-                <a href="mailto:hey@reptilians.band" className="text-accent hover:underline">
-                  hey@reptilians.band
+                <a href="mailto:hey@reptilians.studio" className="text-accent hover:underline">
+                  hey@reptilians.studio
                 </a>
               </p>
             </section>

@@ -30,8 +30,8 @@ export default function PrivacyPage() {
                 <strong className="text-foreground">Data controller:</strong> Reptilians
                 <br />
                 <strong className="text-foreground">Contact email:</strong>{" "}
-                <a href="mailto:hey@reptilians.band" className="text-accent hover:underline">
-                  hey@reptilians.band
+                <a href="mailto:hey@reptilians.studio" className="text-accent hover:underline">
+                  hey@reptilians.studio
                 </a>
               </p>
               <p className="leading-relaxed text-muted-foreground">
@@ -221,8 +221,8 @@ export default function PrivacyPage() {
               </ul>
               <p className="leading-relaxed text-muted-foreground">
                 To exercise rights, contact us at{" "}
-                <a href="mailto:hey@reptilians.band" className="text-accent hover:underline">
-                  hey@reptilians.band
+                <a href="mailto:hey@reptilians.studio" className="text-accent hover:underline">
+                  hey@reptilians.studio
                 </a>
                 . We may verify your identity before fulfilling requests.
               </p>
@@ -265,8 +265,8 @@ export default function PrivacyPage() {
               <h2 className="text-2xl font-semibold tracking-tight">14) Contact</h2>
               <p className="leading-relaxed text-muted-foreground">
                 Privacy questions or requests:{" "}
-                <a href="mailto:hey@reptilians.band" className="text-accent hover:underline">
-                  hey@reptilians.band
+                <a href="mailto:hey@reptilians.studio" className="text-accent hover:underline">
+                  hey@reptilians.studio
                 </a>
               </p>
             </section>

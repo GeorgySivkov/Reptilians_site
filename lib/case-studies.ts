@@ -10,6 +10,7 @@ export type Industry =
   | "Automotive"
   | "Logistics"
   | "Energy"
+  | "Startup"
 export type EngagementModel = "Fixed" | "T&M" | "Dedicated"
 
 export const statusConfig: Record<CaseStudyStatus, { label: string; color: string }> = {
@@ -30,6 +31,7 @@ export const industryConfig: Record<Industry, { label: string; color: string }> 
   Web3: { label: "Web3", color: "text-indigo-400" },
   Automotive: { label: "Automotive", color: "text-orange-400" },
   Logistics: { label: "Logistics", color: "text-blue-400" },
+  Startup: { label: "Startup", color: "text-rose-300" },
   Energy: { label: "Energy", color: "text-yellow-400" },
 }
 
@@ -602,6 +604,48 @@ export const caseStudies: CaseStudy[] = [
         "Fiat on-ramp integration, staking features, and expansion to additional cryptocurrency pairs and DeFi protocols.",
     },
   },
+  {
+    name: "Humagotchi",
+    slug: "humagotchi",
+    status: "Live",
+    industry: "Startup",
+    model: "Fixed",
+    tagline: "A gamified wellbeing companion with privacy-first team insights.",
+    useCase: "Gamified daily mood check-ins with insights for individuals and teams.",
+    audience: "Individuals improving habits; HR/People teams tracking engagement signals.",
+    summary:
+      "Humagotchi is a gamified mood and wellbeing companion that helps people build self-awareness through quick daily check-ins, streaks, and gentle nudges. For teams, it offers privacy-first, consent-based analytics that surface anonymized engagement trends by department—without collecting sensitive personal data.",
+    tags: ["wellbeing", "gamification", "analytics", "mobile", "b2b"],
+    stack: ["React Native", "Node.js", "NestJS", "PostgreSQL", "PostHog", "Docker", "AWS", "Email OTP"],
+    icon: "Smile",
+    screenshots: [
+      "/screens/humagotchi-1.svg",
+      "/screens/humagotchi-2.svg",
+      "/screens/humagotchi-3.svg",
+      "/screens/humagotchi-4.svg",
+    ],
+    sections: {
+      client: "Studio product (Reptilians)",
+      problem:
+        "People struggle to maintain self-awareness and healthy daily routines. Teams lack lightweight, privacy-respecting signals about morale and engagement trends without invasive data collection.",
+      solution:
+        "A friendly, gamified mood tracker with daily check-ins, streaks, and gentle nudges that builds engagement through play. Optional team-level analytics dashboard for HR with explicit user consent and fully anonymized, non-sensitive data aggregation.",
+      whatWeDid: [
+        "Product discovery and user experience flows",
+        "Mobile UI design and onboarding flows",
+        "Gamification mechanics (streaks, reward system, achievement badges)",
+        "Analytics event tracking and dashboards",
+        "B2B department selection and explicit consent flows",
+        "Privacy-by-design data model with anonymized aggregation",
+        "User habit insights and progression tracking",
+        "Push notification nudges and engagement loops",
+      ],
+      outcome:
+        "Users report improved daily self-awareness and engagement through gamification mechanics. Personal mood trends become visible over time, enabling better habit formation. HR teams gain anonymized morale signals by department while respecting individual privacy—no sensitive personal data is exposed.",
+      whatsNext:
+        "Integration with calendar systems for habit tracking, peer challenge features for team engagement, and predictive wellness insights using aggregated anonymized data.",
+    },
+  },
 ]
 
 export function getCaseStudyBySlug(slug: string): CaseStudy | undefined {
@@ -625,5 +669,5 @@ export function getAllStatuses(): CaseStudyStatus[] {
 }
 
 export function getAllIndustries(): Industry[] {
-  return ["Enterprise", "FinTech", "Healthcare", "Oil & Gas", "Life Sciences", "AdTech", "Web3", "Automotive", "Logistics", "Energy"]
+  return ["Enterprise", "FinTech", "Healthcare", "Oil & Gas", "Life Sciences", "AdTech", "Web3", "Automotive", "Logistics", "Energy", "Startup"]
 }
