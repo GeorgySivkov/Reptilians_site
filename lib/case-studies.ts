@@ -619,10 +619,8 @@ export const caseStudies: CaseStudy[] = [
     stack: ["React Native", "Node.js", "NestJS", "PostgreSQL", "PostHog", "Docker", "AWS", "Email OTP"],
     icon: "Smile",
     screenshots: [
-      "/screens/humagotchi-1.svg",
-      "/screens/humagotchi-2.svg",
-      "/screens/humagotchi-3.svg",
-      "/screens/humagotchi-4.svg",
+      "/screens/humagotchi-1.png",
+      "/screens/humagotchi-2.png",
     ],
     sections: {
       client: "Studio product (Reptilians)",
@@ -644,6 +642,45 @@ export const caseStudies: CaseStudy[] = [
         "Users report improved daily self-awareness and engagement through gamification mechanics. Personal mood trends become visible over time, enabling better habit formation. HR teams gain anonymized morale signals by department while respecting individual privacy—no sensitive personal data is exposed.",
       whatsNext:
         "Integration with calendar systems for habit tracking, peer challenge features for team engagement, and predictive wellness insights using aggregated anonymized data.",
+    },
+  },
+  {
+    name: "Fluxo",
+    slug: "fluxo",
+    status: "MVP",
+    industry: "Startup",
+    model: "Fixed",
+    tagline: "Daily quests that help you move forward.",
+    useCase: "Small daily quests with timers, checklists, and notes to build momentum.",
+    audience: "People who want simple structure, habits, and visible progress.",
+    summary:
+      "Fluxo is a lightweight daily quest app that helps you build momentum through small, actionable tasks designed to fit into real life. It combines simple quest templates (timers, checklists, calendar actions, and notes) with gentle gamification and reminders to make progress feel effortless.",
+    tags: ["habits", "productivity", "daily-quests", "gamification", "wellbeing"],
+    stack: ["React Native", "Expo", "Node.js", "NestJS", "PostgreSQL", "FCM", "PostHog", "Figma"],
+    icon: "CheckCircle2",
+    screenshots: [
+      "/screens/fluxo-1.png",
+      "/screens/fluxo-2.png",
+    ],
+    sections: {
+      client: "Studio product (Reptilians)",
+      problem:
+        "Many habit and productivity apps feel heavy, overloaded with features, and hard to stick to. People need minimal, actionable prompts that fit into a busy day without requiring extensive setup or constant confirmation.",
+      solution:
+        "Fluxo turns self-improvement into short, clear daily quests. Each quest is action-first and concrete (timer, calendar entry, checklist, or note), designed to reduce friction and increase consistency. The app combines simple quest templates with light gamification and gentle reminders.",
+      whatWeDid: [
+        "Defined the quest system and content rules (short, action verb first, low friction)",
+        "Built onboarding and a lightweight daily flow",
+        "Quest templates: timer, calendar, checklist, and note formats",
+        "Streaks and progress tracking with light gamification",
+        "Notifications strategy (gentle prompts, no guilt-based messaging)",
+        "Analytics events for tracking activation and retention",
+        "Mobile-first UI design optimized for quick interactions",
+      ],
+      outcome:
+        "Currently in active development. Early prototypes and user research have validated the daily quest flow and quest format preferences. Early testers show strong engagement with the simple, action-first quest structure and consistent daily check-in behavior.",
+      whatsNext:
+        "Expand the quest library with personalized recommendations, implement smarter scheduling and reminder timing based on user patterns, add optional social/accountability features, and develop deeper retention insights without bloating the app.",
     },
   },
 ]
