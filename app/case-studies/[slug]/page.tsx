@@ -212,19 +212,19 @@ export default async function CaseStudyPage({ params }: PageProps) {
                 {/* simple text links instead of ghost buttons – matches footer style */}
                 <Link
                   href="/case-studies/fluxo/terms"
-                  className="transition-colors hover:text-foreground"
+                  className="text-muted-foreground transition-colors hover:text-foreground"
                 >
                   Terms of Service
                 </Link>
                 <Link
                   href="/case-studies/fluxo/privacy"
-                  className="transition-colors hover:text-foreground"
+                  className="text-muted-foreground transition-colors hover:text-foreground"
                 >
                   Privacy Policy
                 </Link>
                 <Link
                   href="/case-studies/fluxo/csae"
-                  className="transition-colors hover:text-foreground"
+                  className="text-muted-foreground transition-colors hover:text-foreground"
                 >
                   Child Safety Standards (CSAE)
                 </Link>
