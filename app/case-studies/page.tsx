@@ -1,22 +1,12 @@
-"use client"
-
-import { useState, useMemo } from "react"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
-import { CaseStudyCard } from "@/components/case-study-card"
-import { CaseStudyFilters } from "@/components/case-study-filters"
+import { CaseStudiesList } from "@/components/case-studies-list"
 import { caseStudies } from "@/lib/case-studies"
 
+export const dynamic = "force-static"
+export const revalidate = false
+
 export default function CaseStudiesPage() {
-  const [selectedStack, setSelectedStack] = useState<string[]>([])
-
-  const filteredCaseStudies = useMemo(() => {
-    return caseStudies.filter((cs) => {
-      const matchesStack = selectedStack.length === 0 || selectedStack.some((tech) => cs.stack.includes(tech))
-      return matchesStack
-    })
-  }, [selectedStack])
-
   return (
     <div className="flex min-h-screen flex-col">
       <Navbar />
@@ -32,23 +22,7 @@ export default function CaseStudiesPage() {
               </p>
             </div>
 
-            <CaseStudyFilters
-              selectedStack={selectedStack}
-              onStackChange={setSelectedStack}
-            />
-
-            {filteredCaseStudies.length > 0 ? (
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                {filteredCaseStudies.map((caseStudy) => (
-                  <CaseStudyCard key={caseStudy.slug} caseStudy={caseStudy} />
-                ))}
-              </div>
-            ) : (
-              <div className="py-16 text-center">
-                <p className="text-lg text-muted-foreground">No case studies match your filters.</p>
-                <p className="mt-2 text-sm text-muted-foreground">Try adjusting your filter criteria.</p>
-              </div>
-            )}
+            <CaseStudiesList caseStudies={caseStudies} />
           </div>
         </section>
       </main>
