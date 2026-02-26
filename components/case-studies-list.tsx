@@ -3,13 +3,9 @@
 import { useState, useMemo } from "react"
 import { CaseStudyCard } from "@/components/case-study-card"
 import { CaseStudyFilters } from "@/components/case-study-filters"
-import type { CaseStudy } from "@/lib/case-studies"
+import { caseStudies } from "@/lib/case-studies"
 
-interface CaseStudiesListProps {
-  caseStudies: CaseStudy[]
-}
-
-export function CaseStudiesList({ caseStudies }: CaseStudiesListProps) {
+export function CaseStudiesList() {
   const [selectedStack, setSelectedStack] = useState<string[]>([])
 
   const filteredCaseStudies = useMemo(() => {

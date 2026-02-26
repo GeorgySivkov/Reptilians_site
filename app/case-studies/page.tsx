@@ -1,7 +1,6 @@
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { CaseStudiesList } from "@/components/case-studies-list"
-import { caseStudies } from "@/lib/case-studies"
 
 export const dynamic = "force-static"
 export const revalidate = false
@@ -22,7 +21,7 @@ export default function CaseStudiesPage() {
               </p>
             </div>
 
-            <CaseStudiesList caseStudies={caseStudies} />
+            <CaseStudiesList />
           </div>
         </section>
       </main>
