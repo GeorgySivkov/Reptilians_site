@@ -1,5 +1,5 @@
 const nextConfig = {
-  output: "export",
+  ...(process.env.NODE_ENV === "production" ? { output: "export" } : {}),
   trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,
