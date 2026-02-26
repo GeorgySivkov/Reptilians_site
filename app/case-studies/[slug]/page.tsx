@@ -209,15 +209,25 @@ export default async function CaseStudyPage({ params }: PageProps) {
             </div>
             {caseStudy.slug === "fluxo" && (
               <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-                <Button asChild variant="ghost" size="lg" className="gap-2">
-                  <Link href="/case-studies/fluxo/terms">Terms of Service</Link>
-                </Button>
-                <Button asChild variant="ghost" size="lg" className="gap-2">
-                  <Link href="/case-studies/fluxo/privacy">Privacy Policy</Link>
-                </Button>
-                <Button asChild variant="ghost" size="lg" className="gap-2">
-                  <Link href="/case-studies/fluxo/csae">Child Safety Standards (CSAE)</Link>
-                </Button>
+                {/* simple text links instead of ghost buttons – matches footer style */}
+                <Link
+                  href="/case-studies/fluxo/terms"
+                  className="text-accent hover:underline"
+                >
+                  Terms of Service
+                </Link>
+                <Link
+                  href="/case-studies/fluxo/privacy"
+                  className="text-accent hover:underline"
+                >
+                  Privacy Policy
+                </Link>
+                <Link
+                  href="/case-studies/fluxo/csae"
+                  className="text-accent hover:underline"
+                >
+                  Child Safety Standards (CSAE)
+                </Link>
               </div>
             )}
           </div>
