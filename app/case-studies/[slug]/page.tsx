@@ -200,7 +200,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
 
             {/* CTAs */}
             <div className="flex flex-col gap-4 border-t border-border/40 pt-8 sm:flex-row">
-              <Button asChild size="lg" className="gap-2 bg-accent text-accent-foreground hover:bg-accent/90">
+              <Button asChild size="lg" className="gap-2 bg-accent text-accent-foreground hover:bg-accent">
                 <Link href={`/contact?subject=${contactSubject}`}>Request a demo</Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="gap-2 bg-transparent">

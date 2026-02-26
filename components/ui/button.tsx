@@ -13,7 +13,7 @@ const buttonVariants = cva(
         // so that the background turns green on hover like it used to.  the
         // previous implementation relied on the `primary` token which has
         // since been changed to white, causing only the text to update on hover.
-        default: "bg-accent text-accent-foreground hover:bg-accent/90",
+        default: "bg-accent text-accent-foreground hover:bg-accent",
         destructive:
           "bg-destructive text-white hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
         outline:
