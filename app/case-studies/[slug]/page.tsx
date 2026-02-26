@@ -207,6 +207,19 @@ export default async function CaseStudyPage({ params }: PageProps) {
                 <Link href={`/contact?subject=${contactSubject}`}>Discuss a similar project</Link>
               </Button>
             </div>
+            {caseStudy.slug === "fluxo" && (
+              <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+                <Button asChild variant="ghost" size="lg" className="gap-2">
+                  <Link href="/case-studies/fluxo/terms">Terms of Service</Link>
+                </Button>
+                <Button asChild variant="ghost" size="lg" className="gap-2">
+                  <Link href="/case-studies/fluxo/privacy">Privacy Policy</Link>
+                </Button>
+                <Button asChild variant="ghost" size="lg" className="gap-2">
+                  <Link href="/case-studies/fluxo/csae">Child Safety Standards (CSAE)</Link>
+                </Button>
+              </div>
+            )}
           </div>
         </article>
       </main>
