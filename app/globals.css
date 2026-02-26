@@ -17,7 +17,10 @@
   --secondary-foreground: oklch(0.93 0 0);
   --muted: oklch(0.18 0.01 260);
   --muted-foreground: oklch(0.65 0 0);
-  --accent: oklch(0.65 0.18 160);
+  /* brand accent color for buttons, links, etc.  updated to the
+     requested lab value so the hover state matches the green used in
+     designs */
+  --accent: lab(61.7492% -61.1602 23.8939);
   --accent-foreground: oklch(0.09 0.01 260);
   --destructive: oklch(0.55 0.22 25);
   --destructive-foreground: oklch(0.93 0 0);
