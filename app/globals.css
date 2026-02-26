@@ -17,9 +17,7 @@
   --secondary-foreground: oklch(0.93 0 0);
   --muted: oklch(0.18 0.01 260);
   --muted-foreground: oklch(0.65 0 0);
-  /* brand accent color (green) - stored in oklch format for proper
-     opacity modifier support with Tailwind */
-  --accent: oklch(0.65 0.22 135);
+  --accent: oklch(0.65 0.18 160);
   --accent-foreground: oklch(0.09 0.01 260);
   --destructive: oklch(0.55 0.22 25);
   --destructive-foreground: oklch(0.93 0 0);
