@@ -207,6 +207,24 @@ export default async function CaseStudyPage({ params }: PageProps) {
                 <Link href={`/contact?subject=${contactSubject}`}>Discuss a similar project</Link>
               </Button>
             </div>
+        {caseStudy.slug === "fluxo" && (
+          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+            <Link href="https://reptilians.studio" target="_blank" rel="noopener noreferrer">
+              <img
+                src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                alt="Download on the App Store"
+                className="h-12"
+              />
+            </Link>
+            <Link href="https://reptilians.studio" target="_blank" rel="noopener noreferrer">
+              <img
+                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                alt="Get it on Google Play"
+                className="h-12"
+              />
+            </Link>
+          </div>
+        )}
             {caseStudy.slug === "fluxo" && (
               <div className="mt-6 flex flex-col gap-3 sm:flex-row">
                 {/* simple text links instead of ghost buttons – matches footer style */}
