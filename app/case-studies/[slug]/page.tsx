@@ -208,19 +208,19 @@ export default async function CaseStudyPage({ params }: PageProps) {
               </Button>
             </div>
         {caseStudy.slug === "fluxo" && (
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8 flex items-center gap-3">
             <Link href="https://reptilians.studio" target="_blank" rel="noopener noreferrer">
               <img
                 src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
                 alt="Download on the App Store"
-                className="h-12"
+                style={{ height: "40px", width: "auto" }}
               />
             </Link>
             <Link href="https://reptilians.studio" target="_blank" rel="noopener noreferrer">
               <img
                 src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
                 alt="Get it on Google Play"
-                className="h-12"
+                style={{ height: "59px", width: "auto", marginTop: "-9px", marginBottom: "-9px" }}
               />
             </Link>
           </div>
