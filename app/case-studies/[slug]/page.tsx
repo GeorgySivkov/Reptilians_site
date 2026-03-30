@@ -17,6 +17,7 @@ import {
   Target,
   CheckCircle2,
   Wrench,
+  Download,
 } from "lucide-react"
 import { caseStudies, getCaseStudyBySlug, statusConfig, industryConfig } from "@/lib/case-studies"
 import { cn } from "@/lib/utils"
@@ -44,7 +45,6 @@ export default async function CaseStudyPage({ params }: PageProps) {
 
   const status = statusConfig[caseStudy.status]
   const industry = industryConfig[caseStudy.industry]
-
   const contactSubject = encodeURIComponent(`Inquiry about: ${caseStudy.name}`)
 
   return (
@@ -71,14 +71,12 @@ export default async function CaseStudyPage({ params }: PageProps) {
                 <span className={cn("text-sm font-medium", industry.color)}>{industry.label}</span>
                 <span className="text-sm text-muted-foreground">• {caseStudy.model}</span>
               </div>
-
               <div className="mb-4 flex items-center gap-4">
                 <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-accent/10">
                   <ProjectIcon icon={caseStudy.icon} className="h-7 w-7 text-accent" />
                 </div>
                 <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{caseStudy.name}</h1>
               </div>
-
               <p className="text-lg leading-relaxed text-muted-foreground">{caseStudy.summary}</p>
             </header>
 
@@ -206,25 +204,16 @@ export default async function CaseStudyPage({ params }: PageProps) {
               <Button asChild variant="outline" size="lg" className="gap-2 bg-transparent">
                 <Link href={`/contact?subject=${contactSubject}`}>Discuss a similar project</Link>
               </Button>
+              {caseStudy.slug === "fluxo" && (
+                <Button asChild variant="outline" size="lg" className="gap-2 bg-transparent">
+                  <Link href="/case-studies/fluxo/download">
+                    <Download className="h-4 w-4" />
+                    Download
+                  </Link>
+                </Button>
+              )}
             </div>
-        {caseStudy.slug === "fluxo" && (
-          <div className="mt-8 flex items-center gap-3">
-            <Link href="https://reptilians.studio" target="_blank" rel="noopener noreferrer">
-              <img
-                src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-                alt="Download on the App Store"
-                style={{ height: "40px", width: "auto" }}
-              />
-            </Link>
-            <Link href="https://reptilians.studio" target="_blank" rel="noopener noreferrer">
-              <img
-                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-                alt="Get it on Google Play"
-                style={{ height: "59px", width: "auto", marginTop: "-9px", marginBottom: "-9px" }}
-              />
-            </Link>
-          </div>
-        )}
+
             {caseStudy.slug === "fluxo" && (
               <div className="mt-6 flex flex-col gap-3 sm:flex-row">
                 {/* simple text links instead of ghost buttons – matches footer style */}
